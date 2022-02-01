@@ -1,6 +1,6 @@
 # dotbim (Version 1.0.0)
 
-![image](https://user-images.githubusercontent.com/47977819/152002695-ff52ead4-3b54-4f45-a12a-4cde900488c5.png)
+![image](https://user-images.githubusercontent.com/47977819/152003486-5d12be0e-43b2-4cf9-a37f-df406781ba11.png)
 
 ## Introduction
 
