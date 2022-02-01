@@ -23,28 +23,28 @@ namespace test.E2E
             List<int> facesIds = new List<int>
             {
                 // Front side
-                1, 2, 3,
-                1, 3, 4,
+                0, 1, 2,
+                0, 2, 3,
                 
                 // Bottom side
+                0, 1, 4,
+                1, 4, 5,
+                
+                // Left side
+                0, 4, 3,
+                4, 3, 7,
+                
+                // Right side
                 1, 2, 5,
                 2, 5, 6,
                 
-                // Left side
-                1, 5, 4,
-                5, 4, 8,
-                
-                // Right side
-                2, 3, 6,
-                3, 6, 7,
-                
                 // Top side
-                3, 4, 8,
-                3, 7, 8,
+                2, 3, 7,
+                2, 6, 7,
                 
                 // Back side
-                5, 6, 8,
-                6, 7, 8
+                4, 5, 7,
+                5, 6, 7
             };
 
             Mesh mesh = new Mesh{VerticesCoordinates = verticesCoordinates, FacesIds = facesIds, MeshId = 0};
@@ -141,28 +141,28 @@ namespace test.E2E
             List<int> expectedFaces = new List<int>
             {
                 // Front side
-                1, 2, 3,
-                1, 3, 4,
+                0, 1, 2,
+                0, 2, 3,
                 
                 // Bottom side
+                0, 1, 4,
+                1, 4, 5,
+                
+                // Left side
+                0, 4, 3,
+                4, 3, 7,
+                
+                // Right side
                 1, 2, 5,
                 2, 5, 6,
                 
-                // Left side
-                1, 5, 4,
-                5, 4, 8,
-                
-                // Right side
-                2, 3, 6,
-                3, 6, 7,
-                
                 // Top side
-                3, 4, 8,
-                3, 7, 8,
+                2, 3, 7,
+                2, 6, 7,
                 
                 // Back side
-                5, 6, 8,
-                6, 7, 8
+                4, 5, 7,
+                5, 6, 7
             };
             
             Assert.Equal(expectedFaces, mesh.FacesIds);
