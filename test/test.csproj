@@ -54,6 +54,7 @@
         <Compile Include="Properties\AssemblyInfo.cs" />
         <Compile Include="ToolboxForTests.cs" />
         <Compile Include="UnitTests\TestColor.cs" />
+        <Compile Include="UnitTests\TestElement.cs" />
         <Compile Include="UnitTests\TestInfo.cs" />
         <Compile Include="UnitTests\TestMesh.cs" />
         <Compile Include="UnitTests\TestRotation.cs" />

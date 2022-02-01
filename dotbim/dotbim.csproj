@@ -43,6 +43,7 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Color.cs" />
+        <Compile Include="Element.cs" />
         <Compile Include="Info.cs" />
         <Compile Include="Mesh.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />

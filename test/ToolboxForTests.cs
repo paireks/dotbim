@@ -98,5 +98,48 @@ namespace test
 
             return mesh;
         }
+
+        public static Element CreateTestBlueElement()
+        {
+            Element element = new Element
+            {
+                Color = new Color
+                {
+                    A = 0,
+                    R = 0,
+                    G = 0,
+                    B = 255
+                },
+                
+                Guid = "b8a7a2ed-0c30-4c20-867e-baa1ef7b8353",
+                
+                Info = new Info
+                {
+                    Keys = new List<string>{"Key"},
+                    Values = new List<string>{"Value"}
+                },
+                
+                MeshId = 4,
+                
+                Rotation = new Rotation
+                {
+                    Qx = 1.0,
+                    Qy = 1.5,
+                    Qz = 2.0,
+                    Qw = 2.5
+                },
+                
+                Type = "Plate",
+                
+                Vector = new Vector
+                {
+                    X = 0.20,
+                    Y = 0.30,
+                    Z = 0.40
+                }
+            };
+
+            return element;
+        }
     }
 }
