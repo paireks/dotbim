@@ -1,5 +1,7 @@
 # dotbim (Version 1.0.0)
 
+![image](https://user-images.githubusercontent.com/47977819/152002695-ff52ead4-3b54-4f45-a12a-4cde900488c5.png)
+
 ## Introduction
 
 Easy to read and write file format for reliable 3D geometry exchange.
