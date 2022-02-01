@@ -140,3 +140,4 @@ info is a list of keys and list of values. Both lists should match. They can be 
 - Wojciech Radaczyński
 - Marios Messios
 - Harry Collin
+- Tom Van Diggelen
