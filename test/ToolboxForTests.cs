@@ -141,5 +141,50 @@ namespace test
 
             return element;
         }
+
+        public static File CreateTestFileWithTriangleBluePlate()
+        {
+            File file = new File
+            {
+                Elements = new List<Element>
+                {
+                    new Element
+                    {
+                        Color = new Color {A = 255, R = 0, G = 120, B = 120},
+                        Guid = "d4f28792-e1e9-4e31-bcee-740dbda61e20",
+                        Info = new Info{Keys = new List<string>{"Name"}, Values = new List<string>{"Triangle"}},
+                        MeshId = 0,
+                        Rotation = new Rotation{Qx = 0, Qy = 0, Qz = 0, Qw = 1.0},
+                        Type = "Plate",
+                        Vector = new Vector{X = 0.0, Y = 0.0, Z = 0.0}
+                    }
+                },
+                
+                Meshes = new List<Mesh>
+                {
+                    new Mesh
+                    {
+                        VerticesCoordinates = new List<double>
+                        {
+                            0.0,0.0,0.0,
+                            10.0,0.0,0.0,
+                            10.0,-15.0,0.0
+                        },
+                        FacesIds = new List<int> {0,1,2},
+                        MeshId = 0
+                    }
+                },
+                
+                Info = new Info
+                {
+                    Keys = new List<string>{"Author"},
+                    Values = new List<string>{"John Doe"}
+                },
+                
+                SchemaVersion = "1.0.0"
+            };
+
+            return file;
+        }
     }
 }
