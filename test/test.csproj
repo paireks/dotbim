@@ -51,6 +51,8 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="E2E\TestCubes.cs" />
+        <Compile Include="E2E\TestPyramid.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
         <Compile Include="ToolboxForTests.cs" />
         <Compile Include="UnitTests\TestColor.cs" />
@@ -66,9 +68,6 @@
         <Project>{2c31c385-302d-4d83-b3c8-8a083277df5e}</Project>
         <Name>dotbim</Name>
       </ProjectReference>
-    </ItemGroup>
-    <ItemGroup>
-      <Folder Include="E2E" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
