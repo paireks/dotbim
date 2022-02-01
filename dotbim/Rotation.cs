@@ -5,7 +5,7 @@ namespace dotbim
 {
     [Serializable]
     [JsonObject("rotation")]
-    public class Rotation
+    public struct Rotation
     {
         [JsonProperty("qx")]
         public double Qx { get; set; }

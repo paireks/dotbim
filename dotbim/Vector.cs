@@ -5,7 +5,7 @@ namespace dotbim
 {
     [Serializable]
     [JsonObject("vector")]
-    public class Vector
+    public struct Vector
     {
         [JsonProperty("x")]
         public double X { get; set; }
