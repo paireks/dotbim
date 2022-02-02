@@ -46,13 +46,13 @@ Files created are also much more efficient once the user's meshes are being opti
 
 File contains 4 properties:
 
-![image](https://user-images.githubusercontent.com/47977819/151888709-b3ea20a0-e3be-45cb-84cd-0e2abc971669.png)
+![2022-02-02_19h39_59](https://user-images.githubusercontent.com/47977819/152217572-df41d031-ba02-4eb7-8d57-98efc66c2c42.png)
 
 **schema_version** is the version of schema used in this file as string. Current one is "1.0.0".
 
 ### mesh
 
-![image](https://user-images.githubusercontent.com/47977819/151888781-3eeedad7-7114-4bbb-9d78-71c046490811.png)
+![2022-02-02_19h40_54](https://user-images.githubusercontent.com/47977819/152217590-d32011b8-d56c-4149-bf98-24aea09eb7f8.png)
 
 **mesh_id** is integer >= 0 to reference this mesh later in element.
 
@@ -80,7 +80,7 @@ If we'd like to create one-face mesh using vertices_coordinates from an example 
 
 ### element
 
-![image](https://user-images.githubusercontent.com/47977819/151888827-b7a815e8-5e61-4111-9477-f9f61e2f2054.png)
+![2022-02-02_19h42_54](https://user-images.githubusercontent.com/47977819/152217618-0c9b8ec3-fe5f-4e80-9d4c-af0238751c92.png)
 
 **mesh_id** is an id of a mesh that represents element.
 
