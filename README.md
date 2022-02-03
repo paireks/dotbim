@@ -46,13 +46,13 @@ Files created are also much more efficient once the user's meshes are being opti
 
 File contains 4 properties:
 
-![2022-02-02_19h39_59](https://user-images.githubusercontent.com/47977819/152217572-df41d031-ba02-4eb7-8d57-98efc66c2c42.png)
+![2022-02-03_19h55_04](https://user-images.githubusercontent.com/47977819/152410032-15326312-866f-457d-8815-151f920cd26b.png)
 
 **schema_version** is the version of schema used in this file as string. Current one is "1.0.0".
 
 ### mesh
 
-![2022-02-02_19h40_54](https://user-images.githubusercontent.com/47977819/152217590-d32011b8-d56c-4149-bf98-24aea09eb7f8.png)
+![2022-02-03_19h53_33](https://user-images.githubusercontent.com/47977819/152409736-8c673031-8412-48d8-86a4-207381bd243a.png)
 
 **mesh_id** is integer >= 0 to reference this mesh later in element.
 
