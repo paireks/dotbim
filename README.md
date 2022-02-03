@@ -188,6 +188,10 @@ color should have 3 properties:
 
 Element type. It is a string that specifies what mesh represents. E.g. "Beam", "Plate".
 
+```json
+"type": "Beam"
+```
+
 ### info
 
 info is just a dictionary with string as key and value.
