@@ -4,9 +4,9 @@
 
 ## Introduction
 
-Easy to read and write file format for reliable 3D geometry exchange.
+Introducing an open-source, accessible and simple file format for BIM to empower interoperability and replace complexity.
 
-Created by BIM developers for other BIM developers.
+Created by BIM developers for BIM developers.
 
 <em>An idiot admires complexity, while a genius appreciates simplicity</em> - Terry Davis
 
@@ -46,15 +46,12 @@ Files created are also much more efficient once the user's meshes are being opti
 
 File contains 4 properties:
 
-![2022-02-03_19h55_04](https://user-images.githubusercontent.com/47977819/152410032-15326312-866f-457d-8815-151f920cd26b.png)
-
+![thenewbim (1)_Structure GH](https://user-images.githubusercontent.com/23511558/152438075-1d3589e3-c3d8-425c-ae2e-e26394fa3034.jpg)
 **schema_version** is the version of schema used in this file as string. Current one is "1.0.0".
 
 ### mesh
 
-![2022-02-03_19h53_33](https://user-images.githubusercontent.com/47977819/152409736-8c673031-8412-48d8-86a4-207381bd243a.png)
-
-**mesh_id** is integer >= 0 to reference this mesh later in element.
+![thenewbim (1)_Mesh GH](https://user-images.githubusercontent.com/23511558/152438053-e1623a04-d389-4561-b50a-785479a0e4b7.jpg)**mesh_id** is integer >= 0 to reference this mesh later in element.
 
 #### coordinates
 
@@ -122,10 +119,7 @@ Pyramid example:
 
 ### element
 
-![2022-02-02_19h42_54](https://user-images.githubusercontent.com/47977819/152217618-0c9b8ec3-fe5f-4e80-9d4c-af0238751c92.png)
-
-**mesh_id** is an id of a mesh that represents element.
-
+![thenewbim (1)_Element GH](https://user-images.githubusercontent.com/23511558/152438244-b414a6d9-ccda-456e-916e-2286c6a0a852.jpg)
 **guid** is a string that can be used for comparison of different elements. 
 
 ```json
@@ -209,3 +203,6 @@ info is just a dictionary with string as key and value.
 - Marios Messios
 - Harry Collin
 - Tom Van Diggelen
+
+## .bim Concept (WIP)
+![thenewbim (1)_Concept Cover](https://user-images.githubusercontent.com/23511558/152438685-09543c7d-9c3c-4711-a485-2160e3d8839c.jpg)
