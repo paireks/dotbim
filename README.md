@@ -78,6 +78,48 @@ If we'd like to create one-face mesh using vertices_coordinates from an example 
 
 [0, 1, 2]
 
+Pyramid example:
+
+```json
+  "coordinates": [
+    0.0,
+    0.0,
+    0.0,
+    10.0,
+    0.0,
+    0.0,
+    10.0,
+    10.0,
+    0.0,
+    0.0,
+    10.0,
+    0.0,
+    5.0,
+    5.0,
+    4.0
+  ],
+  "indices": [
+    0,
+    1,
+    2,
+    0,
+    2,
+    3,
+    0,
+    1,
+    4,
+    1,
+    2,
+    4,
+    2,
+    3,
+    4,
+    3,
+    0,
+    4
+  ]
+```
+
 ### element
 
 ![2022-02-02_19h42_54](https://user-images.githubusercontent.com/47977819/152217618-0c9b8ec3-fe5f-4e80-9d4c-af0238751c92.png)
@@ -86,7 +128,9 @@ If we'd like to create one-face mesh using vertices_coordinates from an example 
 
 **guid** is a string that can be used for comparison of different elements. 
 
-E.g. 209a70e4-d8c7-4356-a8a9-cfa611d9c51f
+```json
+"guid": "76e051c1-1bd7-44fc-8e2e-db2b64055068"
+```
 
 #### vector
 
@@ -95,6 +139,14 @@ Vector places referenced mesh where it should be placed as an element. It should
 1. x (value)
 2. y (value)
 3. z (value)
+
+```json
+  "vector": {
+    "x": 9.9266016462536122,
+    "y": 3.3910972817343494,
+    "z": 52.239445879618685
+  }
+```
 
 #### rotation
 
@@ -105,6 +157,15 @@ Rotation rotates referenced mesh how it should be rotated as element. It is a qu
 3. qz (value) - third imaginary coefficient of the quaternion
 4. qw (value) - real part of the quaternion
 
+```json
+  "rotation": {
+    "qx": 0.63979295771454925,
+    "qy": 0.10626982147910254,
+    "qz": -0.12472093047736807,
+    "qw": -0.7508770776915008
+  }
+```
+
 #### color
 
 color should have 3 properties:
@@ -114,25 +175,28 @@ color should have 3 properties:
 3. b (integer between 0-255) - blue
 4. a (integer between 0-255) - alpha
 
+```json
+  "color": {
+    "r": 255,
+    "g": 255,
+    "b": 0,
+    "a": 255
+  }
+```
+
 #### type
 
 Element type. It is a string that specifies what mesh represents. E.g. "Beam", "Plate".
 
 ### info
 
-info is a list of keys and list of values. Both lists should match. They can be useful to store all custom information. Both keys and values should be strings.
+info is just a dictionary with string as key and value.
 
 ```json
-"info": {
-    "keys": [
-        "Price",
-        "Name"
-    ],
-    "values": [
-        "2.50$",
-        "Teapot"
-    ]
-}
+  "info": {
+    "Name": "Teapot",
+    "Price": "2.50$"
+  }
 ```
 
 ## Authors
