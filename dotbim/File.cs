@@ -43,13 +43,13 @@ namespace dotbim
         [JsonProperty("schema_version")] 
         public string SchemaVersion { get; set; }
 
-        [JsonProperty("info")] 
-        public Info Info { get; set; }
-
         [JsonProperty("meshes")] 
         public List<Mesh> Meshes { get; set; }
 
         [JsonProperty("elements")] 
         public List<Element> Elements { get; set; }
+        
+        [JsonProperty("info")]
+        public Dictionary<string, string> Info { get; set; }
     }
 }

@@ -45,7 +45,6 @@
         <Compile Include="Color.cs" />
         <Compile Include="Element.cs" />
         <Compile Include="File.cs" />
-        <Compile Include="Info.cs" />
         <Compile Include="Mesh.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
         <Compile Include="Rotation.cs" />

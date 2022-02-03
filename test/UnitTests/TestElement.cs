@@ -18,8 +18,7 @@ namespace test.UnitTests
             Assert.True(ToolboxForTests.IsColorSame(element.Color, (0,0,255,0)));
             Assert.Equal("b8a7a2ed-0c30-4c20-867e-baa1ef7b8353", element.Guid);
             Assert.Equal("Plate", element.Type);
-            Assert.Equal("Key", element.Info.Keys[0]);
-            Assert.Equal("Value", element.Info.Values[0]);
+            Assert.Equal("Value", element.Info["Key"]);
         }
 
         [Theory]

@@ -54,7 +54,10 @@ namespace test.E2E
                 Color = new Color {A = 255, R = 255, G = 0, B = 0},
                 MeshId = 0,
                 Guid = "9f61b565-06a2-4bef-8b72-f37091ab54d6",
-                Info = new Info{Keys = new List<string>{"Name"}, Values = new List<string>{"Red Cube"}},
+                Info = new Dictionary<string, string>
+                {
+                    {"Name", "Red Cube"}
+                },
                 Rotation = new Rotation{Qx = 0.1, Qy = 0.3, Qz = 0.4, Qw = 1.0},
                 Type = "Brick",
                 Vector = new Vector{X = -100.0, Y = -100.0, Z = -100.0}
@@ -65,7 +68,10 @@ namespace test.E2E
                 Color = new Color {A = 126, R = 0, G = 255, B = 0},
                 MeshId = 0,
                 Guid = "4d00c967-791a-42a6-a5e8-cf05831bc11d",
-                Info = new Info{Keys = new List<string>{"Name"}, Values = new List<string>{"Green Cube"}},
+                Info = new Dictionary<string, string>
+                {
+                    {"Name", "Green Cube"}
+                },
                 Rotation = new Rotation{Qx = 0, Qy = 0, Qz = 0, Qw = 1.0},
                 Type = "Brick",
                 Vector = new Vector{X = 0.0, Y = 0.0, Z = 0.0}
@@ -76,16 +82,18 @@ namespace test.E2E
                 Color = new Color {A = 10, R = 0, G = 0, B = 255},
                 MeshId = 0,
                 Guid = "8501a5e3-4709-47d8-bd5d-33d745a435d5",
-                Info = new Info{Keys = new List<string>{"Name"}, Values = new List<string>{"Blue Cube"}},
+                Info = new Dictionary<string, string>
+                {
+                    {"Name", "Blue Cube"}
+                },
                 Rotation = new Rotation{Qx = -2.2, Qy = -1.4, Qz = 1.5, Qw = -1.2},
                 Type = "Brick",
                 Vector = new Vector{X = 100.0, Y = 100.0, Z = 100.0}
             };
-            
-            Info fileInfo = new Info
+
+            var fileInfo = new Dictionary<string, string>
             {
-                Keys = new List<string>{"Author"},
-                Values = new List<string>{"John Doe"}
+                {"Author", "John Doe"}
             };
             
             File file = new File
@@ -114,8 +122,7 @@ namespace test.E2E
             Assert.Equal(1, file.Info.Keys.Count);
             Assert.Equal(1, file.Info.Values.Count);
             
-            Assert.Equal("Author", file.Info.Keys[0]);
-            Assert.Equal("John Doe", file.Info.Values[0]);
+            Assert.Equal("John Doe", file.Info["Author"]);
             #endregion
 
             #region Mesh
@@ -181,8 +188,7 @@ namespace test.E2E
             Assert.Equal("Brick", element1.Type);
             Assert.Equal("9f61b565-06a2-4bef-8b72-f37091ab54d6", element1.Guid);
             Assert.Equal(0, element1.MeshId);
-            Assert.Equal("Name", element1.Info.Keys[0]);
-            Assert.Equal("Red Cube", element1.Info.Values[0]);
+            Assert.Equal("Red Cube", element1.Info["Name"]);
             Assert.True(ToolboxForTests.IsColorSame(element1.Color, (255, 0, 0, 255)));
             Assert.True(ToolboxForTests.IsRotationSame(element1.Rotation, (0.1,0.3,0.4,1), 0.01));
             Assert.True(ToolboxForTests.IsVectorSame(element1.Vector, (-100,-100,-100), 0.01));
@@ -192,8 +198,7 @@ namespace test.E2E
             Assert.Equal("Brick", element2.Type);
             Assert.Equal("4d00c967-791a-42a6-a5e8-cf05831bc11d", element2.Guid);
             Assert.Equal(0, element2.MeshId);
-            Assert.Equal("Name", element2.Info.Keys[0]);
-            Assert.Equal("Green Cube", element2.Info.Values[0]);
+            Assert.Equal("Green Cube", element2.Info["Name"]);
             Assert.True(ToolboxForTests.IsColorSame(element2.Color, (0, 255, 0, 126)));
             Assert.True(ToolboxForTests.IsRotationSame(element2.Rotation, (0,0,0,1), 0.01));
             Assert.True(ToolboxForTests.IsVectorSame(element2.Vector, (0,0,0), 0.01));
@@ -203,8 +208,7 @@ namespace test.E2E
             Assert.Equal("Brick", element3.Type);
             Assert.Equal("8501a5e3-4709-47d8-bd5d-33d745a435d5", element3.Guid);
             Assert.Equal(0, element3.MeshId);
-            Assert.Equal("Name", element3.Info.Keys[0]);
-            Assert.Equal("Blue Cube", element3.Info.Values[0]);
+            Assert.Equal("Blue Cube", element3.Info["Name"]);
             Assert.True(ToolboxForTests.IsColorSame(element3.Color, (0, 0, 255, 10)));
             Assert.True(ToolboxForTests.IsRotationSame(element3.Rotation, (-2.2,-1.4,1.5,-1.2), 0.01));
             Assert.True(ToolboxForTests.IsVectorSame(element3.Vector, (100,100,100), 0.01));

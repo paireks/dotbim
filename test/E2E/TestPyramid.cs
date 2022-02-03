@@ -41,16 +41,19 @@ namespace test.E2E
                 Color = new Color {A = 255, R = 255, G = 255, B = 0},
                 MeshId = 0,
                 Guid = "76e051c1-1bd7-44fc-8e2e-db2b64055068",
-                Info = new Info{Keys = new List<string>{"Name"}, Values = new List<string>{"Pyramid"}},
+                Info = new Dictionary<string, string>
+                {
+                    {"Name", "Pyramid"}
+                },
                 Rotation = new Rotation{Qx = 0, Qy = 0, Qz = 0, Qw = 1.0},
                 Type = "Structure",
                 Vector = new Vector{X = 0.0, Y = 0.0, Z = 0.0}
             };
             
-            Info fileInfo = new Info
+            var fileInfo = new Dictionary<string, string>
             {
-                Keys = new List<string>{"Author", "Date"},
-                Values = new List<string>{"John Doe", "28.09.1999"}
+                {"Author", "John Doe"},
+                {"Date", "28.09.1999"}
             };
             
             File file = new File
@@ -79,11 +82,8 @@ namespace test.E2E
             Assert.Equal(2, file.Info.Keys.Count);
             Assert.Equal(2, file.Info.Values.Count);
             
-            Assert.Equal("Author", file.Info.Keys[0]);
-            Assert.Equal("Date", file.Info.Keys[1]);
-            
-            Assert.Equal("John Doe", file.Info.Values[0]);
-            Assert.Equal("28.09.1999", file.Info.Values[1]);
+            Assert.Equal("John Doe", file.Info["Author"]);
+            Assert.Equal("28.09.1999", file.Info["Date"]);
             #endregion
 
             #region Mesh
@@ -131,8 +131,7 @@ namespace test.E2E
             Assert.Equal("Structure", element.Type);
             Assert.Equal("76e051c1-1bd7-44fc-8e2e-db2b64055068", element.Guid);
             Assert.Equal(0, element.MeshId);
-            Assert.Equal("Name", element.Info.Keys[0]);
-            Assert.Equal("Pyramid", element.Info.Values[0]);
+            Assert.Equal("Pyramid", element.Info["Name"]);
             Assert.True(ToolboxForTests.IsColorSame(element.Color, (255, 255, 0, 255)));
             Assert.True(ToolboxForTests.IsRotationSame(element.Rotation, (0,0,0,1), 0.01));
             Assert.True(ToolboxForTests.IsVectorSame(element.Vector, (0,0,0), 0.01));
