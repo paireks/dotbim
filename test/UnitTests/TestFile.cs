@@ -43,12 +43,12 @@ namespace test.UnitTests
                 0.0,0.0,0.0,
                 10.0,0.0,0.0,
                 10.0,-15.0,0.0,
-            }, mesh.VerticesCoordinates);
+            }, mesh.Coordinates);
             
             Assert.Equal(new List<int>
             {
                 0,1,2
-            }, mesh.FacesIds);
+            }, mesh.Indices);
         }
 
         [Fact]
@@ -97,12 +97,12 @@ namespace test.UnitTests
                 0.0,0.0,0.0,
                 10.0,0.0,0.0,
                 10.0,-15.0,0.0,
-            }, mesh.VerticesCoordinates);
+            }, mesh.Coordinates);
             
             Assert.Equal(new List<int>
             {
                 0,1,2
-            }, mesh.FacesIds);
+            }, mesh.Indices);
             
             Assert.Equal("1.0.0", file.SchemaVersion);
             Assert.Equal("Author", file.Info.Keys[0]);
