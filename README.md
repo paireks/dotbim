@@ -56,7 +56,7 @@ File contains 4 properties:
 
 **mesh_id** is integer >= 0 to reference this mesh later in element.
 
-#### vertices_coordinates
+#### coordinates
 
 It is a big array of all coordinates of a mesh. It is structured in this way:
 
@@ -68,7 +68,7 @@ Let's say our mesh is defined by 3 vertices: (0.0, 0.0, 0.0), (10.0, 0.0, 0.0) a
 
 Later in faces_ids we refer to these vertices by their order.
 
-#### faces_ids
+#### indices
 
 It is a big array of ids (integers) that define all faces in a mesh. It is structured in this way:
 
