@@ -24,10 +24,10 @@ namespace dotbim
             }
         }
         
-        [JsonProperty("vertices_coordinates")]
-        public List<double> VerticesCoordinates { get; set; }
+        [JsonProperty("coordinates")]
+        public List<double> Coordinates { get; set; }
         
-        [JsonProperty("faces_ids")]
-        public List<int> FacesIds { get; set; }
+        [JsonProperty("indices")]
+        public List<int> Indices { get; set; }
     }
 }

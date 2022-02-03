@@ -46,8 +46,8 @@ namespace test
             Mesh mesh = new Mesh
             {
                 MeshId = 12,
-                VerticesCoordinates = verticesCoordinates,
-                FacesIds = facesIds,
+                Coordinates = verticesCoordinates,
+                Indices = facesIds,
             };
 
             return mesh;
@@ -94,7 +94,7 @@ namespace test
                 5, 6, 7
             };
 
-            Mesh mesh = new Mesh{VerticesCoordinates = verticesCoordinates, FacesIds = facesIds, MeshId = 0};
+            Mesh mesh = new Mesh{Coordinates = verticesCoordinates, Indices = facesIds, MeshId = 0};
 
             return mesh;
         }
@@ -164,13 +164,13 @@ namespace test
                 {
                     new Mesh
                     {
-                        VerticesCoordinates = new List<double>
+                        Coordinates = new List<double>
                         {
                             0.0,0.0,0.0,
                             10.0,0.0,0.0,
                             10.0,-15.0,0.0
                         },
-                        FacesIds = new List<int> {0,1,2},
+                        Indices = new List<int> {0,1,2},
                         MeshId = 0
                     }
                 },

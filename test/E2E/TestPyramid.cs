@@ -11,7 +11,7 @@ namespace test.E2E
             Mesh mesh = new Mesh
             {
                 MeshId = 0,
-                VerticesCoordinates = new List<double>
+                Coordinates = new List<double>
                 {
                     // Base
                     0.0,0.0,0.0,
@@ -22,7 +22,7 @@ namespace test.E2E
                     // Top
                     5.0,5.0,4.0
                 },
-                FacesIds = new List<int>
+                Indices = new List<int>
                 {
                     // Base faces
                     0,1,2,
@@ -104,7 +104,7 @@ namespace test.E2E
                 // Top
                 5.0,5.0,4.0
             };
-            Assert.Equal(expectedVertices, mesh.VerticesCoordinates);
+            Assert.Equal(expectedVertices, mesh.Coordinates);
             
             List<int> expectedFaces = new List<int>
             {
@@ -119,7 +119,7 @@ namespace test.E2E
                 3,0,4
             };
             
-            Assert.Equal(expectedFaces, mesh.FacesIds);
+            Assert.Equal(expectedFaces, mesh.Indices);
             
             #endregion
 

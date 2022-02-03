@@ -27,7 +27,7 @@ namespace test.UnitTests
                 0,0,0,10,0,0,10,-15,0
             };
             
-            Assert.Equal(expected, mesh.VerticesCoordinates);
+            Assert.Equal(expected, mesh.Coordinates);
         }
 
         [Fact]
@@ -40,7 +40,7 @@ namespace test.UnitTests
                 0,1,2
             };
             
-            Assert.Equal(expected, mesh.FacesIds);
+            Assert.Equal(expected, mesh.Indices);
         }
 
         #endregion
@@ -72,7 +72,7 @@ namespace test.UnitTests
                 0.0, 30.0, 20.0
             };
             
-            Assert.Equal(expected, mesh.VerticesCoordinates);
+            Assert.Equal(expected, mesh.Coordinates);
         }
 
         [Fact]
@@ -107,7 +107,7 @@ namespace test.UnitTests
                 5, 6, 7
             };
             
-            Assert.Equal(expected, mesh.FacesIds);
+            Assert.Equal(expected, mesh.Indices);
         }
 
         #endregion
@@ -120,8 +120,8 @@ namespace test.UnitTests
             var exception = Assert.Throws<ArgumentException>(() => new Mesh
             {
                 MeshId = -1,
-                FacesIds = new List<int>{0,1,2},
-                VerticesCoordinates = new List<double>
+                Indices = new List<int>{0,1,2},
+                Coordinates = new List<double>
                 {
                     0.0,0.0,0.0,
                     10.0,0.0,0.0,
