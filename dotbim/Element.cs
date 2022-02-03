@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Newtonsoft.Json;
 
 namespace dotbim
@@ -42,6 +43,6 @@ namespace dotbim
         public Color Color { get; set; }
         
         [JsonProperty("info")]
-        public Info Info { get; set; }
+        public Dictionary<string, string> Info { get; set; }
     }
 }

@@ -113,10 +113,9 @@ namespace test
                 
                 Guid = "b8a7a2ed-0c30-4c20-867e-baa1ef7b8353",
                 
-                Info = new Info
+                Info = new Dictionary<string, string>
                 {
-                    Keys = new List<string>{"Key"},
-                    Values = new List<string>{"Value"}
+                    {"Key", "Value"}
                 },
                 
                 MeshId = 4,
@@ -152,7 +151,10 @@ namespace test
                     {
                         Color = new Color {A = 255, R = 0, G = 120, B = 120},
                         Guid = "d4f28792-e1e9-4e31-bcee-740dbda61e20",
-                        Info = new Info{Keys = new List<string>{"Name"}, Values = new List<string>{"Triangle"}},
+                        Info = new Dictionary<string, string>
+                        {
+                            {"Name", "Triangle"}
+                        },
                         MeshId = 0,
                         Rotation = new Rotation{Qx = 0, Qy = 0, Qz = 0, Qw = 1.0},
                         Type = "Plate",
@@ -175,10 +177,9 @@ namespace test
                     }
                 },
                 
-                Info = new Info
+                Info = new Dictionary<string, string>
                 {
-                    Keys = new List<string>{"Author"},
-                    Values = new List<string>{"John Doe"}
+                    {"Author", "Jane Doe"}
                 },
                 
                 SchemaVersion = "1.0.0"

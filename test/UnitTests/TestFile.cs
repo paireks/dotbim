@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using dotbim;
 using Xunit;
 
@@ -20,8 +21,7 @@ namespace test.UnitTests
             
             Assert.True(ToolboxForTests.IsColorSame(element.Color, (0, 120, 120, 255)));
             Assert.Equal("d4f28792-e1e9-4e31-bcee-740dbda61e20", element.Guid);
-            Assert.Equal("Name", element.Info.Keys[0]);
-            Assert.Equal("Triangle", element.Info.Values[0]);
+            Assert.Equal("Triangle", element.Info["Name"]);
             Assert.Equal(0, element.MeshId);
             Assert.True(ToolboxForTests.IsRotationSame(element.Rotation, (0.0, 0.0, 0.0, 1.0), 0.001));
             Assert.Equal("Plate", element.Type);
@@ -57,8 +57,7 @@ namespace test.UnitTests
             File file = ToolboxForTests.CreateTestFileWithTriangleBluePlate();
             
             Assert.Equal("1.0.0", file.SchemaVersion);
-            Assert.Equal("Author", file.Info.Keys[0]);
-            Assert.Equal("John Doe", file.Info.Values[0]);
+            Assert.Equal("Jane Doe", file.Info["Author"]);
         }
 
         #endregion
@@ -80,8 +79,7 @@ namespace test.UnitTests
             
             Assert.True(ToolboxForTests.IsColorSame(element.Color, (0, 120, 120, 255)));
             Assert.Equal("d4f28792-e1e9-4e31-bcee-740dbda61e20", element.Guid);
-            Assert.Equal("Name", element.Info.Keys[0]);
-            Assert.Equal("Triangle", element.Info.Values[0]);
+            Assert.Equal("Triangle", element.Info["Name"]);
             Assert.Equal(0, element.MeshId);
             Assert.True(ToolboxForTests.IsRotationSame(element.Rotation, (0.0, 0.0, 0.0, 1.0), 0.001));
             Assert.Equal("Plate", element.Type);
@@ -105,8 +103,7 @@ namespace test.UnitTests
             }, mesh.Indices);
             
             Assert.Equal("1.0.0", file.SchemaVersion);
-            Assert.Equal("Author", file.Info.Keys[0]);
-            Assert.Equal("John Doe", file.Info.Values[0]);
+            Assert.Equal("Jane Doe", file.Info["Author"]);
         }
 
         [Fact]
