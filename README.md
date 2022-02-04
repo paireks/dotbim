@@ -14,6 +14,10 @@ Created by BIM developers for BIM developers.
 Let's get this community bigger. Share it with your friends and colleagues that want to see a new BIM format: 
 https://discord.gg/uhvx9sysvW
 
+## Apps
+
+- dotbim-three: Web viewer for .bim files. Check viewer here: https://harrycollin.github.io/dotbim-three/example/ Repository: https://github.com/harrycollin/dotbim-three
+
 ## BIM vs IFC comparison
 
 |                             | .bim                     | .ifc                                                      |
