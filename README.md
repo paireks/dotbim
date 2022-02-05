@@ -17,6 +17,11 @@ https://discord.gg/uhvx9sysvW
 ## Apps
 
 - dotbim-three: Web viewer for .bim files. Check viewer here: https://harrycollin.github.io/dotbim-three/example/ Repository: https://github.com/harrycollin/dotbim-three
+- dotbimGH: Grasshopper plugin for .bim files. Repository: https://github.com/paireks/dotbimGH
+
+## NuGet package
+
+https://www.nuget.org/packages/dotbim/
 
 ## BIM vs IFC comparison
 
