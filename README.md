@@ -34,6 +34,9 @@ https://www.nuget.org/packages/dotbim/
 | Types of geometries allowed | Triangulated meshes only | A lot of different types: meshes, extrusions, b-reps etc. |
 | Pages of documentation      | 1                        | 100+                                                      |
 
+## Structure
+![bimdot_Structure Complete](https://user-images.githubusercontent.com/23511558/152679875-404cf84d-7b2e-4172-8476-ea91ce491f28.jpg)
+
 ## File size
 
 File size depends on the level of the deduplication made by exporter. You can reference the same mesh multiple times, which can have huge impact on decreasing the size when there is a lot of duplicate meshes.
@@ -55,12 +58,15 @@ Files created are also much more efficient once the user's meshes are being opti
 
 File contains 4 properties:
 
-![thenewbim (1)_Structure GH](https://user-images.githubusercontent.com/23511558/152438075-1d3589e3-c3d8-425c-ae2e-e26394fa3034.jpg)
+![bimdot_Structure GH](https://user-images.githubusercontent.com/23511558/152679932-786ae046-1bb5-4019-9246-ef87ca594cf1.jpg)
+
 **schema_version** is the version of schema used in this file as string. Current one is "1.0.0".
 
 ### mesh
 
-![thenewbim (1)_Mesh GH](https://user-images.githubusercontent.com/23511558/152438053-e1623a04-d389-4561-b50a-785479a0e4b7.jpg)**mesh_id** is integer >= 0 to reference this mesh later in element.
+![bimdot_Mesh GH](https://user-images.githubusercontent.com/23511558/152679942-334d53dc-dc97-42f1-b418-db796fe47412.jpg)
+
+**mesh_id** is integer >= 0 to reference this mesh later in element.
 
 #### coordinates
 
@@ -128,7 +134,7 @@ Pyramid example:
 
 ### element
 
-![thenewbim (1)_Element GH](https://user-images.githubusercontent.com/23511558/152438244-b414a6d9-ccda-456e-916e-2286c6a0a852.jpg)
+![bimdot_Element GH](https://user-images.githubusercontent.com/23511558/152679949-65c9169b-2c17-4bb7-b2dc-bd2d5ab5da33.jpg)
 **guid** is a string that can be used for comparison of different elements. 
 
 ```json
