@@ -17,7 +17,7 @@ https://discord.gg/uhvx9sysvW
 ## Apps
 
 - dotbim-three: Web viewer for .bim files. Check viewer here: https://harrycollin.github.io/dotbim-three/example/ Repository: https://github.com/harrycollin/dotbim-three
-- dotbimGH: Grasshopper plugin for .bim files. Repository: https://github.com/paireks/dotbimGH
+- dotbimGH: Grasshopper plugin for .bim files. Download it here: https://www.food4rhino.com/en/app/dotbimgh Repository: https://github.com/paireks/dotbimGH
 - dotbim-pipeline: Experimental CLI for .bim files. Allows to convert from IFC, merge & optimize .bim files. It is WIP. Repository: https://github.com/harrycollin/dotbim-pipeline
 
 ## NuGet package
