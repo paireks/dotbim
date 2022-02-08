@@ -31,7 +31,7 @@ https://www.nuget.org/packages/dotbim/
 | Is it open?                 | Yes                      | Yes                                                       |
 | Is it free?                 | Yes                      | Yes                                                       |
 | Type                        | Text file                | Text file                                                 |
-| What it contains            | Geometry + data attached | Geometry + data attached in a stanadarized way            |
+| What it contains            | Geometry + data attached | Geometry + data attached in a standardized way            |
 | Types of geometries allowed | Triangulated meshes only | A lot of different types: meshes, extrusions, b-reps etc. |
 | Pages of documentation      | 1                        | 100+                                                      |
 
