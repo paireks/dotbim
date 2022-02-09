@@ -24,17 +24,6 @@ https://discord.gg/uhvx9sysvW
 
 https://www.nuget.org/packages/dotbim/
 
-## BIM vs IFC comparison
-
-|                             | .bim                     | .ifc                                                      |
-| --------------------------- | ------------------------ | --------------------------------------------------------- |
-| Is it open?                 | Yes                      | Yes                                                       |
-| Is it free?                 | Yes                      | Yes                                                       |
-| Type                        | Text file                | Text file                                                 |
-| What it contains            | Geometry + data attached | Geometry + data attached in a standardized way            |
-| Types of geometries allowed | Triangulated meshes only | A lot of different types: meshes, extrusions, b-reps etc. |
-| Pages of documentation      | 1                        | 100+                                                      |
-
 ## Structure
 ![bimdot_Structure Complete](https://user-images.githubusercontent.com/23511558/152679875-404cf84d-7b2e-4172-8476-ea91ce491f28.jpg)
 
@@ -213,12 +202,25 @@ info is just a dictionary with string as key and value.
   }
 ```
 
+## BIM vs IFC comparison
+
+|                             | .bim                     | .ifc                                                      |
+| --------------------------- | ------------------------ | --------------------------------------------------------- |
+| Is it open?                 | Yes                      | Yes                                                       |
+| Is it free?                 | Yes                      | Yes                                                       |
+| Type                        | Text file                | Text file                                                 |
+| What it contains            | Geometry + data attached | Geometry + data attached in a standardized way            |
+| Types of geometries allowed | Triangulated meshes only | A lot of different types: meshes, extrusions, b-reps etc. |
+| Pages of documentation      | 1                        | 100+                                                      |
+
 ## Authors
 
 - Wojciech Radaczyński
 - Marios Messios
 - Harry Collin
+
+## Advisors
 - Tom Van Diggelen
 
 ## .bim Concept (WIP)
-![thenewbim (1)_Concept Cover](https://user-images.githubusercontent.com/23511558/152438685-09543c7d-9c3c-4711-a485-2160e3d8839c.jpg)
+![dotbim_Concept Cover](https://user-images.githubusercontent.com/23511558/153298773-a978ff9d-982a-4f89-a58d-f4097c16dcad.png)
