@@ -217,6 +217,8 @@ info is just a dictionary with string as key and value.
 | Types of geometries allowed | Triangulated meshes only | A lot of different types: meshes, extrusions, b-reps etc. |
 | Pages of documentation      | 1                        | 100+                                                      |
 
+To see much more extended comparison check out Dion's comparison here: https://github.com/paireks/dotbim/issues/8
+
 ## Authors
 
 - Wojciech Radaczyński
