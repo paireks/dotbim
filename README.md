@@ -218,11 +218,8 @@ To see much more extended comparison check out Dion's comparison here: https://g
 ## Authors
 
 - Wojciech Radaczyński
-- Marios Messios
 
 ## Advisors
 - Tom Van Diggelen
 - Harry Collin
-
-## .bim Concept (WIP)
-![dotbim_Concept Cover](https://user-images.githubusercontent.com/23511558/153298773-a978ff9d-982a-4f89-a58d-f4097c16dcad.png)
+- Marios Messios
