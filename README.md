@@ -18,11 +18,7 @@ https://discord.gg/uhvx9sysvW
 
 ![2022-02-10_20h14_10](https://user-images.githubusercontent.com/47977819/153480383-5aaa85e7-7e0f-4c7c-b548-e9403de798e6.png)
 
-- dotbim-three: Web viewer for .bim files. Check viewer here: https://harrycollin.github.io/dotbim-three/example/ Repository: https://github.com/harrycollin/dotbim-three
 - dotbimGH: Grasshopper plugin for .bim files. Download it here: https://www.food4rhino.com/en/app/dotbimgh Repository: https://github.com/paireks/dotbimGH
-- dotbim-pipeline: Experimental CLI for .bim files. Allows to convert from IFC, merge & optimize .bim files. It is WIP. Repository: https://github.com/harrycollin/dotbim-pipeline
-- dotbim-revit (WIP): exporter for Revit. Repository: https://github.com/harrycollin/dotbim-revit
-- dotbim-blender (WIP): exporter for Blender. Repository: https://github.com/harrycollin/dotbim-blender
 
 ## NuGet package
 
@@ -223,10 +219,10 @@ To see much more extended comparison check out Dion's comparison here: https://g
 
 - Wojciech Radaczyński
 - Marios Messios
-- Harry Collin
 
 ## Advisors
 - Tom Van Diggelen
+- Harry Collin
 
 ## .bim Concept (WIP)
 ![dotbim_Concept Cover](https://user-images.githubusercontent.com/23511558/153298773-a978ff9d-982a-4f89-a58d-f4097c16dcad.png)
