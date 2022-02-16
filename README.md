@@ -4,21 +4,28 @@
 
 ## Introduction
 
-Introducing an open-source, accessible and simple file format for BIM to empower interoperability and replace complexity.
+Introducing an open-source, accessible and simple file format for BIM.
 
 Created by BIM developers for BIM developers.
 
 <em>An idiot admires complexity, while a genius appreciates simplicity</em> - Terry Davis
 
+## BIM vs IFC comparison
+
+|                             | .bim                     | .ifc                                                      |
+| --------------------------- | ------------------------ | --------------------------------------------------------- |
+| Is it open?                 | Yes                      | Yes                                                       |
+| Is it free?                 | Yes                      | Yes                                                       |
+| Type                        | Text file                | Text file                                                 |
+| What it contains            | Geometry + data attached | Geometry + data attached in a standardized way            |
+| Types of geometries allowed | Triangulated meshes only | A lot of different types: meshes, extrusions, b-reps etc. |
+| Pages of documentation      | 1                        | 100+                                                      |
+
+To see much more extended comparison check out Dion's comparison here: https://github.com/paireks/dotbim/issues/8
+
 ## Community
 Let's get this community bigger. Share it with your friends and colleagues that want to see a new BIM format: 
 https://discord.gg/uhvx9sysvW
-
-## Apps
-
-![2022-02-10_20h14_10](https://user-images.githubusercontent.com/47977819/153480383-5aaa85e7-7e0f-4c7c-b548-e9403de798e6.png)
-
-- dotbimGH: Grasshopper plugin for .bim files. Download it here: https://www.food4rhino.com/en/app/dotbimgh Repository: https://github.com/paireks/dotbimGH
 
 ## NuGet package
 
@@ -201,19 +208,6 @@ info is just a dictionary with string as key and value.
     "Price": "2.50$"
   }
 ```
-
-## BIM vs IFC comparison
-
-|                             | .bim                     | .ifc                                                      |
-| --------------------------- | ------------------------ | --------------------------------------------------------- |
-| Is it open?                 | Yes                      | Yes                                                       |
-| Is it free?                 | Yes                      | Yes                                                       |
-| Type                        | Text file                | Text file                                                 |
-| What it contains            | Geometry + data attached | Geometry + data attached in a standardized way            |
-| Types of geometries allowed | Triangulated meshes only | A lot of different types: meshes, extrusions, b-reps etc. |
-| Pages of documentation      | 1                        | 100+                                                      |
-
-To see much more extended comparison check out Dion's comparison here: https://github.com/paireks/dotbim/issues/8
 
 ## Authors
 
