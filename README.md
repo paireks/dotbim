@@ -23,6 +23,12 @@ Created by BIM developers for BIM developers.
 
 To see much more extended comparison check out Dion's comparison here: https://github.com/paireks/dotbim/issues/8
 
+## Apps
+
+- C# library: you're looking at it right now ;)
+- Python library: dotbimpy - https://github.com/paireks/dotbimpy
+- Grasshopper plugin: dotbimGH - https://github.com/paireks/dotbimGH
+
 ## Community
 Let's get this community bigger. Share it with your friends and colleagues that want to see a new BIM format: 
 https://discord.gg/uhvx9sysvW
