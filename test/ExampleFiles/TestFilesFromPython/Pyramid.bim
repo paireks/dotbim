@@ -1,0 +1,82 @@
+{
+    "py/object": "dotbimpy.file.File",
+    "schema_version": "1.0.0",
+    "meshes": [
+        {
+            "py/object": "dotbimpy.file.Mesh",
+            "mesh_id": 0,
+            "coordinates": [
+                0.0,
+                0.0,
+                0.0,
+                10.0,
+                0.0,
+                0.0,
+                10.0,
+                10.0,
+                0.0,
+                0.0,
+                10.0,
+                0.0,
+                5.0,
+                5.0,
+                4.0
+            ],
+            "indices": [
+                0,
+                1,
+                2,
+                0,
+                2,
+                3,
+                0,
+                1,
+                4,
+                1,
+                2,
+                4,
+                2,
+                3,
+                4,
+                3,
+                0,
+                4
+            ]
+        }
+    ],
+    "elements": [
+        {
+            "py/object": "dotbimpy.file.Element",
+            "info": {
+                "Name": "Pyramid"
+            },
+            "color": {
+                "py/object": "dotbimpy.file.Color",
+                "r": 255,
+                "g": 255,
+                "b": 0,
+                "a": 255
+            },
+            "guid": "76e051c1-1bd7-44fc-8e2e-db2b64055068",
+            "rotation": {
+                "py/object": "dotbimpy.file.Rotation",
+                "qx": 0,
+                "qy": 0,
+                "qz": 0,
+                "qw": 1.0
+            },
+            "vector": {
+                "py/object": "dotbimpy.file.Vector",
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "Structure",
+            "mesh_id": 0
+        }
+    ],
+    "info": {
+        "Author": "John Doe",
+        "Date": "28.09.1999"
+    }
+}

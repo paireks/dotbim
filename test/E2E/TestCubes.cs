@@ -86,7 +86,7 @@ namespace test.E2E
                 {
                     {"Name", "Blue Cube"}
                 },
-                Rotation = new Rotation{Qx = -2.2, Qy = -1.4, Qz = 1.5, Qw = -1.2},
+                Rotation = new Rotation{Qx = 2.2, Qy = 1.4, Qz = 1.5, Qw = 1.2},
                 Type = "Brick",
                 Vector = new Vector{X = 100.0, Y = 100.0, Z = 100.0}
             };
@@ -210,7 +210,7 @@ namespace test.E2E
             Assert.Equal(0, element3.MeshId);
             Assert.Equal("Blue Cube", element3.Info["Name"]);
             Assert.True(ToolboxForTests.IsColorSame(element3.Color, (0, 0, 255, 10)));
-            Assert.True(ToolboxForTests.IsRotationSame(element3.Rotation, (-2.2,-1.4,1.5,-1.2), 0.01));
+            Assert.True(ToolboxForTests.IsRotationSame(element3.Rotation, (2.2,1.4,1.5,1.2), 0.01));
             Assert.True(ToolboxForTests.IsVectorSame(element3.Vector, (100,100,100), 0.01));
             
             #endregion

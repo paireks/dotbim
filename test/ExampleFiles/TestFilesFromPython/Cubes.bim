@@ -1,0 +1,166 @@
+{
+    "py/object": "dotbimpy.file.File",
+    "schema_version": "1.0.0",
+    "meshes": [
+        {
+            "py/object": "dotbimpy.file.Mesh",
+            "mesh_id": 0,
+            "coordinates": [
+                0.0,
+                0.0,
+                0.0,
+                10.0,
+                0.0,
+                0.0,
+                10.0,
+                0.0,
+                20.0,
+                0.0,
+                0.0,
+                20.0,
+                0.0,
+                30.0,
+                0.0,
+                10.0,
+                30.0,
+                0.0,
+                10.0,
+                30.0,
+                20.0,
+                0.0,
+                30.0,
+                20.0
+            ],
+            "indices": [
+                0,
+                1,
+                2,
+                0,
+                2,
+                3,
+                0,
+                1,
+                4,
+                1,
+                4,
+                5,
+                0,
+                4,
+                3,
+                4,
+                3,
+                7,
+                1,
+                2,
+                5,
+                2,
+                5,
+                6,
+                2,
+                3,
+                7,
+                2,
+                6,
+                7,
+                4,
+                5,
+                7,
+                5,
+                6,
+                7
+            ]
+        }
+    ],
+    "elements": [
+        {
+            "py/object": "dotbimpy.file.Element",
+            "info": {
+                "Name": "Red Cube"
+            },
+            "color": {
+                "py/object": "dotbimpy.file.Color",
+                "r": 255,
+                "g": 0,
+                "b": 0,
+                "a": 255
+            },
+            "guid": "9f61b565-06a2-4bef-8b72-f37091ab54d6",
+            "rotation": {
+                "py/object": "dotbimpy.file.Rotation",
+                "qx": 0.1,
+                "qy": 0.3,
+                "qz": 0.4,
+                "qw": 1.0
+            },
+            "vector": {
+                "py/object": "dotbimpy.file.Vector",
+                "x": -100.0,
+                "y": -100.0,
+                "z": -100.0
+            },
+            "type": "Brick",
+            "mesh_id": 0
+        },
+        {
+            "py/object": "dotbimpy.file.Element",
+            "info": {
+                "Name": "Green Cube"
+            },
+            "color": {
+                "py/object": "dotbimpy.file.Color",
+                "r": 0,
+                "g": 255,
+                "b": 0,
+                "a": 126
+            },
+            "guid": "4d00c967-791a-42a6-a5e8-cf05831bc11d",
+            "rotation": {
+                "py/object": "dotbimpy.file.Rotation",
+                "qx": 0.0,
+                "qy": 0.0,
+                "qz": 0.0,
+                "qw": 1.0
+            },
+            "vector": {
+                "py/object": "dotbimpy.file.Vector",
+                "x": -0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "type": "Brick",
+            "mesh_id": 0
+        },
+        {
+            "py/object": "dotbimpy.file.Element",
+            "info": {
+                "Name": "Blue Cube"
+            },
+            "color": {
+                "py/object": "dotbimpy.file.Color",
+                "r": 0,
+                "g": 0,
+                "b": 255,
+                "a": 10
+            },
+            "guid": "8501a5e3-4709-47d8-bd5d-33d745a435d5",
+            "rotation": {
+                "py/object": "dotbimpy.file.Rotation",
+                "qx": 2.2,
+                "qy": 1.4,
+                "qz": 1.5,
+                "qw": 1.2
+            },
+            "vector": {
+                "py/object": "dotbimpy.file.Vector",
+                "x": 100.0,
+                "y": 100.0,
+                "z": 100.0
+            },
+            "type": "Brick",
+            "mesh_id": 0
+        }
+    ],
+    "info": {
+        "Author": "John Doe"
+    }
+}
