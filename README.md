@@ -4,15 +4,11 @@
 
 ## Introduction
 
-Easy to read and write file format for reliable 3D geometry exchange.
+Introducing an open-source, accessible and simple file format for BIM.
 
-Created by BIM developers for other BIM developers.
+Created by BIM developers for BIM developers.
 
 <em>An idiot admires complexity, while a genius appreciates simplicity</em> - Terry Davis
-
-## Community
-Let's get this community bigger. Share it with your friends and colleagues that want to see a new BIM format: 
-https://discord.gg/uhvx9sysvW
 
 ## BIM vs IFC comparison
 
@@ -21,9 +17,28 @@ https://discord.gg/uhvx9sysvW
 | Is it open?                 | Yes                      | Yes                                                       |
 | Is it free?                 | Yes                      | Yes                                                       |
 | Type                        | Text file                | Text file                                                 |
-| What it contains            | Geometry + data attached | Geometry + data attached in a stanadarized way            |
+| What it contains            | Geometry + data attached | Geometry + data attached in a standardized way            |
 | Types of geometries allowed | Triangulated meshes only | A lot of different types: meshes, extrusions, b-reps etc. |
 | Pages of documentation      | 1                        | 100+                                                      |
+
+To see much more extended comparison check out Dion's comparison here: https://github.com/paireks/dotbim/issues/8
+
+## Apps
+
+- C# library: you're looking at it right now ;)
+- Python library: dotbimpy - https://github.com/paireks/dotbimpy
+- Grasshopper plugin: dotbimGH - https://github.com/paireks/dotbimGH
+
+## Community
+Let's get this community bigger. Share it with your friends and colleagues that want to see a new BIM format: 
+https://discord.gg/uhvx9sysvW
+
+## NuGet package
+
+https://www.nuget.org/packages/dotbim/
+
+## Structure
+![bimdot_Structure Complete](https://user-images.githubusercontent.com/23511558/152679875-404cf84d-7b2e-4172-8476-ea91ce491f28.jpg)
 
 ## File size
 
@@ -46,13 +61,13 @@ Files created are also much more efficient once the user's meshes are being opti
 
 File contains 4 properties:
 
-![2022-02-03_19h55_04](https://user-images.githubusercontent.com/47977819/152410032-15326312-866f-457d-8815-151f920cd26b.png)
+![bimdot_Structure GH](https://user-images.githubusercontent.com/23511558/152679932-786ae046-1bb5-4019-9246-ef87ca594cf1.jpg)
 
 **schema_version** is the version of schema used in this file as string. Current one is "1.0.0".
 
 ### mesh
 
-![2022-02-03_19h53_33](https://user-images.githubusercontent.com/47977819/152409736-8c673031-8412-48d8-86a4-207381bd243a.png)
+![bimdot_Mesh GH](https://user-images.githubusercontent.com/23511558/152679942-334d53dc-dc97-42f1-b418-db796fe47412.jpg)
 
 **mesh_id** is integer >= 0 to reference this mesh later in element.
 
@@ -122,10 +137,7 @@ Pyramid example:
 
 ### element
 
-![2022-02-02_19h42_54](https://user-images.githubusercontent.com/47977819/152217618-0c9b8ec3-fe5f-4e80-9d4c-af0238751c92.png)
-
-**mesh_id** is an id of a mesh that represents element.
-
+![bimdot_Element GH](https://user-images.githubusercontent.com/23511558/152679949-65c9169b-2c17-4bb7-b2dc-bd2d5ab5da33.jpg)
 **guid** is a string that can be used for comparison of different elements. 
 
 ```json
@@ -206,6 +218,8 @@ info is just a dictionary with string as key and value.
 ## Authors
 
 - Wojciech Radaczyński
-- Marios Messios
-- Harry Collin
+
+## Advisors
 - Tom Van Diggelen
+- Harry Collin
+- Marios Messios
