@@ -30,6 +30,7 @@ To see much more extended comparison check out Dion's comparison here: https://g
 - C# library: you're looking at it right now ;)
 - Python library: dotbimpy - https://github.com/paireks/dotbimpy
 - Grasshopper plugin: dotbimGH - https://github.com/paireks/dotbimGH
+- dotbim-ifc, converts to and from IFC and dotbim: https://github.com/Moult/dotbim-ifc
 
 ## Community
 Let's get this community bigger. Share it with your friends and colleagues that want to see a new BIM format: 
