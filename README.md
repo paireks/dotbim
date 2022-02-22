@@ -32,6 +32,8 @@ To see much more extended comparison check out Dion's comparison here: https://g
 - Grasshopper plugin: dotbimGH - https://github.com/paireks/dotbimGH
 - dotbim-ifc, converts to and from IFC and dotbim: https://github.com/Moult/dotbim-ifc, Author: Dion Moult
 
+If you're building any app that will use .bim - let me know, I'll post it here :)
+
 ## Community
 Let's get this community bigger. Share it with your friends and colleagues that want to see a new BIM format: 
 https://discord.gg/uhvx9sysvW
