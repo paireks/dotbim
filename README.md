@@ -31,6 +31,7 @@ To see much more extended comparison check out Dion's comparison here: https://g
 - Python library: dotbimpy - https://github.com/paireks/dotbimpy
 - Grasshopper plugin: dotbimGH - https://github.com/paireks/dotbimGH
 - dotbim-ifc, converts to and from IFC and dotbim: https://github.com/Moult/dotbim-ifc, Author: Dion Moult
+- Online 3d Viewer, supports.bim files and converts to other file formats: https://3dviewer.net/, Author: Viktor Kovacs
 
 If you're building any app that will use .bim - let me know, I'll post it here :)
 
