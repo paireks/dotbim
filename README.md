@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Introducing an open-source, accessible and simple file format for BIM.
+Introducing an open-source, accessible, simple, minimalistic file format for BIM. Built to be easy to read and write.
 
 Created by BIM developers for BIM developers.
 
@@ -30,7 +30,10 @@ To see much more extended comparison check out Dion's comparison here: https://g
 - C# library: you're looking at it right now ;)
 - Python library: dotbimpy - https://github.com/paireks/dotbimpy
 - Grasshopper plugin: dotbimGH - https://github.com/paireks/dotbimGH
-- dotbim-ifc, converts to and from IFC and dotbim: https://github.com/Moult/dotbim-ifc
+- dotbim-ifc, converts to and from IFC and dotbim: https://github.com/Moult/dotbim-ifc, Author: Dion Moult
+- Online 3d Viewer, supports.bim files and converts to other file formats: https://3dviewer.net/, Author: Viktor Kovacs
+
+If you're building any app that will use .bim - let me know, I'll post it here :)
 
 ## Community
 Let's get this community bigger. Share it with your friends and colleagues that want to see a new BIM format: 
@@ -218,7 +221,7 @@ info is just a dictionary with string as key and value.
   }
 ```
 
-## Authors
+## Author
 
 - Wojciech Radaczyński
 
