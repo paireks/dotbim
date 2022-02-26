@@ -10,6 +10,8 @@ Created by BIM developers for BIM developers.
 
 <em>An idiot admires complexity, while a genius appreciates simplicity</em> - Terry Davis
 
+Website: https://www.dotbim.net
+
 Quick introduction video here: https://www.youtube.com/watch?v=-bpWEdWcHvw
 
 ## BIM vs IFC comparison
