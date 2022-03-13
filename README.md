@@ -36,11 +36,9 @@ To see much more extended comparison check out Dion's comparison here: https://g
 - Online 3d Viewer, supports.bim files and converts to other file formats: https://3dviewer.net/, Authors: Viktor Kovacs, Agnes Gaschitz
 - Blender add-on: dotbim-blender, imports and exports .bim files https://github.com/paireks/dotbim-blender, Author: Nathan Hild
 
-If you're building any app that will use .bim - let me know, I'll post it here :)
+![2022-03-02_22h43_25](https://user-images.githubusercontent.com/47977819/156454985-8e96593a-23f3-4115-b8bb-9181442823c5.png)
 
-## Community
-Let's get this community bigger. Share it with your friends and colleagues that want to see a new BIM format: 
-https://discord.gg/uhvx9sysvW
+If you're building any app that will use .bim - let me know, I'll post it here :)
 
 ## NuGet package
 
