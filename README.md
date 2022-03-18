@@ -35,8 +35,7 @@ To see much more extended comparison check out Dion's comparison here: https://g
 - dotbim-ifc, converts to and from IFC and dotbim: https://github.com/Moult/dotbim-ifc, Author: Dion Moult
 - Online 3d Viewer, supports.bim files and converts to other file formats: https://3dviewer.net/, Authors: Viktor Kovacs, Agnes Gaschitz
 - Blender add-on: dotbim-blender, imports and exports .bim files https://github.com/paireks/dotbim-blender, Author: Nathan Hild
-
-![2022-03-02_22h43_25](https://user-images.githubusercontent.com/47977819/156454985-8e96593a-23f3-4115-b8bb-9181442823c5.png)
+- dotbim-io-dxf, converts to and from 3d DXF files: https://github.com/Gorgious56/dotbim_io_dxf, Author: Nathan Hild
 
 If you're building any app that will use .bim - let me know, I'll post it here :)
 
