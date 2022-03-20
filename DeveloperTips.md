@@ -53,6 +53,8 @@ Writing exporter means you'd have to turn all geometries into triangulated meshe
 
 Many CAD/BIM software already have an option that allows such discretization or they already store geometries as meshes. If it's not your case, and there is no way for you to get meshes out of your software - then it won't be a trivial task, as it will require creating also discretization part.
 
+![2022-03-20_19h28_07](https://user-images.githubusercontent.com/47977819/159177177-c2817d7a-3cbf-4dcc-b6b4-8a92ec6b8dc6.png)
+
 Once you have all your geometries as meshes, then you can pack them into mesh list.
 
 Depending on a software: sometimes you can already access all deduplicated geometries - then you can save all of them and reuse one mesh multiple times using mesh_id in elements. If there is no such deduplication mechanism in software itself: you can either try to create your own, or get rid off reusing one mesh multiple times. Second option will work fine, but files can be really huge then, because of number of duplicate meshes, that will be stored.
