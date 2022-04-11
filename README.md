@@ -27,6 +27,10 @@ Quick introduction video here: https://www.youtube.com/watch?v=-bpWEdWcHvw
 
 To see much more extended comparison check out Dion's comparison here: https://github.com/paireks/dotbim/issues/8
 
+## Guide for developers
+
+If you're a developer, check out this document: https://github.com/paireks/dotbim/blob/master/DeveloperTips.md
+
 ## Apps
 
 - C# library: you're looking at it right now ;)
@@ -45,12 +49,6 @@ https://www.nuget.org/packages/dotbim/
 
 ## Structure
 ![bimdot_Structure Complete](https://user-images.githubusercontent.com/23511558/152679875-404cf84d-7b2e-4172-8476-ea91ce491f28.jpg)
-
-## File size
-
-File size depends on the level of the deduplication made by exporter. You can reference the same mesh multiple times, which can have huge impact on decreasing the size when there is a lot of duplicate meshes.
-
-Files created are also much more efficient once the user's meshes are being optimized, e.g. removing duplicate vertices or better discretization of geometry highly reduce the file size as well.
 
 ## Documentation
 
