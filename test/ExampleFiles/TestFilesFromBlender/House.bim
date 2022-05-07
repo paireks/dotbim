@@ -61786,7 +61786,7 @@
         {
             "info": {
                 "Name": "Window.005",
-                "URL": "WINDOW URL"
+                "URL": "https://3dviewer.net#model=https://raw.githubusercontent.com/paireks/dotbim/master/test/ExampleFiles/TestFilesFromBlender/Window%20double.bim"
             },
             "color": {
                 "r": 47.041141390800476,
@@ -62849,7 +62849,7 @@
         {
             "info": {
                 "Name": "Door",
-                "URL": "DOOR URL"
+                "URL": "https://3dviewer.net#model=https://raw.githubusercontent.com/paireks/dotbim/master/test/ExampleFiles/TestFilesFromBlender/Door.bim"
             },
             "color": {
                 "r": 98.53956520557404,
@@ -62875,7 +62875,7 @@
         {
             "info": {
                 "Name": "Door.004",
-                "URL": "DOOR URL"
+                "URL": "https://3dviewer.net#model=https://raw.githubusercontent.com/paireks/dotbim/master/test/ExampleFiles/TestFilesFromBlender/Door.bim"
             },
             "color": {
                 "r": 98.53956520557404,
@@ -62901,7 +62901,7 @@
         {
             "info": {
                 "Name": "Door.005",
-                "URL": "DOOR URL"
+                "URL": "https://3dviewer.net#model=https://raw.githubusercontent.com/paireks/dotbim/master/test/ExampleFiles/TestFilesFromBlender/Door.bim"
             },
             "color": {
                 "r": 98.53956520557404,
