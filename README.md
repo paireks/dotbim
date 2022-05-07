@@ -234,6 +234,10 @@ Such functionality allows also to link one model with another as well:
 
 If you're interested in this kind of linking, check this separate document about it: https://github.com/paireks/dotbim/blob/master/LinkingData.md
 
+## Tell me more
+
+If you'd like to read more details about this project, a bit background + line-by-line explanation, you might find this article on BIM Corner interesting: https://bimcorner.com/a-new-bim-file-format/
+
 ## Author
 
 - Wojciech Radaczyński
