@@ -228,10 +228,7 @@ info is just a dictionary with string as key and value.
   }
 ```
 
-Such functionality allows also to link one model with another as well:
-
-![2022-05-07_10h25_09](https://user-images.githubusercontent.com/47977819/167266436-faf3f917-eb0b-47bd-b488-ad183e56352f.png)
-
+Such functionality allows also to link one model with another as well.
 If you're interested in this kind of linking, check this separate document about it: https://github.com/paireks/dotbim/blob/master/LinkingData.md
 
 ## Tell me more
