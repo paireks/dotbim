@@ -61233,12 +61233,12 @@
                 "Name": "Bathroom equipment.001"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "1be1d6cf-be92-4ace-a56e-e4fbd6a2972c",
+            "guid": "5decc759-4af7-4a3a-9977-9a8749e82488",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -61258,12 +61258,12 @@
                 "Name": "Bathroom equipment.002"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "781e58e6-e714-4127-8ee4-e17fa8e98639",
+            "guid": "3e0844e2-c9da-4852-80a2-7e4554b6b930",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -61283,12 +61283,12 @@
                 "Name": "Roof.001"
             },
             "color": {
-                "r": 14.740363787859678,
-                "g": 14.740374237298965,
-                "b": 14.7403827868402,
-                "a": 255.0
+                "r": 14,
+                "g": 14,
+                "b": 14,
+                "a": 255
             },
-            "guid": "8b82e6ab-0b8b-4498-aa5b-148154f6ebc6",
+            "guid": "27c6b3f6-3c7f-4ba3-8d3f-d47aff3312a7",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -61308,12 +61308,12 @@
                 "Name": "TV"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "1dc76fc0-df69-4b5f-b8a5-0f08a770b2cf",
+            "guid": "3eab8b84-54f2-4a14-883a-72496e3b7556",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -61333,12 +61333,12 @@
                 "Name": "Chimney.002"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "f1ec1bea-9962-484b-9211-f26cf831f841",
+            "guid": "63445d00-0a78-403b-b93d-3736dd153a65",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -61358,12 +61358,12 @@
                 "Name": "Chimney.001"
             },
             "color": {
-                "r": 32.49662384390831,
-                "g": 32.49660864472389,
-                "b": 32.4966162443161,
-                "a": 255.0
+                "r": 32,
+                "g": 32,
+                "b": 32,
+                "a": 255
             },
-            "guid": "e0808936-24b6-42c2-ae45-bd311587fe89",
+            "guid": "532b09c1-0b94-4078-bb71-db59570a901e",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -61383,12 +61383,12 @@
                 "Name": "Floor.002"
             },
             "color": {
-                "r": 83.22626531124115,
-                "g": 83.22626531124115,
-                "b": 83.22626531124115,
-                "a": 255.0
+                "r": 83,
+                "g": 83,
+                "b": 83,
+                "a": 255
             },
-            "guid": "e35e770f-78e5-479e-9a8e-d66fa9afb76e",
+            "guid": "4531894a-d4ad-48d6-9331-40f6b8a79a5e",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -61408,12 +61408,12 @@
                 "Name": "Bathroom equipment.003"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "6f8858ac-29f8-4fdf-917b-54b3a9e1a1da",
+            "guid": "4396b86f-fca4-49e9-85fe-b812350dabcf",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -61433,12 +61433,12 @@
                 "Name": "Chimney"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "bcbf2f0b-e7b9-4146-acc0-a2b9759eae5a",
+            "guid": "d26a2b7e-b58b-46eb-a002-c43009cda0d6",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -61458,12 +61458,12 @@
                 "Name": "Fireplace"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "e5b5401a-5118-4892-9429-22cf125afd12",
+            "guid": "f3121571-3528-4bbe-a23b-cfb7c7721f7b",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -61483,12 +61483,12 @@
                 "Name": "Stair"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "8c30355a-eee0-4505-ba35-d90135fd1fc0",
+            "guid": "7efd10e4-09fc-4e95-b722-4bcb99865384",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -61508,12 +61508,12 @@
                 "Name": "Bathroom equipment.006"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "6aa1e934-a301-4aa0-98ea-96f9b7d34f73",
+            "guid": "3dcdda9c-a0b1-4b1c-b24a-402852a3e2db",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -61533,12 +61533,12 @@
                 "Name": "Bathroom equipment.007"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "79488e6d-a20b-48e4-aa97-9baacaa3d29f",
+            "guid": "d032e147-d807-44ab-bfca-7d0baedc96ae",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -61558,12 +61558,12 @@
                 "Name": "Bathroom equipment.008"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "7bbf5cff-0a6a-4dc9-96a4-21a6b5e1f889",
+            "guid": "fd09cfaa-e923-4aca-a6d4-c63b8f85b2a4",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -61583,12 +61583,12 @@
                 "Name": "Bathroom equipment.004"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "751e563e-ca78-4861-afcd-0aacf7ae636e",
+            "guid": "bd582397-2ffc-40b1-b20c-4aa11a9bfe05",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -61608,12 +61608,12 @@
                 "Name": "Bathroom equipment.005"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "2eb6d74e-a9cf-40c8-bb25-d477bdbfa9a9",
+            "guid": "fc552652-5abf-448d-a55f-11cca5be89f9",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -61633,12 +61633,12 @@
                 "Name": "Bathroom equipment"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "760c6cae-ca9b-4a33-8ff5-0952f23b6628",
+            "guid": "2c96a2e8-8792-4589-a2cd-bcd67f538fc5",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -61659,12 +61659,12 @@
                 "URL": "https://3dviewer.net#model=https://raw.githubusercontent.com/paireks/dotbim/master/test/ExampleFiles/TestFilesFromBlender/Window.bim"
             },
             "color": {
-                "r": 47.041141390800476,
-                "g": 47.04112999141216,
-                "b": 47.04112999141216,
-                "a": 127.5
+                "r": 47,
+                "g": 47,
+                "b": 47,
+                "a": 127
             },
-            "guid": "7e8faf3a-62a1-45cf-9e64-3b25952ff14c",
+            "guid": "22332ba6-89ae-4473-8186-bc1eb8b414d8",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -61685,12 +61685,12 @@
                 "URL": "https://3dviewer.net#model=https://raw.githubusercontent.com/paireks/dotbim/master/test/ExampleFiles/TestFilesFromBlender/Window.bim"
             },
             "color": {
-                "r": 47.041141390800476,
-                "g": 47.04112999141216,
-                "b": 47.04112999141216,
-                "a": 127.5
+                "r": 47,
+                "g": 47,
+                "b": 47,
+                "a": 127
             },
-            "guid": "cdd62c9d-c47b-4507-8b5a-d50d6274e477",
+            "guid": "c5f849fa-223c-46af-a2d6-d36b3e6a9ccd",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -61711,12 +61711,12 @@
                 "URL": "https://3dviewer.net#model=https://raw.githubusercontent.com/paireks/dotbim/master/test/ExampleFiles/TestFilesFromBlender/Window.bim"
             },
             "color": {
-                "r": 47.041141390800476,
-                "g": 47.04112999141216,
-                "b": 47.04112999141216,
-                "a": 127.5
+                "r": 47,
+                "g": 47,
+                "b": 47,
+                "a": 127
             },
-            "guid": "22dc5329-151c-431e-a8fc-12cabdcbc290",
+            "guid": "ea54658c-20c4-46ea-93a9-2db64d02a9d4",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -61737,12 +61737,12 @@
                 "URL": "https://3dviewer.net#model=https://raw.githubusercontent.com/paireks/dotbim/master/test/ExampleFiles/TestFilesFromBlender/Window.bim"
             },
             "color": {
-                "r": 47.041141390800476,
-                "g": 47.04112999141216,
-                "b": 47.04112999141216,
-                "a": 127.5
+                "r": 47,
+                "g": 47,
+                "b": 47,
+                "a": 127
             },
-            "guid": "1c275d08-750a-4855-b5f4-7d5f03a9cd14",
+            "guid": "4e35cf4d-0585-422a-a061-535be9715bb8",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -61763,12 +61763,12 @@
                 "URL": "https://3dviewer.net#model=https://raw.githubusercontent.com/paireks/dotbim/master/test/ExampleFiles/TestFilesFromBlender/Window.bim"
             },
             "color": {
-                "r": 47.041141390800476,
-                "g": 47.04112999141216,
-                "b": 47.04112999141216,
-                "a": 127.5
+                "r": 47,
+                "g": 47,
+                "b": 47,
+                "a": 127
             },
-            "guid": "3d6bf54e-8bee-46e0-a46b-0472ac195c99",
+            "guid": "26be520b-75ea-4304-b539-fef67d5e8ae8",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -61789,12 +61789,12 @@
                 "URL": "https://3dviewer.net#model=https://raw.githubusercontent.com/paireks/dotbim/master/test/ExampleFiles/TestFilesFromBlender/Window%20double.bim"
             },
             "color": {
-                "r": 47.041141390800476,
-                "g": 47.04112999141216,
-                "b": 47.04112999141216,
-                "a": 127.5
+                "r": 47,
+                "g": 47,
+                "b": 47,
+                "a": 127
             },
-            "guid": "97010633-d4bd-42d7-9eb0-f5c88170b68d",
+            "guid": "a4a708a8-24d3-4564-8d3f-7106817e1c34",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -61815,12 +61815,12 @@
                 "URL": "https://3dviewer.net#model=https://raw.githubusercontent.com/paireks/dotbim/master/test/ExampleFiles/TestFilesFromBlender/Window.bim"
             },
             "color": {
-                "r": 47.041141390800476,
-                "g": 47.04112999141216,
-                "b": 47.04112999141216,
-                "a": 127.5
+                "r": 47,
+                "g": 47,
+                "b": 47,
+                "a": 127
             },
-            "guid": "279b1b09-0046-47f2-9c85-80aaa495e5fd",
+            "guid": "47beeb27-8b02-41c0-8f04-c6ea532d7dcd",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -61841,12 +61841,12 @@
                 "URL": "https://3dviewer.net#model=https://raw.githubusercontent.com/paireks/dotbim/master/test/ExampleFiles/TestFilesFromBlender/Window.bim"
             },
             "color": {
-                "r": 47.041141390800476,
-                "g": 47.04112999141216,
-                "b": 47.04112999141216,
-                "a": 127.5
+                "r": 47,
+                "g": 47,
+                "b": 47,
+                "a": 127
             },
-            "guid": "1ff3f34c-ffc4-4de1-b442-d20a64c2575f",
+            "guid": "dd78347f-37e1-48b5-8fa5-6a7120c79968",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -61866,12 +61866,12 @@
                 "Name": "Interior wall"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "106b9e43-b52d-4e14-855b-58380cecdd95",
+            "guid": "868a3703-1643-471e-8c52-c947335a4aea",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -61891,12 +61891,12 @@
                 "Name": "Interior wall.001"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "198c68a0-26f9-4060-ac11-d981d58b520e",
+            "guid": "dbbf7baf-2630-44fc-a539-9e0f004183c7",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -61916,12 +61916,12 @@
                 "Name": "Interior wall.002"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "229dbf28-2dbd-4cef-809f-2c13a50930c2",
+            "guid": "30ee2bbf-6695-4c45-bc96-381c16e28408",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -61941,12 +61941,12 @@
                 "Name": "Exterior wall.001"
             },
             "color": {
-                "r": 180.63558876514435,
-                "g": 180.63569515943527,
-                "b": 180.63583195209503,
-                "a": 255.0
+                "r": 180,
+                "g": 180,
+                "b": 180,
+                "a": 255
             },
-            "guid": "548dc9ed-e467-4642-9957-f5d4901b1f98",
+            "guid": "7a5df23f-b428-478b-bbaa-a96873e01a14",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -61966,12 +61966,12 @@
                 "Name": "Exterior wall"
             },
             "color": {
-                "r": 180.63558876514435,
-                "g": 180.63569515943527,
-                "b": 180.63583195209503,
-                "a": 255.0
+                "r": 180,
+                "g": 180,
+                "b": 180,
+                "a": 255
             },
-            "guid": "5892f7d4-32e7-4cd4-8564-2103e7aa6272",
+            "guid": "3f2d3408-c7ef-4b01-b802-100f06b8bb19",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -61991,12 +61991,12 @@
                 "Name": "Roof"
             },
             "color": {
-                "r": 181.1919093132019,
-                "g": 181.1919093132019,
-                "b": 181.1919093132019,
-                "a": 255.0
+                "r": 181,
+                "g": 181,
+                "b": 181,
+                "a": 255
             },
-            "guid": "a7f7c796-950b-4d99-8efc-c96366336a8c",
+            "guid": "0197eafc-e0ff-4db0-b68a-3e2a630b7ba2",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62016,12 +62016,12 @@
                 "Name": "Bed.001"
             },
             "color": {
-                "r": 255.0,
-                "g": 232.10843235254288,
-                "b": 154.74896103143692,
-                "a": 255.0
+                "r": 255,
+                "g": 232,
+                "b": 154,
+                "a": 255
             },
-            "guid": "2c84a6e3-0f3f-442a-8ed8-8517603f0bb6",
+            "guid": "64c2be74-f884-4d1f-980f-fad63091a3af",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62041,12 +62041,12 @@
                 "Name": "Bedside cabinet.001"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "6e2c16df-8738-4523-afd8-7e39a4878d80",
+            "guid": "11563772-aa31-4630-a251-58934be0053c",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62066,12 +62066,12 @@
                 "Name": "Bedside cabinet.002"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "257b8e66-f25c-4a20-81f8-ad34915bf026",
+            "guid": "a6293cde-0ba3-4bd2-8492-e98020a8b402",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62091,12 +62091,12 @@
                 "Name": "Bedside cabinet.003"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "8719eaba-7a70-4817-ab84-0827a135fabb",
+            "guid": "ebc63898-45c9-434f-9974-45defe8b260b",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62116,12 +62116,12 @@
                 "Name": "Bed"
             },
             "color": {
-                "r": 255.0,
-                "g": 232.10843235254288,
-                "b": 154.74896103143692,
-                "a": 255.0
+                "r": 255,
+                "g": 232,
+                "b": 154,
+                "a": 255
             },
-            "guid": "9d841496-f1ca-4503-83de-748e6f591d1a",
+            "guid": "2fb21d22-86b5-445f-943f-b92c821052a9",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62141,12 +62141,12 @@
                 "Name": "Bedside cabinet"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "52c0a141-13f5-4577-8455-9e0fb61508b2",
+            "guid": "dc1c72ab-90b9-409f-8082-11ac0e959d1d",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62166,12 +62166,12 @@
                 "Name": "Shelf"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "3f9a7430-0ca7-4954-86f5-e8602c6988a9",
+            "guid": "d3f50ada-01aa-440b-a44d-d3264f2d7cea",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62191,12 +62191,12 @@
                 "Name": "Shelf.001"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "4d9b30bb-c76b-4070-8c67-a883b2793dfd",
+            "guid": "812ee3e3-003f-463b-9e88-377495e3ada8",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62216,12 +62216,12 @@
                 "Name": "Shelf.002"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "1991508a-053e-4e04-afc0-096b1f9849cb",
+            "guid": "70a99385-11aa-4d04-b293-dc877a1e55ef",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62241,12 +62241,12 @@
                 "Name": "Shelf.003"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "e420bc4a-1736-4f06-bf0a-f457eef224b0",
+            "guid": "ffe60338-c497-4d62-9650-054536081268",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62266,12 +62266,12 @@
                 "Name": "Shelf.004"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "ee54b070-00b1-4dd9-b7f1-715b225ad4b1",
+            "guid": "2b09d7c2-30ea-4c0e-b949-a44e865f67b4",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62291,12 +62291,12 @@
                 "Name": "Shelf.005"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "765992b4-67c2-4f0a-bacc-50e60724fffe",
+            "guid": "12e971d4-cf62-42cc-8768-2181fd69cf02",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62316,12 +62316,12 @@
                 "Name": "Table"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "bd352600-6742-46c5-a888-3f7ac308c8e8",
+            "guid": "1cb7f2f5-4277-4e36-b106-98b4db93ae98",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62341,12 +62341,12 @@
                 "Name": "Table.001"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "cb071819-ea17-4b2f-914f-2877768723f4",
+            "guid": "0154d35d-7c0d-40c4-b6e9-56c8ebd34f34",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62366,12 +62366,12 @@
                 "Name": "Table.002"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "2a0e5a82-8d9d-4348-85d1-3fcc2592fcc0",
+            "guid": "ed5a88cb-2540-4e99-8065-e97086802f4f",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62392,12 +62392,12 @@
                 "URL": "https://3dviewer.net/#model=https://raw.githubusercontent.com/paireks/dotbim/master/test/ExampleFiles/TestFilesFromBlender/Armchair.bim"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "571f9b3b-f11e-4ce5-99a4-8991379f9f39",
+            "guid": "60d8f0f8-af50-4a56-bb1f-5d6e07ded6d2",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62418,12 +62418,12 @@
                 "URL": "https://3dviewer.net/#model=https://raw.githubusercontent.com/paireks/dotbim/master/test/ExampleFiles/TestFilesFromBlender/Armchair.bim"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "1deb6e18-0bf9-44d7-b796-c5e4c6b6f1ff",
+            "guid": "8a91e2f0-cb89-4249-8afe-a32f3dcb9265",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62444,12 +62444,12 @@
                 "URL": "https://3dviewer.net#model=https://raw.githubusercontent.com/paireks/dotbim/master/test/ExampleFiles/TestFilesFromBlender/Chair%2001.bim"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "0afc252d-7404-41d0-be35-6fb3d014de1e",
+            "guid": "49452446-dd54-425e-a436-b963a3d0ce09",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62470,12 +62470,12 @@
                 "URL": "https://3dviewer.net#model=https://raw.githubusercontent.com/paireks/dotbim/master/test/ExampleFiles/TestFilesFromBlender/Chair%2001.bim"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "09bdcd3b-2948-4c8b-bab6-afeb267a68d3",
+            "guid": "831bfbd0-fcbc-4a91-905b-e55495ccc013",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62496,12 +62496,12 @@
                 "URL": "https://3dviewer.net#model=https://raw.githubusercontent.com/paireks/dotbim/master/test/ExampleFiles/TestFilesFromBlender/Chair%2001.bim"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "7cfbebec-323b-4bd2-9e33-72f52087b5e5",
+            "guid": "d734bd66-4a9c-4e9a-992e-86a392161387",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62522,12 +62522,12 @@
                 "URL": "https://3dviewer.net#model=https://raw.githubusercontent.com/paireks/dotbim/master/test/ExampleFiles/TestFilesFromBlender/Chair%2001.bim"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "6f4a352e-24ee-456c-bdad-8d064c6f14a3",
+            "guid": "97d86d4d-9c28-4c75-8a42-ae9d4ba2aca7",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62548,12 +62548,12 @@
                 "URL": "https://3dviewer.net#model=https://raw.githubusercontent.com/paireks/dotbim/master/test/ExampleFiles/TestFilesFromBlender/Chair%2001.bim"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "79b9dbb9-aea7-4d42-9163-bd19f358fc72",
+            "guid": "5512bdb7-bba3-40b1-bf12-768fbb8c6d29",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62574,12 +62574,12 @@
                 "URL": "https://3dviewer.net#model=https://raw.githubusercontent.com/paireks/dotbim/master/test/ExampleFiles/TestFilesFromBlender/Chair%2001.bim"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "679f776b-0741-4739-b153-3f0b8bba6b4d",
+            "guid": "f865bcf9-d089-4ae9-ba5f-e2a13f40fb35",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62600,12 +62600,12 @@
                 "URL": "https://3dviewer.net#model=https://raw.githubusercontent.com/paireks/dotbim/master/test/ExampleFiles/TestFilesFromBlender/Sunbed.bim"
             },
             "color": {
-                "r": 255.0,
-                "g": 43.829637318849564,
-                "b": 38.72433386743069,
-                "a": 255.0
+                "r": 255,
+                "g": 43,
+                "b": 38,
+                "a": 255
             },
-            "guid": "56421073-79c2-45c8-9948-d5c12176e97c",
+            "guid": "24495cec-ef7e-4894-b98d-dda111cccf1a",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62626,12 +62626,12 @@
                 "URL": "https://3dviewer.net#model=https://raw.githubusercontent.com/paireks/dotbim/master/test/ExampleFiles/TestFilesFromBlender/Sunbed.bim"
             },
             "color": {
-                "r": 255.0,
-                "g": 43.71747873723507,
-                "b": 38.9961788803339,
-                "a": 255.0
+                "r": 255,
+                "g": 43,
+                "b": 38,
+                "a": 255
             },
-            "guid": "deecf699-9b19-44af-8f30-40c32f53722b",
+            "guid": "d73ebc4e-266d-449e-a00e-243c1320e86c",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62651,12 +62651,12 @@
                 "Name": "Firewood"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "9fe24756-1ab0-40a0-9e0a-591cabbe97aa",
+            "guid": "3f8347ab-ca0c-4054-99b1-6c9c76ab2c44",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62676,12 +62676,12 @@
                 "Name": "Wardrobe"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "19f83e86-77fb-4b77-8d62-29b1c770c86b",
+            "guid": "49c594ff-f3fa-475c-b873-3ce18c31230c",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62701,12 +62701,12 @@
                 "Name": "Wardrobe.001"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "949c29e5-8dc5-49db-8b6b-4cc2fde38b4a",
+            "guid": "0659237f-f6ba-4538-8446-feb1d8578974",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62726,12 +62726,12 @@
                 "Name": "Kitchen"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "04ff856d-eef7-4402-9d1c-6d44b88cb0dd",
+            "guid": "598083f2-f907-4d4f-aaf4-7f4c93f8e23d",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62751,12 +62751,12 @@
                 "Name": "Wardrobe.002"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "ab3c5a82-0a53-4969-80de-077d9a4e58b3",
+            "guid": "160aac75-72f8-4ae6-bb1d-03bfffa30b88",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62776,12 +62776,12 @@
                 "Name": "Door.001"
             },
             "color": {
-                "r": 57.77930438518524,
-                "g": 57.7792663872242,
-                "b": 57.77930438518524,
-                "a": 255.0
+                "r": 57,
+                "g": 57,
+                "b": 57,
+                "a": 255
             },
-            "guid": "34f70a66-1b13-4657-a2f6-9b1a907fc2e4",
+            "guid": "65bd9fcf-4b4d-4f5a-9ee4-0d904488e727",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62801,12 +62801,12 @@
                 "Name": "Door.003"
             },
             "color": {
-                "r": 98.53956520557404,
-                "g": 55.04442773759365,
-                "b": 27.91274931281805,
-                "a": 255.0
+                "r": 98,
+                "g": 55,
+                "b": 27,
+                "a": 255
             },
-            "guid": "47c11f2a-44a1-40a4-8ec5-97b202534ac0",
+            "guid": "9db45ad9-2192-4e1c-a864-05a9dd5a0727",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62826,12 +62826,12 @@
                 "Name": "Door.002"
             },
             "color": {
-                "r": 98.53956520557404,
-                "g": 55.04442773759365,
-                "b": 27.91274931281805,
-                "a": 255.0
+                "r": 98,
+                "g": 55,
+                "b": 27,
+                "a": 255
             },
-            "guid": "2603274c-3fa8-4258-add2-4e41b89690b2",
+            "guid": "09b78e2d-3753-40c6-9d00-80aca1822235",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62852,12 +62852,12 @@
                 "URL": "https://3dviewer.net#model=https://raw.githubusercontent.com/paireks/dotbim/master/test/ExampleFiles/TestFilesFromBlender/Door.bim"
             },
             "color": {
-                "r": 98.53956520557404,
-                "g": 55.04442773759365,
-                "b": 27.91274931281805,
-                "a": 255.0
+                "r": 98,
+                "g": 55,
+                "b": 27,
+                "a": 255
             },
-            "guid": "8f3247f3-2e4b-4665-a3e4-c58f8fc7b569",
+            "guid": "5e510e6f-cffb-4e1e-a96c-ca31e0b2784f",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62878,12 +62878,12 @@
                 "URL": "https://3dviewer.net#model=https://raw.githubusercontent.com/paireks/dotbim/master/test/ExampleFiles/TestFilesFromBlender/Door.bim"
             },
             "color": {
-                "r": 98.53956520557404,
-                "g": 55.04442773759365,
-                "b": 27.91274931281805,
-                "a": 255.0
+                "r": 98,
+                "g": 55,
+                "b": 27,
+                "a": 255
             },
-            "guid": "9857d284-b821-4098-96fa-40a6a1a3c98f",
+            "guid": "d2a8d0a8-e122-4779-b5d4-b8d6f662c9bd",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62904,12 +62904,12 @@
                 "URL": "https://3dviewer.net#model=https://raw.githubusercontent.com/paireks/dotbim/master/test/ExampleFiles/TestFilesFromBlender/Door.bim"
             },
             "color": {
-                "r": 98.53956520557404,
-                "g": 55.04442773759365,
-                "b": 27.91274931281805,
-                "a": 255.0
+                "r": 98,
+                "g": 55,
+                "b": 27,
+                "a": 255
             },
-            "guid": "f6cc7c9b-104f-4b25-acfb-4c9a6737d362",
+            "guid": "7f596745-6d78-487e-a468-1cd511c3d5e1",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62929,12 +62929,12 @@
                 "Name": "Metal finish"
             },
             "color": {
-                "r": 16.248921789228916,
-                "g": 16.248921789228916,
-                "b": 16.248921789228916,
-                "a": 255.0
+                "r": 16,
+                "g": 16,
+                "b": 16,
+                "a": 255
             },
-            "guid": "aef7fe79-edad-4394-87b5-3c3dc8b6f9f3",
+            "guid": "537720ed-e754-4e56-968a-f27afc7a2a49",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62955,12 +62955,12 @@
                 "Catalogue": "https://pruszynski.com.pl/t-20-roof,prod,99,2294.php"
             },
             "color": {
-                "r": 14.739769119769335,
-                "g": 14.739769119769335,
-                "b": 14.739769119769335,
-                "a": 255.0
+                "r": 14,
+                "g": 14,
+                "b": 14,
+                "a": 255
             },
-            "guid": "d1cdf7ee-0c33-41f8-abc4-e08094dae488",
+            "guid": "99260302-b0a7-456f-85a6-fb982b88d1a1",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -62981,12 +62981,12 @@
                 "URL": "https://www.ravaiolilegnami.com/en/products/cladding/"
             },
             "color": {
-                "r": 255.0,
-                "g": 164.34224545955658,
-                "b": 67.9207170009613,
-                "a": 255.0
+                "r": 255,
+                "g": 164,
+                "b": 67,
+                "a": 255
             },
-            "guid": "344bd1b8-247d-44a2-b5b9-708389cd9593",
+            "guid": "c4d5aaa9-8ef5-4154-a091-b7c374bec363",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -63006,12 +63006,12 @@
                 "Name": "Floor.001"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "ed074741-b22b-4d65-9736-64d735d8365a",
+            "guid": "3455761a-984f-4aa1-8fdc-2fc6d47a525b",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -63031,12 +63031,12 @@
                 "Name": "Floor"
             },
             "color": {
-                "r": 255.0,
-                "g": 255.0,
-                "b": 255.0,
-                "a": 255.0
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
             },
-            "guid": "c190ecd0-873f-4a94-8b28-066df7845389",
+            "guid": "dc739e76-78ab-4a7e-ad85-1664fc1bd726",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -63054,15 +63054,15 @@
         {
             "info": {
                 "Name": "Terrace",
-		"URL": "https://www.4deck.pl/deski-tarasowe/4deck-select"
+                "URL": "https://www.4deck.pl/deski-tarasowe/4deck-select"
             },
             "color": {
-                "r": 255.0,
-                "g": 164.88897532224655,
-                "b": 67.66648024320602,
-                "a": 255.0
+                "r": 255,
+                "g": 164,
+                "b": 67,
+                "a": 255
             },
-            "guid": "9a40d9ee-fdb7-4f3c-a8ef-db8f03ab6c17",
+            "guid": "b4df87d6-3772-4753-9082-eddefc3663ae",
             "rotation": {
                 "qx": 0.0,
                 "qy": 0.0,
@@ -63080,6 +63080,6 @@
     ],
     "info": {
         "Author": "",
-        "Date": "05.05.2022"
+        "Date": "15.05.2022"
     }
 }
