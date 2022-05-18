@@ -1,3 +1,5 @@
+![2022-05-18_21h42_20](https://user-images.githubusercontent.com/47977819/169143121-21bd32ea-55ec-462a-8e90-c8f41214e067.png)
+
 # dotbim (Version 1.0.0)
 
 ![image](https://user-images.githubusercontent.com/47977819/152003486-5d12be0e-43b2-4cf9-a37f-df406781ba11.png)
