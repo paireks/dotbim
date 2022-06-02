@@ -14,8 +14,6 @@ Created by BIM developers for BIM developers.
 
 Website: https://www.dotbim.net
 
-Quick introduction video here: https://www.youtube.com/watch?v=-bpWEdWcHvw
-
 ## BIM vs IFC comparison
 
 |                             | .bim                     | .ifc                                                      |
