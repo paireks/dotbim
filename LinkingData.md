@@ -33,9 +33,15 @@ Or maybe some map?
 
 If we can link to some data, then why not link to another model? That could be useful for multiple different things.  E.g. it can solve the issue that many modellers in AEC deals with - too heavy models. This way you can create multidimensional model in which every level of a model will have different LOD. You can check this solution in Robert's model:
 
+https://3dviewer.net#model=https://raw.githubusercontent.com/paireks/dotbim/master/test/ExampleFiles/TestFilesFromBlender/House.bim
+https://3dviewer.net/#model=https://github.com/paireks/dotbim/blob/master/test/ExampleFiles/TestFilesFromBlender/Site%20plan%201.bim
+
 ![2022-05-07_10h25_09](https://user-images.githubusercontent.com/47977819/167265680-f18d8948-30cf-4ee4-9773-cba33a58743f.png)
 
 ![image](https://user-images.githubusercontent.com/47977819/167266031-566482c6-6dc0-4c37-ba82-5ffd8b5859a0.png)
+
+![image](https://user-images.githubusercontent.com/47977819/169669180-545dd883-07f9-4f3d-88cd-e0688424c168.png)
+
 
 
 
