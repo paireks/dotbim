@@ -14,6 +14,8 @@ If you're into C#, go with dotbim library (MIT License, available on NuGet): htt
 
 If you're into Python, go with dotbimpy library (MIT License, available on PyPi): https://github.com/paireks/dotbimpy
 
+If you're into Typescript, go with dotbim-ts library (MIT License, available on npm and Yarn): https://github.com/baid-group/dotbim-ts
+
 ### Apps
 
 You will find all other libraries or apps working with .bim files here: https://github.com/paireks/dotbim#apps
@@ -83,13 +85,13 @@ To move these geometries in a correct way you need to properly position these me
 
 ### Rotation + Vector (These quaternions?!)
 
-All elements are positioned within vector and rotation. Vector is quite obvious, while rotation are not that much, as they are described as quaternions.
+All elements are positioned within vector and rotation. Vector is quite obvious, while rotation is not, as it is described as a quaternion.
 
 First question is: why it's like that, when we could store e.g. Transformation matrices instead?
 
-Well, decision was to do it with vector + quaternions instead, because transformation matrices can actually store some other different transformation that don't make sense for deduplication purposes, e.g. shear or scaling. This format is minimalist and for BIM, so it's much more natural to e.g. have one chair and position it and rotate, but we don't want to shear it or scale for some reason. Scale also doesn't make sense there, because we expect all meshes coordinates already as meters, so this additional scaling is also not relevant here. Transformation matrices are often treated as black box, so even though they sometimes look more straight forward - they are actually a bit harder to work with while debuging (in my opinion).
+Well, decision was to do it with vector + quaternions instead, because transformation matrices can actually store some other different transformation that don't make sense for deduplication purposes, e.g. shear or scaling. This format is minimalist and for BIM, so it's much more natural to e.g. have one chair and position it and rotate, but we don't want to shear it or scale for some reason. Scale also doesn't make sense there, because we expect all meshes coordinates already as meters, so this additional scaling is also not relevant here. Transformation matrices are often treated as a black box, so even though they sometimes look more straight forward - they are actually a bit harder to work with while debuging (in my opinion).
 
-Ok, then why quaternions? Quaternions are the most elegant way to describe rotation in 3d space as it needs only 4 numbers to achieve this. Some software (e.g. Blender, Rhino) already have tools that allows to work with them. But not all BIM/CAD software have tools like this for devs. Most of them actually deal with transformation matrices all e.g. axis rotation. Good news is: you will find libraries that will help you to transfer one transformations into quaternions and other way around as well. For Python there is pyquaternion library, for C# check System.Numerics.
+Ok, then why quaternions? Quaternions are the most elegant way to describe rotation in 3d space as it needs only 4 numbers to achieve this. Some software (e.g. Blender, Rhino) already have tools that allows to work with them. But not all BIM/CAD software have tools like this for devs. Most of them actually deal with transformation matrices and e.g. axis rotation. Good news is: you will find some libraries that will help you to transfer one transformations into quaternions and other way around as well. For Python there is pyquaternion library, for C# check System.Numerics.
 
 ### File size
 
@@ -98,6 +100,6 @@ File size depends on:
 - level of deduplication of meshes
 - mesh quality
 
-Still remember: this is text file format, which makes it big by definition. To make it smaller: compress it!
+Still remember: this is a text file format, which makes it big by definition. To make it smaller: compress it!
 
 Also it's good to mention, that meshes are also by definition big in terms of file size (if we compare it to some other geometry types). Most of the time it will probably take most of the space in file. That's why we store them as flatten list of vertices and coordinates, to make it as tiny as we can in text file.
