@@ -44,6 +44,7 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 - dotbim-io-dxf, converts to and from 3d DXF files: https://github.com/Gorgious56/dotbim_io_dxf, Author: Nathan Hild
 - Typescript library: dotbim-ts - https://github.com/baid-group/dotbim-ts, Author: Maciej Lutostański
 - Archicad addon: dotbim-archicad - https://github.com/kovacsv/dotbim-archicad, Author: Viktor Kovacs
+- Revit detailed MEP to schematic 3d model - https://github.com/os4bim/dotbim, Author: Yoann Obry
 
 If you're building any app that will use .bim - let me know, I'll post it here :)
 
