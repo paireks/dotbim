@@ -81,6 +81,36 @@ Many CAD/BIM software already have the Mesh geometry type, which makes it easy t
 
 To move these geometries in a correct way you need to properly position these meshes imported first. First you need to rotate them by the rotation described for each element, and then you need to move them by a vector described for each element.
 
+## Simple examples
+
+***
+
+- Pyramid example, one mesh used once:
+
+![2022-09-09_00h21_42](https://user-images.githubusercontent.com/47977819/189474834-cbb7c947-accc-4122-840a-bf15b3c0c3db.png)
+
+Check this graph here: https://tinyurl.com/264k245f
+3d model is here: https://tinyurl.com/2p8ep3e7
+
+***
+
+- Cubes example, one mesh used 3 times:
+
+![2022-09-10_09h51_15](https://user-images.githubusercontent.com/47977819/189474683-f0ed009a-9dd6-446d-a8e3-a7467ced17a2.png)
+
+Check this graph here: https://tinyurl.com/bdmukzxm
+3d model is here: https://tinyurl.com/3pjstwxk
+
+***
+
+- Multiple meshes, multiple elements:
+
+![jsoncrack com (3)](https://user-images.githubusercontent.com/47977819/189475520-899c8ac2-7355-4f8a-9f6f-0c585a1d18d8.png)
+
+3d model is here: https://tinyurl.com/bddtjcu8
+
+***
+
 ## Few other comments
 
 ### Rotation + Vector (These quaternions?!)
