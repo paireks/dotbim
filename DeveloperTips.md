@@ -91,6 +91,7 @@ To move these geometries in a correct way you need to properly position these me
 
 Check this graph here: https://tinyurl.com/264k245f
 3d model is here: https://tinyurl.com/2p8ep3e7
+.bim file is here: https://raw.githubusercontent.com/paireks/dotbim/master/test/ExampleFiles/TestFilesFromC%23/Pyramid.bim
 
 ***
 
@@ -100,6 +101,7 @@ Check this graph here: https://tinyurl.com/264k245f
 
 Check this graph here: https://tinyurl.com/bdmukzxm
 3d model is here: https://tinyurl.com/3pjstwxk
+.bim file is here: https://github.com/paireks/dotbim/blob/master/test/ExampleFiles/TestFilesFromC%23/Cubes.bim
 
 ***
 
@@ -108,8 +110,16 @@ Check this graph here: https://tinyurl.com/bdmukzxm
 ![jsoncrack com (3)](https://user-images.githubusercontent.com/47977819/189475520-899c8ac2-7355-4f8a-9f6f-0c585a1d18d8.png)
 
 3d model is here: https://tinyurl.com/bddtjcu8
+.bim file is here: https://github.com/paireks/dotbim/blob/master/test/ExampleFiles/TestFilesFromCadquery/WallsWithBeams.bim
 
 ***
+
+- Different rotations and colors for one mesh:
+
+![2022-09-10_10h37_01](https://user-images.githubusercontent.com/47977819/189476123-0e3f4248-4fce-4cc9-91ff-4c1364970b4b.png)
+
+3d model is here: https://tinyurl.com/vjjaw74b
+.bim file is here: https://raw.githubusercontent.com/paireks/dotbim/master/test/ExampleFiles/TestFilesFromGh/BricksRotated.bim
 
 ## Few other comments
 
