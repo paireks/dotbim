@@ -47,6 +47,8 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 - Revit detailed MEP to schematic 3d model - https://github.com/os4bim/dotbim, Author: Yoann Obry
 - SketchUp add-on: https://github.com/MattiaBressanelli/import_dotbim, Author: Mattia Bressanelli
 
+![dotbim drawio (7)](https://user-images.githubusercontent.com/47977819/195170052-8081d7d7-d69d-4e2e-a5fd-97ff4b727543.svg)
+
 If you're building any app that will use .bim - let me know, I'll post it here :)
 
 ## NuGet package
