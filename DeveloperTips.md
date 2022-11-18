@@ -107,7 +107,7 @@ Check this graph here: https://tinyurl.com/bdmukzxm
 
 - Multiple meshes, multiple elements:
 
-![jsoncrack com (3)](https://user-images.githubusercontent.com/47977819/189475520-899c8ac2-7355-4f8a-9f6f-0c585a1d18d8.png)
+![2022-11-18_16h59_34](https://user-images.githubusercontent.com/47977819/202747617-07d5cc3a-fc20-4305-a384-ba30a98630ed.png)
 
 3d model is here: https://tinyurl.com/bddtjcu8
 .bim file is here: https://github.com/paireks/dotbim/blob/master/test/ExampleFiles/TestFilesFromCadquery/WallsWithBeams.bim
