@@ -1,5 +1,5 @@
-﻿using System;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
+using System;
 
 namespace dotbim
 {
@@ -9,10 +9,10 @@ namespace dotbim
     {
         [JsonProperty("x")]
         public double X { get; set; }
-        
+
         [JsonProperty("y")]
         public double Y { get; set; }
-        
+
         [JsonProperty("z")]
         public double Z { get; set; }
     }

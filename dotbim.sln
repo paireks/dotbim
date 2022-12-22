@@ -1,8 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotbim", "dotbim\dotbim.csproj", "{2C31C385-302D-4D83-B3C8-8A083277DF5E}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotbim", "dotbim\dotbim.csproj", "{2C31C385-302D-4D83-B3C8-8A083277DF5E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{84F1E073-11DB-42B9-80F8-577421F25404}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{86BD8A0B-DA3B-4A55-B174-0993C955EF66}"
+	ProjectSection(SolutionItems) = preProject
+		DeveloperTips.md = DeveloperTips.md
+		LinkingData.md = LinkingData.md
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +28,11 @@ Global
 		{84F1E073-11DB-42B9-80F8-577421F25404}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84F1E073-11DB-42B9-80F8-577421F25404}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84F1E073-11DB-42B9-80F8-577421F25404}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA7AE9BE-170C-4748-BF6E-1757C4B47967}
 	EndGlobalSection
 EndGlobal

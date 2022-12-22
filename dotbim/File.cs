@@ -1,7 +1,7 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.IO;
-using Newtonsoft.Json;
 
 namespace dotbim
 {
@@ -36,19 +36,19 @@ namespace dotbim
             using (StreamReader file = System.IO.File.OpenText(path))
             {
                 JsonSerializer serializer = new JsonSerializer();
-                return (File) serializer.Deserialize(file, typeof(File));
+                return (File)serializer.Deserialize(file, typeof(File));
             }
         }
 
-        [JsonProperty("schema_version")] 
+        [JsonProperty("schema_version")]
         public string SchemaVersion { get; set; }
 
-        [JsonProperty("meshes")] 
+        [JsonProperty("meshes")]
         public List<Mesh> Meshes { get; set; }
 
-        [JsonProperty("elements")] 
+        [JsonProperty("elements")]
         public List<Element> Elements { get; set; }
-        
+
         [JsonProperty("info")]
         public Dictionary<string, string> Info { get; set; }
     }
