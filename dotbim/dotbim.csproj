@@ -2,36 +2,84 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;4.0</TargetFrameworks>
-    <ProjectGuid>{2C31C385-302D-4D83-B3C8-8A083277DF5E}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>dotbim</RootNamespace>
-    <AssemblyName>dotbim</AssemblyName>
-    <FileAlignment>512</FileAlignment>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <Prefer32Bit>false</Prefer32Bit>
-  </PropertyGroup>
-  
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <DebugType>pdbonly</DebugType>
+  <!-- Release -->
+  <PropertyGroup Condition="!$(Configuration.Contains('Debug'))">
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <Prefer32Bit>false</Prefer32Bit>
+    <DefineConstants></DefineConstants>
+    <NoWarn>MSB3052</NoWarn>
+    <DebugType>None</DebugType>
   </PropertyGroup>
+
+  <!-- Debug -->
+  <PropertyGroup Condition="$(Configuration.Contains('Debug'))">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>Full</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>dotbim</PackageId>
+    <Version>1.0.0</Version>
+    <ProjectGuid>{2C31C385-302D-4D83-B3C8-8A083277DF5E}</ProjectGuid>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Company>Wojciech Radaczynski</Company>
+    <Authors>Wojciech Radaczynski</Authors>
+    <CopyrightYears>$([System.DateTime]::Now.ToString('yyyy'))</CopyrightYears>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Description>Open-source BIM format</Description>
+    <Product>$(PackageId)</Product>
+    <Copyright>Copyright © $(CopyrightYears) $(Company)</Copyright>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <GitHubRepositoryOwner>paireks</GitHubRepositoryOwner>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/$(GitHubRepositoryOwner)/$(PackageId)</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/$(GitHubRepositoryOwner)/$(PackageId)</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>
+    <PackageIcon>dotbim.jpg</PackageIcon>
+    <PackageIconUrl />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="!$(Configuration.Contains('Debug'))">
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="$(Configuration.Contains('Debug'))">
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+      <Visible>false</Visible>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+      <Visible>false</Visible>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\dotbim.jpg">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="9.*" IncludeAssets="compile; build" PrivateAssets="all" />
