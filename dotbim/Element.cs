@@ -1,6 +1,6 @@
-﻿using Newtonsoft.Json;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using Newtonsoft.Json;
 
 namespace dotbim
 {
@@ -9,13 +9,13 @@ namespace dotbim
     public class Element
     {
         private string _guid;
-
+        
         [JsonProperty("mesh_id")]
         public int MeshId { get; set; }
-
+        
         [JsonProperty("vector")]
         public Vector Vector { get; set; }
-
+        
         [JsonProperty("rotation")]
         public Rotation Rotation { get; set; }
 
@@ -38,10 +38,10 @@ namespace dotbim
 
         [JsonProperty("type")]
         public string Type { get; set; }
-
+        
         [JsonProperty("color")]
         public Color Color { get; set; }
-
+        
         [JsonProperty("info")]
         public Dictionary<string, string> Info { get; set; }
     }
