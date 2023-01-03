@@ -84,7 +84,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="9.*" IncludeAssets="compile; build" PrivateAssets="all" />
+    <PackageReference Include="Newtonsoft.Json" Version="9.*" />
   </ItemGroup>
 
 </Project>
