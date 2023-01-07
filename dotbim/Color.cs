@@ -3,6 +3,9 @@ using Newtonsoft.Json;
 
 namespace dotbim
 {
+    /// <summary>
+    /// Represents a color using red, green, blue, and alpha (transparency) values.
+    /// </summary>
     [Serializable]
     [JsonObject("color")]
     public struct Color
@@ -11,6 +14,13 @@ namespace dotbim
         private int _g;
         private int _b;
         private int _a;
+
+        /// <summary>
+        /// The red component of the color.
+        /// </summary>
+        /// <exception cref="ArgumentException">
+        /// Thrown if the value is not between 0 and 255.
+        /// </exception>
         [JsonProperty("r")]
         public int R
         {
@@ -27,6 +37,13 @@ namespace dotbim
                 }
             }
         }
+
+        /// <summary>
+        /// The green component of the color.
+        /// </summary>
+        /// <exception cref="ArgumentException">
+        /// Thrown if the value is not between 0 and 255.
+        /// </exception>
         [JsonProperty("g")]
         public int G
         {
@@ -43,6 +60,13 @@ namespace dotbim
                 }
             }
         }
+
+        /// <summary>
+        /// The blue component of the color.
+        /// </summary>
+        /// <exception cref="ArgumentException">
+        /// Thrown if the value is not between 0 and 255.
+        /// </exception>
         [JsonProperty("b")]
         public int B
         {
@@ -59,6 +83,13 @@ namespace dotbim
                 }
             }
         }
+
+        /// <summary>
+        /// The alpha (transparency) component of the color.
+        /// </summary>
+        /// <exception cref="ArgumentException">
+        /// Thrown if the value is not between 0 and 255.
+        /// </exception>
         [JsonProperty("a")]
         public int A
         {

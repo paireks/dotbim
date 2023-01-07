@@ -51,11 +51,10 @@
     <PackageIconUrl />
   </PropertyGroup>
 
-  <!-- Disable DocumentationFile
   <PropertyGroup Condition="!$(Configuration.Contains('Debug'))">
     <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
   </PropertyGroup>
-  -->
+
   <PropertyGroup Condition="$(Configuration.Contains('Debug'))">
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
