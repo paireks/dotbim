@@ -1,6 +1,6 @@
 ![2022-05-18_21h42_20](https://user-images.githubusercontent.com/47977819/169143121-21bd32ea-55ec-462a-8e90-c8f41214e067.png)
 
-# dotbim (Version 1.0.1)
+# dotbim (Schema version 1.0.0)
 
 [![Release](https://img.shields.io/nuget/v/dotbim?logo=nuget&label=release&color=blue)](https://www.nuget.org/packages/dotbim/)
 [![.NET Standard 2.0](https://img.shields.io/badge/-.NET%20Standard%202.0-blue)](https://www.nuget.org/packages/dotbim/)
