@@ -1,6 +1,10 @@
 ![2022-05-18_21h42_20](https://user-images.githubusercontent.com/47977819/169143121-21bd32ea-55ec-462a-8e90-c8f41214e067.png)
 
-# dotbim (Version 1.0.0)
+# dotbim (Schema version 1.0.0)
+
+[![Release](https://img.shields.io/nuget/v/dotbim?logo=nuget&label=release&color=blue)](https://www.nuget.org/packages/dotbim/)
+[![.NET Standard 2.0](https://img.shields.io/badge/-.NET%20Standard%202.0-blue)](https://www.nuget.org/packages/dotbim/)
+[![.NET Framework 4.0](https://img.shields.io/badge/.NET%20Framework%204.0-blue.svg)](https://www.nuget.org/packages/dotbim/)
 
 ![image](https://user-images.githubusercontent.com/47977819/152003486-5d12be0e-43b2-4cf9-a37f-df406781ba11.png)
 
@@ -55,7 +59,7 @@ If you're building any app that will use .bim - let me know, I'll post it here :
 
 https://www.nuget.org/packages/dotbim/
 
-It may require importing another nuget for Newtonsoft.Json library: https://www.nuget.org/packages/Newtonsoft.Json/13.0.1
+It may require importing another nuget for Newtonsoft.Json library: https://www.nuget.org/packages/Newtonsoft.Json/9.0.1
 
 ## Structure
 ![bimdot_Structure Complete](https://user-images.githubusercontent.com/23511558/152679875-404cf84d-7b2e-4172-8476-ea91ce491f28.jpg)
