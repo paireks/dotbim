@@ -7,12 +7,12 @@ using Xunit;
 
 namespace test.UnitTests
 {
-    public class TestBigFile
+    public class TestJson
     {
         [Fact]
-        public void TestBigFile_NestedJson_ThrowsMaxDepth()
+        public void TestJson_FileRead_ThrowsMaxDepth()
         {
-            string path = "BigFile.bim";
+            string path = "TestJson.bim";
             string json = CreateJsonString(1000);
 
             CreateFile(path, json);
@@ -23,9 +23,9 @@ namespace test.UnitTests
         }
 
         [Fact]
-        public void TestBigFile_NestedJson_PassMaxDepth()
+        public void TestJson_FileRead_PassMaxDepth()
         {
-            string path = "BigFile.bim";
+            string path = "TestJson.bim";
             string json = CreateJsonString(10);
 
             CreateFile(path, json);
@@ -36,7 +36,7 @@ namespace test.UnitTests
         }
 
         [Fact]
-        public void TestBigFile_Deserialize_ThrowsMaxDepth()
+        public void TestJson_Deserialize_ThrowsMaxDepth()
         {
             string json = CreateJsonString(1000);
 
