@@ -53,8 +53,11 @@ namespace dotbim
 
             using (StreamReader file = System.IO.File.OpenText(path))
             {
-                JsonSerializer serializer = new JsonSerializer();
-                return (File)serializer.Deserialize(file, typeof(File));
+                JsonSerializer serializer = new JsonSerializer()
+                {
+                    MaxDepth = 64
+                };
+                return (File) serializer.Deserialize(file, typeof(File));
             }
         }
 
