@@ -30,7 +30,7 @@ namespace dotbim
             {
                 JsonSerializer serializer = new JsonSerializer
                 {
-                    Formatting = Formatting.Indented,
+                    Formatting = Formatting.Indented
                 };
                 serializer.Serialize(file, this);
             }
