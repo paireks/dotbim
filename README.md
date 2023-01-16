@@ -1,4 +1,4 @@
-![2022-05-18_21h42_20](https://user-images.githubusercontent.com/47977819/169143121-21bd32ea-55ec-462a-8e90-c8f41214e067.png)
+![dotbim header](https://user-images.githubusercontent.com/4988604/212753228-2abcdfbe-b824-4f64-9c87-1319dae7e7ca.png)
 
 # dotbim (Schema version 1.0.0)
 
