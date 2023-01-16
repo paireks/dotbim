@@ -61250,7 +61250,7 @@
                 "y": 1.4485377073287964,
                 "z": 3.574847459793091
             },
-            "type": "Bathroom equipment",
+            "type": "Furniture",
             "mesh_id": 0
         },
         {
@@ -61275,7 +61275,7 @@
                 "y": 2.4430434703826904,
                 "z": 4.383333206176758
             },
-            "type": "Bathroom equipment",
+            "type": "Furniture",
             "mesh_id": 1
         },
         {
@@ -61325,7 +61325,7 @@
                 "y": 5.539543628692627,
                 "z": 1.8299864530563354
             },
-            "type": "TV",
+            "type": "Furniture",
             "mesh_id": 3
         },
         {
@@ -61425,7 +61425,7 @@
                 "y": 2.6476078033447266,
                 "z": 4.149497985839844
             },
-            "type": "Bathroom equipment",
+            "type": "Furniture",
             "mesh_id": 7
         },
         {
@@ -61525,7 +61525,7 @@
                 "y": 1.4564622640609741,
                 "z": 0.579500138759613
             },
-            "type": "Bathroom equipment",
+            "type": "Furniture",
             "mesh_id": 11
         },
         {
@@ -61550,7 +61550,7 @@
                 "y": 2.38861083984375,
                 "z": 0.9466667175292969
             },
-            "type": "Bathroom equipment",
+            "type": "Furniture",
             "mesh_id": 12
         },
         {
@@ -61575,7 +61575,7 @@
                 "y": 2.38861083984375,
                 "z": 1.6698646545410156
             },
-            "type": "Bathroom equipment",
+            "type": "Furniture",
             "mesh_id": 13
         },
         {
@@ -61600,7 +61600,7 @@
                 "y": 1.3618786334991455,
                 "z": 3.579498767852783
             },
-            "type": "Bathroom equipment",
+            "type": "Furniture",
             "mesh_id": 14
         },
         {
@@ -61625,7 +61625,7 @@
                 "y": 2.3430864810943604,
                 "z": 4.669864654541016
             },
-            "type": "Bathroom equipment",
+            "type": "Furniture",
             "mesh_id": 15
         },
         {
@@ -61650,7 +61650,7 @@
                 "y": 2.3430864810943604,
                 "z": 3.9466662406921387
             },
-            "type": "Bathroom equipment",
+            "type": "Furniture",
             "mesh_id": 16
         },
         {
@@ -61733,7 +61733,10 @@
         },
         {
             "info": {
-                "Name": "Window.003",
+                "Name": "WN01",
+                "Width" : "120cm",
+                "Height" : "190cm",
+                "Building storey" : "2",
                 "URL": "https://3dviewer.net#model=https://raw.githubusercontent.com/paireks/dotbim/master/test/ExampleFiles/TestFilesFromBlender/Window.bim"
             },
             "color": {
@@ -61837,7 +61840,10 @@
         },
         {
             "info": {
-                "Name": "Window.007",
+                "Name": "WN01",
+		"Width" : "120cm",
+		"Height" : "190cm",
+		"Building storey" : "2",
                 "URL": "https://3dviewer.net#model=https://raw.githubusercontent.com/paireks/dotbim/master/test/ExampleFiles/TestFilesFromBlender/Window.bim"
             },
             "color": {
@@ -62033,7 +62039,7 @@
                 "y": 3.2085165977478027,
                 "z": 3.9009995460510254
             },
-            "type": "Bed",
+            "type": "Furniture",
             "mesh_id": 31
         },
         {
@@ -62058,7 +62064,7 @@
                 "y": 2.2265167236328125,
                 "z": 3.6499998569488525
             },
-            "type": "Bedside cabinet",
+            "type": "Furniture",
             "mesh_id": 32
         },
         {
@@ -62083,7 +62089,7 @@
                 "y": 4.2545166015625,
                 "z": 3.6499998569488525
             },
-            "type": "Bedside cabinet",
+            "type": "Furniture",
             "mesh_id": 33
         },
         {
@@ -62108,7 +62114,7 @@
                 "y": 7.104876518249512,
                 "z": 3.6499998569488525
             },
-            "type": "Bedside cabinet",
+            "type": "Furniture",
             "mesh_id": 34
         },
         {
@@ -62133,7 +62139,7 @@
                 "y": 6.07887601852417,
                 "z": 3.9009995460510254
             },
-            "type": "Bed",
+            "type": "Furniture",
             "mesh_id": 35
         },
         {
@@ -62158,7 +62164,7 @@
                 "y": 5.089000225067139,
                 "z": 3.6499998569488525
             },
-            "type": "Bedside cabinet",
+            "type": "Furniture",
             "mesh_id": 36
         },
         {
@@ -62183,7 +62189,7 @@
                 "y": 6.550000190734863,
                 "z": 4.595494747161865
             },
-            "type": "Shelf",
+            "type": "Furniture",
             "mesh_id": 37
         },
         {
@@ -62208,7 +62214,7 @@
                 "y": 6.550000190734863,
                 "z": 4.892747402191162
             },
-            "type": "Shelf",
+            "type": "Furniture",
             "mesh_id": 38
         },
         {
@@ -62233,7 +62239,7 @@
                 "y": 6.550000190734863,
                 "z": 5.190000057220459
             },
-            "type": "Shelf",
+            "type": "Furniture",
             "mesh_id": 39
         },
         {
@@ -62258,7 +62264,7 @@
                 "y": 1.5499999523162842,
                 "z": 4.892747402191162
             },
-            "type": "Shelf",
+            "type": "Furniture",
             "mesh_id": 40
         },
         {
@@ -62283,7 +62289,7 @@
                 "y": 1.5499999523162842,
                 "z": 5.190000057220459
             },
-            "type": "Shelf",
+            "type": "Furniture",
             "mesh_id": 41
         },
         {
@@ -62308,7 +62314,7 @@
                 "y": 1.5499999523162842,
                 "z": 4.595494747161865
             },
-            "type": "Shelf",
+            "type": "Furniture",
             "mesh_id": 42
         },
         {
@@ -62333,7 +62339,7 @@
                 "y": 1.8985214233398438,
                 "z": 1.0250000953674316
             },
-            "type": "Table",
+            "type": "Furniture",
             "mesh_id": 43
         },
         {
@@ -62358,7 +62364,7 @@
                 "y": 1.5499999523162842,
                 "z": 4.025000095367432
             },
-            "type": "Table",
+            "type": "Furniture",
             "mesh_id": 44
         },
         {
@@ -62383,7 +62389,7 @@
                 "y": 6.550000190734863,
                 "z": 4.025000095367432
             },
-            "type": "Table",
+            "type": "Furniture",
             "mesh_id": 45
         },
         {
@@ -62409,7 +62415,7 @@
                 "y": 4.834133148193359,
                 "z": 0.5707249045372009
             },
-            "type": "Armchair",
+            "type": "Furniture",
             "mesh_id": 46
         },
         {
@@ -62435,7 +62441,7 @@
                 "y": 4.834133148193359,
                 "z": 0.5707249045372009
             },
-            "type": "Armchair",
+            "type": "Furniture",
             "mesh_id": 47
         },
         {
@@ -62461,7 +62467,7 @@
                 "y": 1.4200669527053833,
                 "z": 3.5994479656219482
             },
-            "type": "Chair",
+            "type": "Furniture",
             "mesh_id": 48
         },
         {
@@ -62487,7 +62493,7 @@
                 "y": 6.420066833496094,
                 "z": 3.5994479656219482
             },
-            "type": "Chair",
+            "type": "Furniture",
             "mesh_id": 49
         },
         {
@@ -62513,7 +62519,7 @@
                 "y": 2.313911199569702,
                 "z": 0.5994470715522766
             },
-            "type": "Chair",
+            "type": "Furniture",
             "mesh_id": 50
         },
         {
@@ -62539,7 +62545,7 @@
                 "y": 2.313911199569702,
                 "z": 0.5994470715522766
             },
-            "type": "Chair",
+            "type": "Furniture",
             "mesh_id": 51
         },
         {
@@ -62565,7 +62571,7 @@
                 "y": 1.483131766319275,
                 "z": 0.5994470715522766
             },
-            "type": "Chair",
+            "type": "Furniture",
             "mesh_id": 52
         },
         {
@@ -62591,7 +62597,7 @@
                 "y": 1.483131766319275,
                 "z": 0.5994470715522766
             },
-            "type": "Chair",
+            "type": "Furniture",
             "mesh_id": 53
         },
         {
@@ -62617,7 +62623,7 @@
                 "y": 9.287793159484863,
                 "z": 0.6374958753585815
             },
-            "type": "Sunbed",
+            "type": "Furniture",
             "mesh_id": 54
         },
         {
@@ -62643,7 +62649,7 @@
                 "y": 8.831071853637695,
                 "z": 0.6374959945678711
             },
-            "type": "Sunbed",
+            "type": "Furniture",
             "mesh_id": 55
         },
         {
@@ -62693,7 +62699,7 @@
                 "y": 1.0499999523162842,
                 "z": 4.299999713897705
             },
-            "type": "Wardrobe",
+            "type": "Furniture",
             "mesh_id": 57
         },
         {
@@ -62718,7 +62724,7 @@
                 "y": 5.399999618530273,
                 "z": 4.549999713897705
             },
-            "type": "Wardrobe",
+            "type": "Furniture",
             "mesh_id": 58
         },
         {
@@ -62768,12 +62774,15 @@
                 "y": 4.7477030754089355,
                 "z": 1.649999976158142
             },
-            "type": "Wardrobe",
+            "type": "Furniture",
             "mesh_id": 60
         },
         {
             "info": {
-                "Name": "Door.001"
+                "Name": "DR01",
+		        "Width" : "100cm",
+		        "Height" : "190cm",
+		        "Building storey" : "1"
             },
             "color": {
                 "r": 57,
@@ -62798,7 +62807,8 @@
         },
         {
             "info": {
-                "Name": "Door.003"
+                "Name": "Door.003",
+                "Building storey" : "2"
             },
             "color": {
                 "r": 98,
@@ -62823,7 +62833,8 @@
         },
         {
             "info": {
-                "Name": "Door.002"
+                "Name": "Door.002",
+                "Building storey" : "2"
             },
             "color": {
                 "r": 98,
@@ -62849,6 +62860,7 @@
         {
             "info": {
                 "Name": "Door",
+                "Building storey" : "2",
                 "URL": "https://3dviewer.net#model=https://raw.githubusercontent.com/paireks/dotbim/master/test/ExampleFiles/TestFilesFromBlender/Door.bim"
             },
             "color": {
@@ -62875,6 +62887,7 @@
         {
             "info": {
                 "Name": "Door.004",
+                "Building storey" : "1",
                 "URL": "https://3dviewer.net#model=https://raw.githubusercontent.com/paireks/dotbim/master/test/ExampleFiles/TestFilesFromBlender/Door.bim"
             },
             "color": {
@@ -62901,6 +62914,7 @@
         {
             "info": {
                 "Name": "Door.005",
+                "Building storey" : "1",
                 "URL": "https://3dviewer.net#model=https://raw.githubusercontent.com/paireks/dotbim/master/test/ExampleFiles/TestFilesFromBlender/Door.bim"
             },
             "color": {
@@ -62951,7 +62965,7 @@
         },
         {
             "info": {
-                "Name": "Metal sheet roofing",
+                "Name": "Metal finish",
                 "Catalogue": "https://pruszynski.com.pl/t-20-roof,prod,99,2294.php"
             },
             "color": {
@@ -62972,12 +62986,12 @@
                 "y": 4.6095871925354,
                 "z": 3.5442914962768555
             },
-            "type": "Metal sheet roofing",
+            "type": "Roofing sheets",
             "mesh_id": 68
         },
         {
             "info": {
-                "Name": "wooden cladding",
+                "Name": "Wooden cladding",
                 "URL": "https://www.ravaiolilegnami.com/en/products/cladding/"
             },
             "color": {
@@ -62998,7 +63012,7 @@
                 "y": 3.8103578090667725,
                 "z": 3.3974952697753906
             },
-            "type": "wooden cladding",
+            "type": "Wooden cladding",
             "mesh_id": 69
         },
         {
@@ -63079,7 +63093,7 @@
         }
     ],
     "info": {
-        "Author": "",
-        "Date": "15.05.2022"
+        "Author": "Robert",
+        "Date": "16.01.2023"
     }
 }
