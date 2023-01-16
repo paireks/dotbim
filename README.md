@@ -10,7 +10,7 @@
 
 ## Introduction
 
-Introducing an open-source, accessible, simple, minimalistic file format for BIM. Built to be easy to read and write.
+Introducing an open-source and minimalist file format for BIM. Built to be easy to read and write.
 
 Created by BIM developers for BIM developers.
 
