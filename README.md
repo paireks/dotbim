@@ -37,19 +37,24 @@ To see much more extended comparison check out Dion's comparison here: https://g
 
 If you're a developer, check out this document: https://github.com/paireks/dotbim/blob/master/DeveloperTips.md
 
-## Apps
+## Apps supporting .bim
 
-- C# library: you're looking at it right now ;)
-- Python library: dotbimpy - https://github.com/paireks/dotbimpy
-- Grasshopper plugin: dotbimGH - https://github.com/paireks/dotbimGH
-- dotbim-ifc, converts to and from IFC and dotbim: https://github.com/Moult/dotbim-ifc, Author: Dion Moult
-- Online 3d Viewer, supports .bim files and converts to other file formats: https://3dviewer.net/, Authors: Viktor Kovacs, Agnes Gaschitz
-- Blender add-on: dotbim-blender, imports and exports .bim files https://github.com/paireks/dotbim-blender, Author: Nathan Hild
-- dotbim-io-dxf, converts to and from 3d DXF files: https://github.com/Gorgious56/dotbim_io_dxf, Author: Nathan Hild
-- Typescript library: dotbim-ts - https://github.com/baid-group/dotbim-ts, Author: Maciej Lutostański
-- Archicad addon: dotbim-archicad - https://github.com/kovacsv/dotbim-archicad, Author: Viktor Kovacs
-- Revit detailed MEP to schematic 3d model - https://github.com/os4bim/dotbim, Author: Yoann Obry
-- SketchUp add-on: https://github.com/MattiaBressanelli/import_dotbim, Author: Mattia Bressanelli
+| Name | Purpose | Link | Author |
+| ---- | ------- | ---- | ------ |
+| dotbim | C# library | you're looking at it right now ;) |  |
+| dotbimpy | Python library | https://github.com/paireks/dotbimpy |  |
+| dotbimGH | Grasshopper plugin | https://github.com/paireks/dotbimGH | |
+| dotbim-ifc | Converts to and from IFC and dotbim | https://github.com/Moult/dotbim-ifc | Dion Moult |
+| Online 3d Viewer | 3d viewer in your browser, it can also convert to and from other file formats | https://3dviewer.net/ | Viktor Kovacs, Agnes Gaschitz |
+| dotbim-blender | Blender addon | https://github.com/paireks/dotbim-blender | Nathan Hild |
+| dotbim-io-dxf | Converts to and from 3d DXF and dotbim | https://github.com/Gorgious56/dotbim_io_dxf | Nathan Hild |
+| dotbim-ts | Typescript library | https://github.com/baid-group/dotbim-ts | Maciej Lutostański |
+| dotbim-archicad | Archicad addon | https://github.com/kovacsv/dotbim-archicad | Viktor Kovacs |
+| os4bim/dotbim | Converts Revit's detailed MEP to schematic 3d model | https://github.com/os4bim/dotbim | Yoann Obry |
+| import_dotbim | SketchUp addon | https://github.com/MattiaBressanelli/import_dotbim | Mattia Bressanelli |
+| dotbim.three.js | Three.js addon | https://github.com/ricaun/dotbim.three.js | Luiz Henrique Cassettari |
+| ICEBridge | Blender plugin to send BIM data to IDA ICE | https://github.com/maxtillberg/ICEBridge | Max Tillberg |
+
 
 ![dotbim drawio (7)](https://user-images.githubusercontent.com/47977819/195170052-8081d7d7-d69d-4e2e-a5fd-97ff4b727543.svg)
 
