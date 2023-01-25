@@ -1,12 +1,12 @@
 ![dotbim header](https://user-images.githubusercontent.com/4988604/212753228-2abcdfbe-b824-4f64-9c87-1319dae7e7ca.png)
 
-# dotbim (Schema version 1.0.0)
+# dotbim (Schema version 1.1.0 WIP)
 
 [![Release](https://img.shields.io/nuget/v/dotbim?logo=nuget&label=release&color=blue)](https://www.nuget.org/packages/dotbim/)
 [![.NET Standard 2.0](https://img.shields.io/badge/-.NET%20Standard%202.0-blue)](https://www.nuget.org/packages/dotbim/)
 [![.NET Framework 4.0](https://img.shields.io/badge/.NET%20Framework%204.0-blue.svg)](https://www.nuget.org/packages/dotbim/)
 
-![image](https://user-images.githubusercontent.com/47977819/152003486-5d12be0e-43b2-4cf9-a37f-df406781ba11.png)
+![AddOnIcon_154x154](https://user-images.githubusercontent.com/47977819/214624938-0e201999-7d74-4fc1-b975-03e20a961e21.png)
 
 ## Introduction
 
