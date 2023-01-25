@@ -202,7 +202,9 @@ Rotation rotates referenced mesh how it should be rotated as element. It is a qu
   }
 ```
 
-#### color
+#### color and face_colors
+
+**From schema_version 1.1.0 if face_colors tag is applied, then we color element using face_colors, if there is no face_colors - we use color tag to color an element.**
 
 color should have 3 properties:
 
@@ -218,6 +220,20 @@ color should have 3 properties:
     "b": 0,
     "a": 255
   }
+```
+
+To color single element with multiple colors add "face_colors" tag inside an element. "face_colors" is a simple list of integers (integers should be between 0-255) organised in that way:
+
+[r1, g1, b1, a1, r2, g2, b2, a2, r3, g3, b3, a3, ... rn, gn, bn, an]
+
+It should match each face of the mesh.
+
+So let's say you have 3 faces inside one mesh, and wanted to color first face (triangle) as red (255,0,0,255), second as skyblue (135,206,235,255), third as white (255,255,255,255). Then you will have:
+
+```json
+
+"face_colors" : [ 255, 0, 0, 255, 135, 206, 235, 255, 255, 255, 255, 255 ]
+
 ```
 
 #### type
