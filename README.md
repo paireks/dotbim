@@ -275,9 +275,10 @@ If you'd like to read more details about this project, a bit background + line-b
 
 - Multicolor extension: https://github.com/paireks/dotbim-extensions-multicolor
 
-## Author
+## Authors
 
 - Wojciech Radaczyński
+- Viktor Kovacs
 
 ## Advisors
 - Tom Van Diggelen
