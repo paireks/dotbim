@@ -92,7 +92,7 @@ File contains 4 properties:
 
 ### mesh
 
-![bimdot_Mesh GH](https://user-images.githubusercontent.com/23511558/152679942-334d53dc-dc97-42f1-b418-db796fe47412.jpg)
+![BIM_Mesh_01](https://user-images.githubusercontent.com/4988604/216436783-eae0e200-7521-492c-9412-59aa5e15b4a7.png)
 
 **mesh_id** is integer >= 0 to reference this mesh later in element.
 
