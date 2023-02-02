@@ -65,7 +65,7 @@ If you're building any app that will use .bim - let me know, I'll post it here :
 
 https://www.nuget.org/packages/dotbim/
 
-It may require importing another nuget for Newtonsoft.Json library: https://www.nuget.org/packages/Newtonsoft.Json/9.0.1
+It may require importing another nuget for Newtonsoft.Json library.
 
 ## Structure
 ![BIM_Structure_01](https://user-images.githubusercontent.com/4988604/216430744-4b06030c-72e7-4d18-ac30-e5b90ac598f5.png)
