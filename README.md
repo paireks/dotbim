@@ -68,7 +68,8 @@ https://www.nuget.org/packages/dotbim/
 It may require importing another nuget for Newtonsoft.Json library: https://www.nuget.org/packages/Newtonsoft.Json/9.0.1
 
 ## Structure
-![bimdot_Structure Complete](https://user-images.githubusercontent.com/23511558/152679875-404cf84d-7b2e-4172-8476-ea91ce491f28.jpg)
+![BIM_Structure_01](https://user-images.githubusercontent.com/4988604/216430744-4b06030c-72e7-4d18-ac30-e5b90ac598f5.png)
+
 
 ## Documentation
 
