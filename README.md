@@ -86,7 +86,7 @@ It may require importing another nuget for Newtonsoft.Json library: https://www.
 
 File contains 4 properties:
 
-![bimdot_Structure GH](https://user-images.githubusercontent.com/23511558/152679932-786ae046-1bb5-4019-9246-ef87ca594cf1.jpg)
+![BIM_file_01](https://user-images.githubusercontent.com/4988604/216434213-51b92980-1a9a-49b4-85e7-62fb439a7ef1.png)
 
 **schema_version** is the version of schema used in this file as string. Current one is "1.0.0".
 
