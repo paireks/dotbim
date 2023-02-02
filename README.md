@@ -162,7 +162,7 @@ Pyramid example:
 
 ### element
 
-![bimdot_Element GH](https://user-images.githubusercontent.com/23511558/152679949-65c9169b-2c17-4bb7-b2dc-bd2d5ab5da33.jpg)
+![BIM_Element_01](https://user-images.githubusercontent.com/4988604/216438260-73f6bd54-56db-41b4-9509-6c0da2281089.png)
 **guid** is a string that can be used for comparison of different elements. 
 
 ```json
