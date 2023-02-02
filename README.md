@@ -1,6 +1,6 @@
 ![dotbim header](https://user-images.githubusercontent.com/4988604/212753228-2abcdfbe-b824-4f64-9c87-1319dae7e7ca.png)
 
-# dotbim (Schema version 1.1.0 WIP)
+# dotbim (Schema version 1.1.0)
 
 [![Release](https://img.shields.io/nuget/v/dotbim?logo=nuget&label=release&color=blue)](https://www.nuget.org/packages/dotbim/)
 [![.NET Standard 2.0](https://img.shields.io/badge/-.NET%20Standard%202.0-blue)](https://www.nuget.org/packages/dotbim/)
@@ -271,10 +271,6 @@ If you're interested in this kind of linking, check this separate document about
 ## Tell me more
 
 If you'd like to read more details about this project, a bit background + line-by-line explanation, you might find this article on BIM Corner interesting: https://bimcorner.com/a-new-bim-file-format/
-
-## Extensions
-
-- Multicolor extension: https://github.com/paireks/dotbim-extensions-multicolor
 
 ## Authors
 
