@@ -119,15 +119,15 @@ namespace test.E2E
             #endregion
 
             #region Info
-            Assert.Equal(1, file.Info.Keys.Count);
-            Assert.Equal(1, file.Info.Values.Count);
+            Assert.Single(file.Info.Keys);
+            Assert.Single(file.Info.Values);
             
             Assert.Equal("John Doe", file.Info["Author"]);
             #endregion
 
             #region Mesh
 
-            Assert.Equal(1,file.Meshes.Count);
+            Assert.Single(file.Meshes);
             Mesh mesh = file.Meshes[0];
             
             Assert.Equal(0, mesh.MeshId);
