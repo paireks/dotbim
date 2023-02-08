@@ -65,6 +65,17 @@ namespace dotbim
         /// </summary>
         [JsonProperty("color")]
         public Color Color { get; set; }
+        
+        /// <summary>
+        /// The list of integers, that determine face colors of a mesh.
+        /// They should be organized like this: [r1, g1, b1, a1, r2, g2, b2, a2, r3, g3, b3, a3, ... rn, gn, bn, an]
+        /// E.g. list like: [255, 0, 0, 255, 135, 206, 235, 255, 255, 255, 255, 255]
+        /// means first triangle should be colored as red (255,0,0,255),
+        /// second as skyblue (135,206,235,255),
+        /// third as white (255,255,255,255).
+        /// </summary>
+        [JsonProperty("face_colors", NullValueHandling=NullValueHandling.Ignore)]
+        public List<int> FaceColors { get; set; }
 
         /// <summary>
         /// Additional information about the element.

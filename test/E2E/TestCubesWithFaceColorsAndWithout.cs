@@ -1,10 +1,10 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using dotbim;
 using Xunit;
 
 namespace test.E2E
 {
-    public class TestCubes
+    public class TestCubesWithFaceColorsAndWithout
     {
         private void Create()
         {
@@ -66,11 +66,37 @@ namespace test.E2E
             Element element2 = new Element
             {
                 Color = new Color {A = 126, R = 0, G = 255, B = 0},
+                FaceColors = new List<int>
+                {
+                    // Front side
+                    255, 105, 180, 150, // Hot pink with transparency
+                    255, 192, 203, 255, // Pink
+                    
+                    // Bottom side
+                    53, 57, 53, 255, // Onyx
+                    0, 0, 0, 255, // Black
+                    
+                    // Left side
+                    243, 229, 171, 255, // Vanilla
+                    255, 255, 0, 255, // Yellow
+                    
+                    // Right side
+                    9, 121, 105, 255, // Cadmium Green
+                    0, 128, 0, 255, // Green
+                    
+                    // Top side
+                    0, 255, 255, 255, // Cyan
+                    0, 0, 255, 255, // Blue
+                    
+                    // Back side
+                    226, 223, 210, 255, // Pearl
+                    255, 255, 255, 255, // White
+                },
                 MeshId = 0,
                 Guid = "4d00c967-791a-42a6-a5e8-cf05831bc11d",
                 Info = new Dictionary<string, string>
                 {
-                    {"Name", "Green Cube"}
+                    {"Name", "Multicolor Cube"}
                 },
                 Rotation = new Rotation{Qx = 0, Qy = 0, Qz = 0, Qw = 1.0},
                 Type = "Brick",
@@ -98,13 +124,13 @@ namespace test.E2E
             
             File file = new File
             {
-                SchemaVersion = "1.0.0",
+                SchemaVersion = "1.1.0",
                 Meshes = new List<Mesh>{mesh},
                 Elements = new List<Element>{element1, element2, element3},
                 Info = fileInfo
             };
             
-            file.Save("Cubes.bim");
+            file.Save("CubesWithFaceColorsAndWithout.bim");
         }
         
         [Fact]
@@ -112,10 +138,10 @@ namespace test.E2E
         {
             Create();
             
-            var file = File.Read("Cubes.bim");
+            var file = File.Read("CubesWithFaceColorsAndWithout.bim");
 
             #region Schema
-            Assert.Equal("1.0.0", file.SchemaVersion);
+            Assert.Equal("1.1.0", file.SchemaVersion);
             #endregion
 
             #region Info
@@ -190,6 +216,7 @@ namespace test.E2E
             Assert.Equal(0, element1.MeshId);
             Assert.Equal("Red Cube", element1.Info["Name"]);
             Assert.True(ToolboxForTests.IsColorSame(element1.Color, (255, 0, 0, 255)));
+            Assert.Null(element1.FaceColors);
             Assert.True(ToolboxForTests.IsRotationSame(element1.Rotation, (0,0,0,1), 0.01));
             Assert.True(ToolboxForTests.IsVectorSame(element1.Vector, (-100,-100,-100), 0.01));
             
@@ -198,8 +225,34 @@ namespace test.E2E
             Assert.Equal("Brick", element2.Type);
             Assert.Equal("4d00c967-791a-42a6-a5e8-cf05831bc11d", element2.Guid);
             Assert.Equal(0, element2.MeshId);
-            Assert.Equal("Green Cube", element2.Info["Name"]);
+            Assert.Equal("Multicolor Cube", element2.Info["Name"]);
             Assert.True(ToolboxForTests.IsColorSame(element2.Color, (0, 255, 0, 126)));
+            Assert.Equal(new List<int>
+            {
+                // Front side
+                255, 105, 180, 150, // Hot pink with transparency
+                255, 192, 203, 255, // Pink
+                    
+                // Bottom side
+                53, 57, 53, 255, // Onyx
+                0, 0, 0, 255, // Black
+                    
+                // Left side
+                243, 229, 171, 255, // Vanilla
+                255, 255, 0, 255, // Yellow
+                    
+                // Right side
+                9, 121, 105, 255, // Cadmium Green
+                0, 128, 0, 255, // Green
+                    
+                // Top side
+                0, 255, 255, 255, // Cyan
+                0, 0, 255, 255, // Blue
+                    
+                // Back side
+                226, 223, 210, 255, // Pearl
+                255, 255, 255, 255, // White
+            }, element2.FaceColors);
             Assert.True(ToolboxForTests.IsRotationSame(element2.Rotation, (0,0,0,1), 0.01));
             Assert.True(ToolboxForTests.IsVectorSame(element2.Vector, (0,0,0), 0.01));
             
@@ -210,6 +263,7 @@ namespace test.E2E
             Assert.Equal(0, element3.MeshId);
             Assert.Equal("Blue Cube", element3.Info["Name"]);
             Assert.True(ToolboxForTests.IsColorSame(element3.Color, (0, 0, 255, 10)));
+            Assert.Null(element3.FaceColors);
             Assert.True(ToolboxForTests.IsRotationSame(element3.Rotation, (0,0,0,1), 0.01));
             Assert.True(ToolboxForTests.IsVectorSame(element3.Vector, (100,100,100), 0.01));
             

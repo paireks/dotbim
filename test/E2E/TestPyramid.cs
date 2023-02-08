@@ -88,7 +88,7 @@ namespace test.E2E
 
             #region Mesh
 
-            Assert.Equal(1,file.Meshes.Count);
+            Assert.Single(file.Meshes);
             Mesh mesh = file.Meshes[0];
             
             Assert.Equal(0, mesh.MeshId);
@@ -125,7 +125,7 @@ namespace test.E2E
 
             #region Element
 
-            Assert.Equal(1, file.Elements.Count);
+            Assert.Single(file.Elements);
             Element element = file.Elements[0];
             
             Assert.Equal("Structure", element.Type);

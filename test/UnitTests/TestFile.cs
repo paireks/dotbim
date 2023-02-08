@@ -16,7 +16,7 @@ namespace test.UnitTests
         {
             File file = ToolboxForTests.CreateTestFileWithTriangleBluePlate();
             
-            Assert.Equal(1, file.Elements.Count);
+            Assert.Single(file.Elements);
             var element = file.Elements[0];
             
             Assert.True(ToolboxForTests.IsColorSame(element.Color, (0, 120, 120, 255)));
@@ -33,7 +33,7 @@ namespace test.UnitTests
         {
             File file = ToolboxForTests.CreateTestFileWithTriangleBluePlate();
             
-            Assert.Equal(1, file.Meshes.Count);
+            Assert.Single(file.Meshes);
             var mesh = file.Meshes[0];
             
             Assert.Equal(0, mesh.MeshId);
@@ -74,7 +74,7 @@ namespace test.UnitTests
 
             var fileRead = File.Read(path);
             
-            Assert.Equal(1, fileRead.Elements.Count);
+            Assert.Single(fileRead.Elements);
             var element = file.Elements[0];
             
             Assert.True(ToolboxForTests.IsColorSame(element.Color, (0, 120, 120, 255)));
@@ -85,7 +85,7 @@ namespace test.UnitTests
             Assert.Equal("Plate", element.Type);
             Assert.True(ToolboxForTests.IsVectorSame(element.Vector, (0,0,0), 0.001));
             
-            Assert.Equal(1, file.Meshes.Count);
+            Assert.Single(file.Meshes);
             var mesh = file.Meshes[0];
             
             Assert.Equal(0, mesh.MeshId);

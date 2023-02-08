@@ -1,12 +1,12 @@
 ![dotbim header](https://user-images.githubusercontent.com/4988604/212753228-2abcdfbe-b824-4f64-9c87-1319dae7e7ca.png)
 
-# dotbim (Schema version 1.0.0)
+# dotbim (Schema version 1.1.0)
 
 [![Release](https://img.shields.io/nuget/v/dotbim?logo=nuget&label=release&color=blue)](https://www.nuget.org/packages/dotbim/)
 [![.NET Standard 2.0](https://img.shields.io/badge/-.NET%20Standard%202.0-blue)](https://www.nuget.org/packages/dotbim/)
 [![.NET Framework 4.0](https://img.shields.io/badge/.NET%20Framework%204.0-blue.svg)](https://www.nuget.org/packages/dotbim/)
 
-![image](https://user-images.githubusercontent.com/47977819/152003486-5d12be0e-43b2-4cf9-a37f-df406781ba11.png)
+![AddOnIcon_154x154](https://user-images.githubusercontent.com/47977819/214624938-0e201999-7d74-4fc1-b975-03e20a961e21.png)
 
 ## Introduction
 
@@ -65,10 +65,11 @@ If you're building any app that will use .bim - let me know, I'll post it here :
 
 https://www.nuget.org/packages/dotbim/
 
-It may require importing another nuget for Newtonsoft.Json library: https://www.nuget.org/packages/Newtonsoft.Json/9.0.1
+It may require importing another nuget for Newtonsoft.Json library.
 
 ## Structure
-![bimdot_Structure Complete](https://user-images.githubusercontent.com/23511558/152679875-404cf84d-7b2e-4172-8476-ea91ce491f28.jpg)
+![BIM_Structure_01](https://user-images.githubusercontent.com/4988604/216430744-4b06030c-72e7-4d18-ac30-e5b90ac598f5.png)
+
 
 ## Documentation
 
@@ -85,13 +86,13 @@ It may require importing another nuget for Newtonsoft.Json library: https://www.
 
 File contains 4 properties:
 
-![bimdot_Structure GH](https://user-images.githubusercontent.com/23511558/152679932-786ae046-1bb5-4019-9246-ef87ca594cf1.jpg)
+![BIM_file_01](https://user-images.githubusercontent.com/4988604/216434213-51b92980-1a9a-49b4-85e7-62fb439a7ef1.png)
 
 **schema_version** is the version of schema used in this file as string. Current one is "1.0.0".
 
 ### mesh
 
-![bimdot_Mesh GH](https://user-images.githubusercontent.com/23511558/152679942-334d53dc-dc97-42f1-b418-db796fe47412.jpg)
+![BIM_Mesh_01](https://user-images.githubusercontent.com/4988604/216436783-eae0e200-7521-492c-9412-59aa5e15b4a7.png)
 
 **mesh_id** is integer >= 0 to reference this mesh later in element.
 
@@ -161,7 +162,7 @@ Pyramid example:
 
 ### element
 
-![bimdot_Element GH](https://user-images.githubusercontent.com/23511558/152679949-65c9169b-2c17-4bb7-b2dc-bd2d5ab5da33.jpg)
+![BIM_Element_01](https://user-images.githubusercontent.com/4988604/216438260-73f6bd54-56db-41b4-9509-6c0da2281089.png)
 **guid** is a string that can be used for comparison of different elements. 
 
 ```json
@@ -202,7 +203,9 @@ Rotation rotates referenced mesh how it should be rotated as element. It is a qu
   }
 ```
 
-#### color
+#### color and face_colors
+
+**From schema_version 1.1.0 if face_colors tag is applied, then we color element using face_colors, if there is no face_colors - we use color tag to color an element.**
 
 color should have 3 properties:
 
@@ -218,6 +221,20 @@ color should have 3 properties:
     "b": 0,
     "a": 255
   }
+```
+
+To color single element with multiple colors add "face_colors" tag inside an element. "face_colors" is a simple list of integers (integers should be between 0-255) organised in that way:
+
+[r1, g1, b1, a1, r2, g2, b2, a2, r3, g3, b3, a3, ... rn, gn, bn, an]
+
+It should match each face of the mesh.
+
+So let's say you have 3 faces inside one mesh, and wanted to color first face (triangle) as red (255,0,0,255), second as skyblue (135,206,235,255), third as white (255,255,255,255). Then you will have:
+
+```json
+
+"face_colors" : [ 255, 0, 0, 255, 135, 206, 235, 255, 255, 255, 255, 255 ]
+
 ```
 
 #### type
@@ -255,13 +272,10 @@ If you're interested in this kind of linking, check this separate document about
 
 If you'd like to read more details about this project, a bit background + line-by-line explanation, you might find this article on BIM Corner interesting: https://bimcorner.com/a-new-bim-file-format/
 
-## Extensions
-
-- Multicolor extension: https://github.com/paireks/dotbim-extensions-multicolor
-
-## Author
+## Authors
 
 - Wojciech Radaczyński
+- Viktor Kovacs
 
 ## Advisors
 - Tom Van Diggelen

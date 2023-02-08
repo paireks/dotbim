@@ -141,6 +141,75 @@ namespace test
             return element;
         }
 
+        public static Element CreateFaceColoredCubeElement()
+        {
+            Element element = new Element
+            {
+                Color = new Color
+                {
+                    A = 0,
+                    R = 0,
+                    G = 0,
+                    B = 255
+                },
+                
+                FaceColors = new List<int>
+                {
+                    // Front side
+                    255, 105, 180, 150, // Hot pink with transparency
+                    255, 192, 203, 255, // Pink
+                    
+                    // Bottom side
+                    53, 57, 53, 255, // Onyx
+                    0, 0, 0, 255, // Black
+                    
+                    // Left side
+                    243, 229, 171, 255, // Vanilla
+                    255, 255, 0, 255, // Yellow
+                    
+                    // Right side
+                    9, 121, 105, 255, // Cadmium Green
+                    0, 128, 0, 255, // Green
+                    
+                    // Top side
+                    0, 255, 255, 255, // Cyan
+                    0, 0, 255, 255, // Blue
+                    
+                    // Back side
+                    226, 223, 210, 255, // Pearl
+                    255, 255, 255, 255, // White
+                },
+                
+                Guid = "3028896f-cd51-4b3a-be54-08841b4e9081",
+                
+                Info = new Dictionary<string, string>
+                {
+                    {"Key", "Value"}
+                },
+                
+                MeshId = 0,
+                
+                Rotation = new Rotation
+                {
+                    Qx = 0.0,
+                    Qy = 0.0,
+                    Qz = 0.0,
+                    Qw = 1.0
+                },
+                
+                Type = "Cube",
+                
+                Vector = new Vector
+                {
+                    X = 0.0,
+                    Y = 0.0,
+                    Z = 0.0
+                }
+            };
+
+            return element;
+        }
+
         public static File CreateTestFileWithTriangleBluePlate()
         {
             File file = new File
