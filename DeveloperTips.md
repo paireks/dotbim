@@ -1,6 +1,6 @@
 # Developer Tips For .bim
 
-![image](https://user-images.githubusercontent.com/47977819/152003486-5d12be0e-43b2-4cf9-a37f-df406781ba11.png)
+![AddOnIcon_154x154](https://user-images.githubusercontent.com/47977819/218050814-161846d1-0c13-401d-a060-9ca6a53806ce.png)
 
 ## Introduction
 
@@ -40,12 +40,12 @@ Every .bim file is structured with 4 components:
 
 - List of meshes (it represents all geometries)
 - List of elements (it represents all elements)
-- Schema version: it's "1.0.0"
+- Schema version: it's "1.1.0"
 - Info: dictionary with information about file
 
 It looks like this as a whole:
 
-![image](https://user-images.githubusercontent.com/23511558/152679875-404cf84d-7b2e-4172-8476-ea91ce491f28.jpg)
+![image](https://user-images.githubusercontent.com/4988604/216430744-4b06030c-72e7-4d18-ac30-e5b90ac598f5.png)
 
 ## Programming exporter
 
@@ -69,7 +69,7 @@ Pack all data about elements there in one flattened dictionary.
 
 With mesh_id you can reference the mesh (from meshes list above) that represents geometry of this element. With rotation and vector property you can position your mesh in a proper way.
 
-Regarding colors 1 element = 1 color (R,G,B,A). This is to make things easier for importers, as not all software support multiple colors for 1 mesh or some more difficult concepts like e.g. textures. From the exporter perspective it means that you'd have to divide an element into separate elements if they have different colors inside and if you'd like to move these separate colors.
+Regarding colors: from schema_version "1.1.0" there is a possibility to color each face with different color using face_colors tag. However face_colors tag remains optional, while color tag is obligatory. From the viewer perspective it means that if the face_colors tag is attached, then it should use it, but if there is nothing there - color tag should be used.
 
 ## Programming importer
 
