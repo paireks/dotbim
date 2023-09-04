@@ -140,6 +140,10 @@ File size depends on:
 - level of deduplication of meshes
 - mesh quality
 
+You can check the difference between 
+- 1 teapot file (580 kB), there: https://github.com/paireks/dotbim/blob/master/test/ExampleFiles/TestFilesFromGh/Teapot.bim
+- 1000 teapots file (1120 kB), there: https://github.com/paireks/dotbim/blob/master/test/ExampleFiles/TestFilesFromGh/Teapots1000.bim
+
 Still remember: this is a text file format, which makes it big by definition. To make it smaller: compress it!
 
 Also it's good to mention, that meshes are also by definition big in terms of file size (if we compare it to some other geometry types). Most of the time it will probably take most of the space in file. That's why we store them as flatten list of vertices and coordinates, to make it as tiny as we can in text file.
