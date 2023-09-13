@@ -55,6 +55,7 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 | dotbim.three.js | Three.js addon | https://github.com/ricaun/dotbim.three.js | Luiz Henrique Cassettari |
 | ICEBridge | Blender plugin to send BIM data to IDA ICE | https://github.com/maxtillberg/ICEBridge | Max Tillberg |
 | three.model.bim | 3d modelling in browser | https://github.com/RyugaRyuzaki/three.model.bim | Ryuga Ryuzaki |
+| dotbimRH | Rhino plugin | https://github.com/seghier/dotbimRH | Seghier Mohamed Abdelaziz |
 
 
 ![dotbim drawio (7)](https://user-images.githubusercontent.com/47977819/195170052-8081d7d7-d69d-4e2e-a5fd-97ff4b727543.svg)
