@@ -39,26 +39,51 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 
 ## Apps supporting .bim
 
+### Connectors
+
+| Name | Purpose | Link | Author |
+| ---- | ------- | ---- | ------ |
+| dotbimGH | Grasshopper plugin | https://github.com/paireks/dotbimGH | |
+| dotbim-blender | Blender addon | https://github.com/paireks/dotbim-blender | Nathan Hild |
+| dotbim-archicad | Archicad addon | https://github.com/kovacsv/dotbim-archicad | Viktor Kovacs |
+| import_dotbim | SketchUp addon | https://github.com/MattiaBressanelli/import_dotbim | Mattia Bressanelli |
+| dotbimRH | Rhino plugin | https://github.com/seghier/dotbimRH | Seghier Mohamed Abdelaziz |
+
+### Viewers
+
+| Name | Purpose | Link | Author |
+| ---- | ------- | ---- | ------ |
+| Online 3d Viewer | 3d viewer in your browser, it can also convert to and from other file formats | https://3dviewer.net/ | Viktor Kovacs, Agnes Gaschitz |
+| dotbim.three.js | Three.js addon | https://github.com/ricaun/dotbim.three.js | Luiz Henrique Cassettari |
+
+### Modelling
+
+| Name | Purpose | Link | Author |
+| ---- | ------- | ---- | ------ |
+| three.model.bim | 3d modelling in browser | https://github.com/RyugaRyuzaki/three.model.bim | Ryuga Ryuzaki |
+| T-Rex | Reinforcement in Grasshopper | https://www.food4rhino.com/en/app/t-rex | |
+
+### Libraries
+
 | Name | Purpose | Link | Author |
 | ---- | ------- | ---- | ------ |
 | dotbim | C# library | you're looking at it right now ;) |  |
 | dotbimpy | Python library | https://github.com/paireks/dotbimpy |  |
-| dotbimGH | Grasshopper plugin | https://github.com/paireks/dotbimGH | |
-| dotbim-ifc | Converts to and from IFC and dotbim | https://github.com/Moult/dotbim-ifc | Dion Moult |
-| Online 3d Viewer | 3d viewer in your browser, it can also convert to and from other file formats | https://3dviewer.net/ | Viktor Kovacs, Agnes Gaschitz |
-| dotbim-blender | Blender addon | https://github.com/paireks/dotbim-blender | Nathan Hild |
-| dotbim-io-dxf | Converts to and from 3d DXF and dotbim | https://github.com/Gorgious56/dotbim_io_dxf | Nathan Hild |
 | dotbim-ts | Typescript library | https://github.com/baid-group/dotbim-ts | Maciej Lutostański |
-| dotbim-archicad | Archicad addon | https://github.com/kovacsv/dotbim-archicad | Viktor Kovacs |
+
+### Converters
+
+| Name | Purpose | Link | Author |
+| ---- | ------- | ---- | ------ |
+| dotbim-ifc | Converts to and from IFC and dotbim | https://github.com/Moult/dotbim-ifc | Dion Moult |
+| dotbim-io-dxf | Converts to and from 3d DXF and dotbim | https://github.com/Gorgious56/dotbim_io_dxf | Nathan Hild |
+
+### Other projects
+
+| Name | Purpose | Link | Author |
+| ---- | ------- | ---- | ------ |
 | os4bim/dotbim | Converts Revit's detailed MEP to schematic 3d model | https://github.com/os4bim/dotbim | Yoann Obry |
-| import_dotbim | SketchUp addon | https://github.com/MattiaBressanelli/import_dotbim | Mattia Bressanelli |
-| dotbim.three.js | Three.js addon | https://github.com/ricaun/dotbim.three.js | Luiz Henrique Cassettari |
 | ICEBridge | Blender plugin to send BIM data to IDA ICE | https://github.com/maxtillberg/ICEBridge | Max Tillberg |
-| three.model.bim | 3d modelling in browser | https://github.com/RyugaRyuzaki/three.model.bim | Ryuga Ryuzaki |
-| dotbimRH | Rhino plugin | https://github.com/seghier/dotbimRH | Seghier Mohamed Abdelaziz |
-
-
-![dotbim drawio (7)](https://user-images.githubusercontent.com/47977819/195170052-8081d7d7-d69d-4e2e-a5fd-97ff4b727543.svg)
 
 If you're building any app that will use .bim - let me know, I'll post it here :)
 
