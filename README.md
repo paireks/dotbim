@@ -47,6 +47,7 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 | dotbim-blender | Blender addon | https://github.com/paireks/dotbim-blender | Nathan Hild |
 | dotbim-archicad | Archicad addon | https://github.com/kovacsv/dotbim-archicad | Viktor Kovacs |
 | import_dotbim | SketchUp addon | https://github.com/MattiaBressanelli/import_dotbim | Mattia Bressanelli |
+| dotbim.three.js | Three.js addon | https://github.com/ricaun/dotbim.three.js | Luiz Henrique Cassettari |
 | dotbimRH | Rhino plugin | https://github.com/seghier/dotbimRH | Seghier Mohamed Abdelaziz |
 
 ### Viewers
@@ -54,8 +55,8 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 | Name | Purpose | Link | Author |
 | ---- | ------- | ---- | ------ |
 | Online 3d Viewer | 3d viewer in browser | https://3dviewer.net/ | Viktor Kovacs, Agnes Gaschitz |
-| dotbim.three.js | Three.js addon | https://github.com/ricaun/dotbim.three.js | Luiz Henrique Cassettari |
-| STEP Viewer | 3d viewer in browser | https://githubdragonfly.github.io/viewers/templates/STEP%20Viewer.html | GitHubDragonFly |
+| dotbim.three.js Viewer | Viewer from dotbim.three.js | [Click](https://htmlpreview.github.io/?https://github.com/ricaun/dotbim.three.js/blob/master/index.html) | Luiz Henrique Cassettari |
+| STEP Viewer | 3d viewer in browser | [Click](https://githubdragonfly.github.io/viewers/templates/STEP%20Viewer.html) | GitHubDragonFly |
 
 ### Modelling
 
