@@ -53,8 +53,9 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 
 | Name | Purpose | Link | Author |
 | ---- | ------- | ---- | ------ |
-| Online 3d Viewer | 3d viewer in your browser, it can also convert to and from other file formats | https://3dviewer.net/ | Viktor Kovacs, Agnes Gaschitz |
+| Online 3d Viewer | 3d viewer in browser | https://3dviewer.net/ | Viktor Kovacs, Agnes Gaschitz |
 | dotbim.three.js | Three.js addon | https://github.com/ricaun/dotbim.three.js | Luiz Henrique Cassettari |
+| STEP Viewer | 3d viewer in browser | https://githubdragonfly.github.io/viewers/templates/STEP%20Viewer.html | GitHubDragonFly |
 
 ### Modelling
 
@@ -62,6 +63,7 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 | ---- | ------- | ---- | ------ |
 | three.model.bim | 3d modelling in browser | https://github.com/RyugaRyuzaki/three.model.bim | Ryuga Ryuzaki |
 | T-Rex | Reinforcement in Grasshopper | https://www.food4rhino.com/en/app/t-rex | |
+| FacadeOption | Facade modelling | https://app.facadeoption.com | FacadeOption |
 
 ### Libraries
 
@@ -75,6 +77,7 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 
 | Name | Purpose | Link | Author |
 | ---- | ------- | ---- | ------ |
+| Online 3d Viewer | 3d viewer with ability of conversion from .obj, .3ds, .stl, .ply, .gltf, .glb, .off, .3dm, .fbx, .dae, .wrl, .3mf, .amf, .ifc, .brep, .step, .iges, .fcstd. | https://3dviewer.net/ | Viktor Kovacs, Agnes Gaschitz |
 | dotbim-ifc | Converts to and from IFC and dotbim | https://github.com/Moult/dotbim-ifc | Dion Moult |
 | dotbim-io-dxf | Converts to and from 3d DXF and dotbim | https://github.com/Gorgious56/dotbim_io_dxf | Nathan Hild |
 
