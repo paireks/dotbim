@@ -81,6 +81,7 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 | Online 3d Viewer | 3d viewer with ability of conversion from .obj, .3ds, .stl, .ply, .gltf, .glb, .off, .3dm, .fbx, .dae, .wrl, .3mf, .amf, .ifc, .brep, .step, .iges, .fcstd. | https://3dviewer.net/ | Viktor Kovacs, Agnes Gaschitz |
 | dotbim-ifc | Converts to and from IFC and dotbim | https://github.com/Moult/dotbim-ifc | Dion Moult |
 | dotbim-io-dxf | Converts to and from 3d DXF and dotbim | https://github.com/Gorgious56/dotbim_io_dxf | Nathan Hild |
+| mesh2mesh | Mac application with ability to convert from .dae, .obj, .ply, .scn, .stl, .usd, .usda, .usdz | https://apps.apple.com/us/app/mesh2mesh/id1672770477 | fluthaus |
 
 ### Other projects
 
