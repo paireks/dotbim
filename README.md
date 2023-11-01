@@ -119,13 +119,13 @@ File contains 4 properties:
 
 ![BIM_file_01](https://user-images.githubusercontent.com/4988604/216434213-51b92980-1a9a-49b4-85e7-62fb439a7ef1.png)
 
-**schema_version** is the version of schema used in this file as string. Current one is "1.0.0".
+**schema_version** is the version of schema used in this file as string.
 
 ### mesh
 
 ![BIM_Mesh_01](https://user-images.githubusercontent.com/4988604/216436783-eae0e200-7521-492c-9412-59aa5e15b4a7.png)
 
-**mesh_id** is integer >= 0 to reference this mesh later in element.
+**mesh_id** is integer >= 0 to reference this mesh later in the element.
 
 #### coordinates
 
