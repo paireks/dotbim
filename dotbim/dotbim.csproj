@@ -47,7 +47,7 @@
     <PackageProjectUrl>https://github.com/$(GitHubRepositoryOwner)/$(PackageId)</PackageProjectUrl>
     <RepositoryUrl>https://github.com/$(GitHubRepositoryOwner)/$(PackageId)</RepositoryUrl>
     <RepositoryType>github</RepositoryType>
-    <PackageIcon>dotbim.jpg</PackageIcon>
+    <PackageIcon>dotbim.png</PackageIcon>
     <PackageIconUrl />
   </PropertyGroup>
 
@@ -76,7 +76,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Resources\dotbim.jpg">
+    <None Include="Resources\dotbim.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
