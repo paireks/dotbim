@@ -16,21 +16,26 @@ namespace dotbim
         /// Saves the file to the specified path.
         /// </summary>
         /// <param name="path">The path to save the file to.</param>
+        /// <param name="format">True = Formatting.Indented will be used for json, false = Formatting.None will be used.
+        /// If you want a file to be more optimized - use false there.
+        /// If you want to make it more human readable - use true there.</param>
         /// <exception cref="ArgumentException">
         /// Thrown if the path does not end with ".bim".
         /// </exception>
-        public void Save(string path)
+        public void Save(string path, bool format = true)
         {
             if (!path.EndsWith(".bim"))
             {
                 throw new ArgumentException("Path should end up with .bim");
             }
 
+            Formatting formatting = format ? Formatting.Indented : Formatting.None;
+
             using (StreamWriter file = System.IO.File.CreateText(path))
             {
                 JsonSerializer serializer = new JsonSerializer
                 {
-                    Formatting = Formatting.Indented
+                    Formatting = formatting
                 };
                 serializer.Serialize(file, this);
             }
