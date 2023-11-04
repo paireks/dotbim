@@ -105,6 +105,48 @@ namespace test.UnitTests
             Assert.Equal("1.0.0", file.SchemaVersion);
             Assert.Equal("Jane Doe", file.Info["Author"]);
         }
+        
+        [Fact]
+        public void TestFile_TrianglePlate_SaveAndRead_WithoutFormatting()
+        {
+            string path = "TrianglePlate_WithoutFormat.bim";
+            
+            File file = ToolboxForTests.CreateTestFileWithTriangleBluePlate();
+            file.Save(path, false);
+
+            var fileRead = File.Read(path);
+            
+            Assert.Single(fileRead.Elements);
+            var element = file.Elements[0];
+            
+            Assert.True(ToolboxForTests.IsColorSame(element.Color, (0, 120, 120, 255)));
+            Assert.Equal("d4f28792-e1e9-4e31-bcee-740dbda61e20", element.Guid);
+            Assert.Equal("Triangle", element.Info["Name"]);
+            Assert.Equal(0, element.MeshId);
+            Assert.True(ToolboxForTests.IsRotationSame(element.Rotation, (0.0, 0.0, 0.0, 1.0), 0.001));
+            Assert.Equal("Plate", element.Type);
+            Assert.True(ToolboxForTests.IsVectorSame(element.Vector, (0,0,0), 0.001));
+            
+            Assert.Single(file.Meshes);
+            var mesh = file.Meshes[0];
+            
+            Assert.Equal(0, mesh.MeshId);
+            
+            Assert.Equal(new List<double>
+            {
+                0.0,0.0,0.0,
+                10.0,0.0,0.0,
+                10.0,-15.0,0.0,
+            }, mesh.Coordinates);
+            
+            Assert.Equal(new List<int>
+            {
+                0,1,2
+            }, mesh.Indices);
+            
+            Assert.Equal("1.0.0", file.SchemaVersion);
+            Assert.Equal("Jane Doe", file.Info["Author"]);
+        }
 
         [Fact]
         public void TestFile_WrongPathWrite_ThrowsException()
