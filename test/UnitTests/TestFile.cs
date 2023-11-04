@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using dotbim;
 using Xunit;
 
@@ -164,7 +163,37 @@ namespace test.UnitTests
         }
 
         #endregion
-        
 
+        #region SaveAndTextComparison
+
+        [Fact]
+        public void TestFile_SaveAndTextComparison()
+        {
+            string path = "TrianglePlate_ForTextComparison.bim";
+            
+            File file = ToolboxForTests.CreateTestFileWithTriangleBluePlate();
+            file.Save(path);
+
+            string actual = System.IO.File.ReadAllText(path);
+            string expected = System.IO.File.ReadAllText(ToolboxForTests.GetDirectoryToExampleFileFromCSharp("TrianglePlate.bim"));
+            
+            Assert.Equal(expected, actual);
+        }
+        
+        [Fact]
+        public void TestFile_WithoutFormat_SaveAndTextComparison()
+        {
+            string path = "TrianglePlate_WithoutFormat_ForTextComparison.bim";
+            
+            File file = ToolboxForTests.CreateTestFileWithTriangleBluePlate();
+            file.Save(path, false);
+
+            string actual = System.IO.File.ReadAllText(path);
+            string expected = System.IO.File.ReadAllText(ToolboxForTests.GetDirectoryToExampleFileFromCSharp("TrianglePlate_WithoutFormat.bim"));
+            
+            Assert.Equal(expected, actual);
+        }
+
+        #endregion
     }
 }

@@ -1,11 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using dotbim;
+using File = dotbim.File;
 
 namespace test
 {
     public static class ToolboxForTests
     {
+        public static string GetDirectoryToExampleFileFromCSharp(string fileName)
+        {
+            return Path.Combine(GetDirectoryToExampleFolder(), "TestFilesFromC#", fileName);
+        }
+        
         public static bool IsColorSame(Color colorToCheck, (int r, int g, int b, int a) rgbExpected)
         {
             return colorToCheck.R == rgbExpected.r && colorToCheck.G == rgbExpected.g &&
@@ -255,6 +262,23 @@ namespace test
             };
 
             return file;
+        }
+        
+        private static string GetDirectoryToExampleFolder()
+        {
+            return Path.Combine(GetProjectDirectory(), "ExampleFiles");
+        }
+        
+        private static string GetProjectDirectory()
+        {
+            string workingDirectory = Environment.CurrentDirectory;
+            var directoryInfo = Directory.GetParent(workingDirectory)?.Parent;
+            string projectDirectory = null;
+            if (directoryInfo?.Parent != null) {
+                projectDirectory = directoryInfo.Parent.FullName;
+            }
+
+            return projectDirectory;
         }
     }
 }
