@@ -65,6 +65,7 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 | ---- | ------- | ---- | ------ |
 | dotbim-archicad | Archicad addon | https://github.com/kovacsv/dotbim-archicad | Viktor Kovacs |
 | dotbim-blender | Blender addon | https://github.com/paireks/dotbim-blender | Nathan Hild |
+| DotBimConvert/RevitExporter | Revit addon | https://github.com/RyugaRyuzaki/DotBimConvert/tree/main/RevitExporter | Ryuga Ryuzaki |
 | dotbimGH | Grasshopper plugin | https://github.com/paireks/dotbimGH | |
 | dotbimRH | Rhino plugin | https://github.com/seghier/dotbimRH | Seghier Mohamed Abdelaziz |
 | dotbim.three.js | Three.js addon | https://github.com/ricaun/dotbim.three.js | Luiz Henrique Cassettari |
@@ -82,6 +83,7 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 
 | Name | Purpose | Link | Author |
 | ---- | ------- | ---- | ------ |
+| DotBimConvert/IFC | Convertes to IFC | https://github.com/RyugaRyuzaki/DotBimConvert/tree/main/Ifc | Ryuga Ryuzaki |
 | dotbim-ifc | Converts to and from IFC and dotbim | https://github.com/Moult/dotbim-ifc | Dion Moult |
 | dotbim-io-dxf | Converts to and from 3d DXF and dotbim | https://github.com/Gorgious56/dotbim_io_dxf | Nathan Hild |
 | mesh2mesh | Mac application with ability to convert from .dae, .obj, .ply, .scn, .stl, .usd, .usda, .usdz | https://apps.apple.com/us/app/mesh2mesh/id1672770477 | fluthaus |
@@ -91,6 +93,7 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 
 | Name | Purpose | Link | Author |
 | ---- | ------- | ---- | ------ |
+| DotBimConvert/Compress | Compress and decompress .bim files | https://github.com/RyugaRyuzaki/DotBimConvert/tree/main/Compress | Ryuga Ryuzaki |
 | ICEBridge | Blender plugin to send BIM data to IDA ICE | https://github.com/maxtillberg/ICEBridge | Max Tillberg |
 | os4bim/dotbim | Converts Revit's detailed MEP to schematic 3d model | https://github.com/os4bim/dotbim | Yoann Obry |
 
