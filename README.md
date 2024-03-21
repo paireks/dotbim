@@ -67,7 +67,7 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 | dotbim-blender | Blender addon | https://github.com/paireks/dotbim-blender | Nathan Hild |
 | DotBimConvert/RevitExporter | Revit addon | https://github.com/RyugaRyuzaki/DotBimConvert/tree/main/RevitExporter | Ryuga Ryuzaki |
 | dotbimGH | Grasshopper plugin | https://github.com/paireks/dotbimGH | |
-| dotbimRH | Rhino plugin | https://github.com/seghier/dotbimRH | Seghier Mohamed Abdelaziz |
+| dotbimRH | Rhino plugin | https://github.com/seghier/DotBimRHImportExport | Seghier Mohamed Abdelaziz |
 | dotbim.three.js | Three.js addon | https://github.com/ricaun/dotbim.three.js | Luiz Henrique Cassettari |
 | import_dotbim | SketchUp addon | https://github.com/MattiaBressanelli/import_dotbim | Mattia Bressanelli |
 
