@@ -61,15 +61,15 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 
 ### Connectors
 
-| Name | Purpose | Link | Author |
-| ---- | ------- | ---- | ------ |
-| dotbim-archicad | Archicad addon | https://github.com/kovacsv/dotbim-archicad | Viktor Kovacs |
-| dotbim-blender | Blender addon | https://github.com/paireks/dotbim-blender | Nathan Hild |
-| DotBimConvert/RevitExporter | Revit addon | https://github.com/RyugaRyuzaki/DotBimConvert/tree/main/RevitExporter | Ryuga Ryuzaki |
-| dotbimGH | Grasshopper plugin | https://github.com/paireks/dotbimGH | |
-| dotbimRH | Rhino plugin | https://github.com/seghier/DotBimRHImportExport | Seghier Mohamed Abdelaziz |
-| dotbim.three.js | Three.js addon | https://github.com/ricaun/dotbim.three.js | Luiz Henrique Cassettari |
-| import_dotbim | SketchUp addon | https://github.com/MattiaBressanelli/import_dotbim | Mattia Bressanelli |
+| Name | Link | Author |
+| ---- | ---- | ------ |
+| dotbim-archicad | https://github.com/kovacsv/dotbim-archicad | Viktor Kovacs |
+| dotbim-blender | https://github.com/paireks/dotbim-blender | Nathan Hild |
+| DotBimConvert/RevitExporter | https://github.com/RyugaRyuzaki/DotBimConvert/tree/main/RevitExporter | Ryuga Ryuzaki |
+| dotbimGH | https://github.com/paireks/dotbimGH | |
+| dotbimRH | https://github.com/seghier/DotBimRHImportExport | Seghier Mohamed Abdelaziz |
+| dotbim.three.js | https://github.com/ricaun/dotbim.three.js | Luiz Henrique Cassettari |
+| import_dotbim | https://github.com/MattiaBressanelli/import_dotbim | Mattia Bressanelli |
 
 ### Libraries
 
