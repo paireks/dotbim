@@ -91,9 +91,9 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 
 | Name | Purpose | Link | Author |
 | ---- | ------- | ---- | ------ |
-| DotBimConvert/Compress | Compress and decompress .bim files | https://github.com/RyugaRyuzaki/DotBimConvert/tree/main/Compress | Ryuga Ryuzaki |
-| ICEBridge | Blender plugin to send BIM data to IDA ICE | https://github.com/maxtillberg/ICEBridge | Max Tillberg |
-| os4bim/dotbim | Converts Revit's detailed MEP to schematic 3d model | https://github.com/os4bim/dotbim | Yoann Obry |
+| DotBimConvert/Compress | Compress and decompress .bim files | [Click](https://github.com/RyugaRyuzaki/DotBimConvert/tree/main/Compress) | Ryuga Ryuzaki |
+| ICEBridge | Blender plugin to send BIM data to IDA ICE | [Click](https://github.com/maxtillberg/ICEBridge) | Max Tillberg |
+| os4bim/dotbim | Converts Revit's detailed MEP to schematic 3d model | [Click](https://github.com/os4bim/dotbim) | Yoann Obry |
 
 If you're building any app that will use .bim - let me know, I'll post it here :)
 
