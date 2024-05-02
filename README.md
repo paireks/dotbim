@@ -37,11 +37,9 @@ To see much more extended comparison check out Dion's comparison here: https://g
 
 If you're a developer, check out this document: https://github.com/paireks/dotbim/blob/master/DeveloperTips.md
 
-## Apps supporting .bim
+## Apps supporting .bim (alphabetical order)
 
-(alphabetical order)
-
-### Export and/or Import
+### Export and/or Import of .bim files
 
 | Name | Purpose | Link | Author |
 | ---- | ------- | ---- | ------ |
@@ -51,7 +49,7 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 | three.model.bim | 3d modelling in browser | https://github.com/RyugaRyuzaki/three.model.bim | Ryuga Ryuzaki |
 | T-Rex | Reinforcement in Grasshopper | https://www.food4rhino.com/en/app/t-rex | |
 
-### Viewers
+### Viewers that support .bim files
 
 | Name | Purpose | Link | Author |
 | ---- | ------- | ---- | ------ |
@@ -59,7 +57,7 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 | Online 3d Viewer | 3d viewer in browser | https://3dviewer.net/ | Viktor Kovacs, Agnes Gaschitz |
 | STEP Viewer | 3d viewer in browser | [Click](https://githubdragonfly.github.io/viewers/templates/STEP%20Viewer.html) | GitHubDragonFly |
 
-### Connectors
+### Connectors - plugins that allow to export and/or import of .bim files to other software
 
 | Name | Link | Author |
 | ---- | ---- | ------ |
@@ -71,7 +69,7 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 | dotbim.three.js | https://github.com/ricaun/dotbim.three.js | Luiz Henrique Cassettari |
 | import_dotbim | https://github.com/MattiaBressanelli/import_dotbim | Mattia Bressanelli |
 
-### Libraries
+### Libraries for developers
 
 | Name | Purpose | Link | Author |
 | ---- | ------- | ---- | ------ |
@@ -79,7 +77,7 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 | dotbimpy | Python library | https://github.com/paireks/dotbimpy |  |
 | dotbim-ts | Typescript library | https://github.com/baid-group/dotbim-ts | Maciej Lutostański |
 
-### Converters
+### Converters - programs that allow to convert to/from .bim files
 
 | Name | Purpose | Link | Author |
 | ---- | ------- | ---- | ------ |
@@ -89,7 +87,7 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 | mesh2mesh | Mac application with ability to convert from .dae, .obj, .ply, .scn, .stl, .usd, .usda, .usdz | https://apps.apple.com/us/app/mesh2mesh/id1672770477 | fluthaus |
 | Online 3d Viewer | 3d viewer with ability of conversion from .obj, .3ds, .stl, .ply, .gltf, .glb, .off, .3dm, .fbx, .dae, .wrl, .3mf, .amf, .ifc, .brep, .step, .iges, .fcstd. | https://3dviewer.net/ | Viktor Kovacs, Agnes Gaschitz |
 
-### Other projects
+### Other projects related to .bim
 
 | Name | Purpose | Link | Author |
 | ---- | ------- | ---- | ------ |
