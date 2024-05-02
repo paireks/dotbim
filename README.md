@@ -47,7 +47,7 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 | kolega.space | Generative conceptual design | https://www.kolega.space/ | Designbotic |
 | Spacio | Lets you design, analyse, and bring to life properly structured building proposals – all within the same day. | https://spacio.ai/ | Spacio |
 | three.model.bim | 3d modelling in browser | https://github.com/RyugaRyuzaki/three.model.bim | Ryuga Ryuzaki |
-| T-Rex | Reinforcement in Grasshopper | https://www.food4rhino.com/en/app/t-rex | |
+| T-Rex | Reinforcement in Grasshopper | https://www.food4rhino.com/en/app/t-rex | Wojciech Radaczyński |
 
 ### Viewers that support .bim files
 
@@ -61,20 +61,20 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 
 | Name | Link | Author |
 | ---- | ---- | ------ |
-| dotbim-archicad | https://github.com/kovacsv/dotbim-archicad | Viktor Kovacs |
-| dotbim-blender | https://github.com/paireks/dotbim-blender | Nathan Hild |
-| DotBimConvert/RevitExporter | https://github.com/RyugaRyuzaki/DotBimConvert/tree/main/RevitExporter | Ryuga Ryuzaki |
-| dotbimGH | https://github.com/paireks/dotbimGH | |
-| dotbimRH | https://github.com/seghier/DotBimRHImportExport | Seghier Mohamed Abdelaziz |
-| dotbim.three.js | https://github.com/ricaun/dotbim.three.js | Luiz Henrique Cassettari |
-| import_dotbim | https://github.com/MattiaBressanelli/import_dotbim | Mattia Bressanelli |
+| dotbim-archicad | [Click](https://github.com/kovacsv/dotbim-archicad) | Viktor Kovacs |
+| dotbim-blender | [Click](https://github.com/paireks/dotbim-blender) | Nathan Hild |
+| DotBimConvert/RevitExporter | [Click](https://github.com/RyugaRyuzaki/DotBimConvert/tree/main/RevitExporter) | Ryuga Ryuzaki |
+| dotbimGH | [Click](https://github.com/paireks/dotbimGH) | Wojciech Radaczyński |
+| dotbimRH | [Click](https://github.com/seghier/DotBimRHImportExport) | Seghier Mohamed Abdelaziz |
+| dotbim.three.js | [Click](https://github.com/ricaun/dotbim.three.js) | Luiz Henrique Cassettari |
+| import_dotbim | [Click](https://github.com/MattiaBressanelli/import_dotbim) | Mattia Bressanelli |
 
 ### Libraries for developers
 
 | Name | Purpose | Link | Author |
 | ---- | ------- | ---- | ------ |
-| dotbim | C# library | you're looking at it right now ;) |  |
-| dotbimpy | Python library | https://github.com/paireks/dotbimpy |  |
+| dotbim | C# library | you're looking at it right now ;) | Wojciech Radaczyński |
+| dotbimpy | Python library | https://github.com/paireks/dotbimpy | Wojciech Radaczyński |
 | dotbim-ts | Typescript library | https://github.com/baid-group/dotbim-ts | Maciej Lutostański |
 
 ### Converters - programs that allow to convert to/from .bim files
