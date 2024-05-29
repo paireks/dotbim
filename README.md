@@ -37,17 +37,18 @@ To see much more extended comparison check out Dion's comparison here: https://g
 
 If you're a developer, check out this document: https://github.com/paireks/dotbim/blob/master/DeveloperTips.md
 
-## Apps supporting .bim (alphabetical order)
+## Apps supporting .bim
 
-### Export and/or Import of .bim files
+(alphabetical order)
+
+### Apps that support .bim files
 
 | Name | Purpose | Link | Author |
 | ---- | ------- | ---- | ------ |
 | FacadeOption | Facade modelling | https://app.facadeoption.com | FacadeOption |
 | kolega.space | Generative conceptual design | https://www.kolega.space/ | Designbotic |
 | Spacio | Lets you design, analyse, and bring to life properly structured building proposals – all within the same day. | https://spacio.ai/ | Spacio |
-| three.model.bim | 3d modelling in browser | https://github.com/RyugaRyuzaki/three.model.bim | Ryuga Ryuzaki |
-| T-Rex | Reinforcement in Grasshopper | https://www.food4rhino.com/en/app/t-rex | Wojciech Radaczyński |
+| T-Rex | Reinforcement modelling | https://www.food4rhino.com/en/app/t-rex | Wojciech Radaczyński |
 
 ### Viewers that support .bim files
 
@@ -56,6 +57,7 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 | dotbim.three.js Viewer | Viewer from dotbim.three.js | [Click](https://htmlpreview.github.io/?https://github.com/ricaun/dotbim.three.js/blob/master/index.html) | Luiz Henrique Cassettari |
 | Online 3d Viewer | 3d viewer in browser | https://3dviewer.net/ | Viktor Kovacs, Agnes Gaschitz |
 | STEP Viewer | 3d viewer in browser | [Click](https://githubdragonfly.github.io/viewers/templates/STEP%20Viewer.html) | GitHubDragonFly |
+| xeokit | Web Programming Toolkit for AEC Graphics | https://xeokit.io/ | Lindsay Kay |
 
 ### Connectors - plugins that allow to export and/or import of .bim files to other software
 
@@ -94,6 +96,7 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 | DotBimConvert/Compress | Compress and decompress .bim files | [Click](https://github.com/RyugaRyuzaki/DotBimConvert/tree/main/Compress) | Ryuga Ryuzaki |
 | ICEBridge | Blender plugin to send BIM data to IDA ICE | [Click](https://github.com/maxtillberg/ICEBridge) | Max Tillberg |
 | os4bim/dotbim | Converts Revit's detailed MEP to schematic 3d model | [Click](https://github.com/os4bim/dotbim) | Yoann Obry |
+| three.model.bim | 3d modelling in browser | https://github.com/RyugaRyuzaki/three.model.bim | Ryuga Ryuzaki |
 
 If you're building any app that will use .bim - let me know, I'll post it here :)
 
