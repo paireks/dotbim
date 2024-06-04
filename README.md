@@ -46,7 +46,7 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 | Name | Purpose | Link | Author |
 | ---- | ------- | ---- | ------ |
 | FacadeOption | Facade modelling | https://app.facadeoption.com | FacadeOption |
-| kolega.space | Generative conceptual design | https://www.kolega.space/ | Designbotic |
+| kolega.space | Fully automated volume studies in a flash | https://www.kolega.space/ | Designbotic |
 | Spacio | Lets you design, analyse, and bring to life properly structured building proposals – all within the same day. | https://spacio.ai/ | Spacio |
 | topologicpy | An Advanced Spatial Modelling and Analysis Software Library for Architecture, Engineering, and Construction | https://topologic.app/ | Wassim Jabi |
 | T-Rex | Reinforcement modelling | https://www.food4rhino.com/en/app/t-rex | Wojciech Radaczyński |
