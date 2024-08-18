@@ -78,6 +78,7 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 | ---- | ------- | ---- | ------ |
 | dotbim | C# library | you're looking at it right now ;) | Wojciech Radaczyński |
 | dotbimpy | Python library | https://github.com/paireks/dotbimpy | Wojciech Radaczyński |
+| dotbim_rust | Rust library | https://github.com/paireks/dotbim_rust | Wojciech Radaczyński |
 | dotbim-ts | Typescript library | https://github.com/baid-group/dotbim-ts | Maciej Lutostański |
 
 ### Converters - programs that allow to convert to/from .bim files
