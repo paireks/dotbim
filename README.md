@@ -85,7 +85,7 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 
 | Name | Purpose | Link | Author |
 | ---- | ------- | ---- | ------ |
-| DotBimConvert/IFC | Convertes to IFC | https://github.com/RyugaRyuzaki/DotBimConvert/tree/main/Ifc | Ryuga Ryuzaki |
+| DotBimConvert/IFC | Converts from IFC | https://github.com/RyugaRyuzaki/DotBimConvert/tree/main/Ifc | Ryuga Ryuzaki |
 | dotbim-ifc | Converts to and from IFC and dotbim | https://github.com/Moult/dotbim-ifc | Dion Moult |
 | dotbim-io-dxf | Converts to and from 3d DXF and dotbim | https://github.com/Gorgious56/dotbim_io_dxf | Nathan Hild |
 | mesh2mesh | Mac application with ability to convert from .dae, .obj, .ply, .scn, .stl, .usd, .usda, .usdz | https://apps.apple.com/us/app/mesh2mesh/id1672770477 | fluthaus |
