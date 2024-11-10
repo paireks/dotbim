@@ -4,7 +4,7 @@
 
 [![Release](https://img.shields.io/nuget/v/dotbim?logo=nuget&label=release&color=blue)](https://www.nuget.org/packages/dotbim/)
 [![.NET Standard 2.0](https://img.shields.io/badge/-.NET%20Standard%202.0-blue)](https://www.nuget.org/packages/dotbim/)
-[![.NET Framework 4.0](https://img.shields.io/badge/.NET%20Framework%204.0-blue.svg)](https://www.nuget.org/packages/dotbim/)
+[![.NET Framework 4.62](https://img.shields.io/badge/.NET%20Framework%204.62-blue.svg)](https://www.nuget.org/packages/dotbim/)
 
 ![AddOnIcon_154x154](https://user-images.githubusercontent.com/47977819/214624938-0e201999-7d74-4fc1-b975-03e20a961e21.png)
 
