@@ -1,5 +1,5 @@
 ﻿using System;
-using Newtonsoft.Json;
+using System.Text.Json.Serialization;
 
 namespace dotbim
 {
@@ -7,31 +7,30 @@ namespace dotbim
     /// Represents a rotation in three-dimensional space using a quaternion.
     /// </summary>
     [Serializable]
-    [JsonObject("rotation")]
     public struct Rotation
     {
         /// <summary>
         /// The x-coordinate of the quaternion.
         /// </summary>
-        [JsonProperty("qx")]
+        [JsonPropertyName("qx")]
         public double Qx { get; set; }
 
         /// <summary>
         /// The y-coordinate of the quaternion.
         /// </summary>
-        [JsonProperty("qy")]
+        [JsonPropertyName("qy")]
         public double Qy { get; set; }
 
         /// <summary>
         /// The z-coordinate of the quaternion.
         /// </summary>
-        [JsonProperty("qz")]
+        [JsonPropertyName("qz")]
         public double Qz { get; set; }
 
         /// <summary>
         /// The w-coordinate of the quaternion.
         /// </summary>
-        [JsonProperty("qw")]
+        [JsonPropertyName("qw")]
         public double Qw { get; set; }
     }
 }

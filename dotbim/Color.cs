@@ -1,5 +1,5 @@
 ﻿using System;
-using Newtonsoft.Json;
+using System.Text.Json.Serialization;
 
 namespace dotbim
 {
@@ -7,7 +7,6 @@ namespace dotbim
     /// Represents a color using red, green, blue, and alpha (transparency) values.
     /// </summary>
     [Serializable]
-    [JsonObject("color")]
     public struct Color
     {
         private int _r;
@@ -21,7 +20,7 @@ namespace dotbim
         /// <exception cref="ArgumentException">
         /// Thrown if the value is not between 0 and 255.
         /// </exception>
-        [JsonProperty("r")]
+        [JsonPropertyName("r")]
         public int R
         {
             get => _r;
@@ -44,7 +43,7 @@ namespace dotbim
         /// <exception cref="ArgumentException">
         /// Thrown if the value is not between 0 and 255.
         /// </exception>
-        [JsonProperty("g")]
+        [JsonPropertyName("g")]
         public int G
         {
             get => _g;
@@ -67,7 +66,7 @@ namespace dotbim
         /// <exception cref="ArgumentException">
         /// Thrown if the value is not between 0 and 255.
         /// </exception>
-        [JsonProperty("b")]
+        [JsonPropertyName("b")]
         public int B
         {
             get => _b;
@@ -90,7 +89,7 @@ namespace dotbim
         /// <exception cref="ArgumentException">
         /// Thrown if the value is not between 0 and 255.
         /// </exception>
-        [JsonProperty("a")]
+        [JsonPropertyName("a")]
         public int A
         {
             get => _a;

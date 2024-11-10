@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using Newtonsoft.Json;
+using System.Text.Json.Serialization;
 
 namespace dotbim
 {
@@ -17,7 +17,7 @@ namespace dotbim
         /// <remarks>
         /// The value of MeshId should be greater than or equal to 0.
         /// </remarks>
-        [JsonProperty("mesh_id")]
+        [JsonPropertyName("mesh_id")]
         public int MeshId
         {
             get => _meshId;
@@ -37,13 +37,13 @@ namespace dotbim
         /// <summary>
         /// The list of coordinates for the mesh vertices.
         /// </summary>
-        [JsonProperty("coordinates")]
+        [JsonPropertyName("coordinates")]
         public List<double> Coordinates { get; set; }
 
         /// <summary>
         /// The list of indices for the mesh triangles.
         /// </summary>
-        [JsonProperty("indices")]
+        [JsonPropertyName("indices")]
         public List<int> Indices { get; set; }
     }
 }

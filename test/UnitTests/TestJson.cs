@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
+using System.Text.Json;
 using dotbim;
-using Newtonsoft.Json;
 using Xunit;
 
 namespace test.UnitTests
@@ -17,7 +15,7 @@ namespace test.UnitTests
 
             CreateFile(path, json);
 
-            Assert.Throws<Newtonsoft.Json.JsonReaderException>(() => {
+            Assert.Throws<JsonException>(() => {
                 var fileRead = File.Read(path);
             });
         }
@@ -40,16 +38,14 @@ namespace test.UnitTests
         {
             string json = CreateJsonString(1000);
 
-            JsonConvert.DefaultSettings = () => new JsonSerializerSettings { MaxDepth = 64 };
-
-            Assert.Throws<Newtonsoft.Json.JsonReaderException>(() => { 
-                var parsedJson = JsonConvert.DeserializeObject(json);
+            Assert.Throws<JsonException>(() => { 
+                var parsedJson = JsonSerializer.Deserialize<object>(json);
             });
         }
 
         private string CreateJsonString(int nRep)
         {
-            string json = string.Concat(Enumerable.Repeat("{a:", nRep)) + "1" +
+            string json = string.Concat(Enumerable.Repeat("{\"a\":", nRep)) + "1" +
             string.Concat(Enumerable.Repeat("}", nRep));
 
             return $"{{\"schema_version\":\"1.0.0\" ,\"a\":{json}}}";

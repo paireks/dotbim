@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
-using Newtonsoft.Json;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace dotbim
 {
@@ -9,7 +9,6 @@ namespace dotbim
     /// Represents a file in the BIM format.
     /// </summary>
     [Serializable]
-    [JsonObject("file")]
     public class File
     {
         /// <summary>
@@ -18,7 +17,7 @@ namespace dotbim
         /// <param name="path">The path to save the file to.</param>
         /// <param name="format">True = Formatting.Indented will be used for json, false = Formatting.None will be used.
         /// If you want a file to be more optimized - use false there.
-        /// If you want to make it more human readable - use true there.</param>
+        /// If you want to make it more human-readable - use true there.</param>
         /// <exception cref="ArgumentException">
         /// Thrown if the path does not end with ".bim".
         /// </exception>
@@ -29,16 +28,8 @@ namespace dotbim
                 throw new ArgumentException("Path should end up with .bim");
             }
 
-            Formatting formatting = format ? Formatting.Indented : Formatting.None;
-
-            using (StreamWriter file = System.IO.File.CreateText(path))
-            {
-                JsonSerializer serializer = new JsonSerializer
-                {
-                    Formatting = formatting
-                };
-                serializer.Serialize(file, this);
-            }
+            string jsonString = JsonSerializer.Serialize(this, new JsonSerializerOptions { WriteIndented = format });
+            System.IO.File.WriteAllText(path, jsonString);
         }
 
         /// <summary>
@@ -55,39 +46,33 @@ namespace dotbim
             {
                 throw new ArgumentException("Path should end up with .bim");
             }
-
-            using (StreamReader file = System.IO.File.OpenText(path))
-            {
-                JsonSerializer serializer = new JsonSerializer()
-                {
-                    MaxDepth = 64
-                };
-                return (File) serializer.Deserialize(file, typeof(File));
-            }
+            
+            string jsonString = System.IO.File.ReadAllText(path);
+            return JsonSerializer.Deserialize<File>(jsonString);
         }
 
         /// <summary>
         /// The schema version of the BIM file.
         /// </summary>
-        [JsonProperty("schema_version")]
+        [JsonPropertyName("schema_version")]
         public string SchemaVersion { get; set; }
 
         /// <summary>
         /// The list of meshes in the file.
         /// </summary>
-        [JsonProperty("meshes")]
+        [JsonPropertyName("meshes")]
         public List<Mesh> Meshes { get; set; }
 
         /// <summary>
         /// The list of elements in the file.
         /// </summary>
-        [JsonProperty("elements")]
+        [JsonPropertyName("elements")]
         public List<Element> Elements { get; set; }
 
         /// <summary>
         /// Additional information about the file.
         /// </summary>
-        [JsonProperty("info")]
+        [JsonPropertyName("info")]
         public Dictionary<string, string> Info { get; set; }
     }
 }

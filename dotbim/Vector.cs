@@ -1,5 +1,5 @@
 ﻿using System;
-using Newtonsoft.Json;
+using System.Text.Json.Serialization;
 
 namespace dotbim
 {
@@ -7,25 +7,24 @@ namespace dotbim
     /// Represents a three-dimensional vector with double-precision floating-point coordinates.
     /// </summary>
     [Serializable]
-    [JsonObject("vector")]
     public struct Vector
     {
         /// <summary>
         /// The x-coordinate of the vector.
         /// </summary>
-        [JsonProperty("x")]
+        [JsonPropertyName("x")]
         public double X { get; set; }
 
         /// <summary>
         /// The y-coordinate of the vector.
         /// </summary>
-        [JsonProperty("y")]
+        [JsonPropertyName("y")]
         public double Y { get; set; }
 
         /// <summary>
         /// The z-coordinate of the vector.
         /// </summary>
-        [JsonProperty("z")]
+        [JsonPropertyName("z")]
         public double Z { get; set; }
     }
 
