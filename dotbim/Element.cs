@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using Newtonsoft.Json;
+using System.Text.Json.Serialization;
 
 namespace dotbim
 {
@@ -8,7 +8,6 @@ namespace dotbim
     /// Represents an element in a BIM file.
     /// </summary>
     [Serializable]
-    [JsonObject("element")]
     public class Element
     {
         private string _guid;
@@ -16,19 +15,19 @@ namespace dotbim
         /// <summary>
         /// The identifier of the mesh associated with the element.
         /// </summary>
-        [JsonProperty("mesh_id")]
+        [JsonPropertyName("mesh_id")]
         public int MeshId { get; set; }
 
         /// <summary>
         /// The position of the element.
         /// </summary>
-        [JsonProperty("vector")]
+        [JsonPropertyName("vector")]
         public Vector Vector { get; set; }
 
         /// <summary>
         /// The rotation of the element.
         /// </summary>
-        [JsonProperty("rotation")]
+        [JsonPropertyName("rotation")]
         public Rotation Rotation { get; set; }
 
         /// <summary>
@@ -37,7 +36,7 @@ namespace dotbim
         /// <exception cref="ArgumentException">
         /// Thrown if the value is not a valid globally unique identifier.
         /// </exception>
-        [JsonProperty("guid")]
+        [JsonPropertyName("guid")]
         public string Guid
         {
             get => _guid;
@@ -57,13 +56,13 @@ namespace dotbim
         /// <summary>
         /// The type of the element.
         /// </summary>
-        [JsonProperty("type")]
+        [JsonPropertyName("type")]
         public string Type { get; set; }
 
         /// <summary>
         /// The color of the element.
         /// </summary>
-        [JsonProperty("color")]
+        [JsonPropertyName("color")]
         public Color Color { get; set; }
         
         /// <summary>
@@ -74,13 +73,14 @@ namespace dotbim
         /// second as skyblue (135,206,235,255),
         /// third as white (255,255,255,255).
         /// </summary>
-        [JsonProperty("face_colors", NullValueHandling=NullValueHandling.Ignore)]
+        [JsonPropertyName("face_colors")]
+        [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
         public List<int> FaceColors { get; set; }
 
         /// <summary>
         /// Additional information about the element.
         /// </summary>
-        [JsonProperty("info")]
+        [JsonPropertyName("info")]
         public Dictionary<string, string> Info { get; set; }
     }
 

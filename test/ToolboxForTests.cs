@@ -42,7 +42,7 @@ namespace test
             {
                 0.0, 0.0, 0.0,
                 10.0, 0.0, 0.0,
-                10.0, -15.0, 0.0
+                10.0, -15.1, 0.0
             };
 
             List<int> facesIds = new List<int>
@@ -246,7 +246,7 @@ namespace test
                         {
                             0.0,0.0,0.0,
                             10.0,0.0,0.0,
-                            10.0,-15.0,0.0
+                            10.0,-15.1,0.0
                         },
                         Indices = new List<int> {0,1,2},
                         MeshId = 0

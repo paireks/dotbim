@@ -24,7 +24,7 @@ namespace test.UnitTests
             
             List<double> expected = new List<double>
             {
-                0,0,0,10,0,0,10,-15,0
+                0,0,0,10,0,0,10,-15.1,0
             };
             
             Assert.Equal(expected, mesh.Coordinates);

@@ -4,7 +4,6 @@
 
 [![Release](https://img.shields.io/nuget/v/dotbim?logo=nuget&label=release&color=blue)](https://www.nuget.org/packages/dotbim/)
 [![.NET Standard 2.0](https://img.shields.io/badge/-.NET%20Standard%202.0-blue)](https://www.nuget.org/packages/dotbim/)
-[![.NET Framework 4.0](https://img.shields.io/badge/.NET%20Framework%204.0-blue.svg)](https://www.nuget.org/packages/dotbim/)
 
 ![AddOnIcon_154x154](https://user-images.githubusercontent.com/47977819/214624938-0e201999-7d74-4fc1-b975-03e20a961e21.png)
 
@@ -41,24 +40,26 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 
 (alphabetical order)
 
-### Apps that support .bim files
+### Apps and libraries that support .bim files
 
 | Name | Purpose | Link | Author |
 | ---- | ------- | ---- | ------ |
+| building3d | A wannabe framework for 3D modeling and simulation of buildings | https://github.com/krzysztofarendt/building3d | Krzysztof Arendt |
 | FacadeOption | Facade modelling | https://app.facadeoption.com | FacadeOption |
 | kolega.space | Fully automated volume studies in a flash | https://www.kolega.space/ | Designbotic |
 | Spacio | Lets you design, analyse, and bring to life properly structured building proposals – all within the same day. | https://spacio.ai/ | Spacio |
 | topologicpy | An Advanced Spatial Modelling and Analysis Software Library for Architecture, Engineering, and Construction | https://topologic.app/ | Wassim Jabi |
 | T-Rex | Reinforcement modelling | https://www.food4rhino.com/en/app/t-rex | Wojciech Radaczyński |
 
-### Viewers that support .bim files
+### Viewers and graphics SDKs that support .bim files
 
-| Name | Purpose | Link | Author |
-| ---- | ------- | ---- | ------ |
-| dotbim.three.js Viewer | Viewer from dotbim.three.js | [Click](https://htmlpreview.github.io/?https://github.com/ricaun/dotbim.three.js/blob/master/index.html) | Luiz Henrique Cassettari |
-| Online 3d Viewer | 3d viewer in browser | https://3dviewer.net/ | Viktor Kovacs, Agnes Gaschitz |
-| STEP Viewer | 3d viewer in browser | [Click](https://githubdragonfly.github.io/viewers/templates/STEP%20Viewer.html) | GitHubDragonFly |
-| xeokit | Web Programming Toolkit for AEC Graphics | https://xeokit.io/ | Lindsay Kay |
+| Name             | Purpose | Link                                                                            | Author |
+|------------------| ------- |---------------------------------------------------------------------------------| ------ |
+| dotbim.three.js  | Convert dotbim file to three.js object | [Click](https://github.com/ricaun/dotbim.three.js)                              | Luiz Henrique Cassettari |
+| Online 3d Viewer | 3d viewer in browser | https://3dviewer.net/                                                           | Viktor Kovacs, Agnes Gaschitz |
+| STEP Viewer      | 3d viewer in browser | [Click](https://githubdragonfly.github.io/viewers/templates/STEP%20Viewer.html) | GitHubDragonFly |
+| xeokit           | Web Programming Toolkit for AEC Graphics | https://xeokit.io/                                                              | Lindsay Kay |
+| xeo.vision       | Engineering 3D BIM Viewer | https://xeo.vision/                                                           | Creoox |
 
 ### Connectors - plugins that allow to export and/or import of .bim files to other software
 
@@ -69,7 +70,6 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 | DotBimConvert/RevitExporter | [Click](https://github.com/RyugaRyuzaki/DotBimConvert/tree/main/RevitExporter) | Ryuga Ryuzaki |
 | dotbimGH | [Click](https://github.com/paireks/dotbimGH) | Wojciech Radaczyński |
 | dotbimRH | [Click](https://github.com/seghier/DotBimRHImportExport) | Seghier Mohamed Abdelaziz |
-| dotbim.three.js | [Click](https://github.com/ricaun/dotbim.three.js) | Luiz Henrique Cassettari |
 | import_dotbim | [Click](https://github.com/MattiaBressanelli/import_dotbim) | Mattia Bressanelli |
 
 ### Libraries for developers
@@ -105,8 +105,6 @@ If you're building any app that will use .bim - let me know, I'll post it here :
 ## NuGet package
 
 https://www.nuget.org/packages/dotbim/
-
-It may require importing another nuget for Newtonsoft.Json library.
 
 ## Structure
 ![BIM_Structure_01](https://user-images.githubusercontent.com/4988604/216430744-4b06030c-72e7-4d18-ac30-e5b90ac598f5.png)

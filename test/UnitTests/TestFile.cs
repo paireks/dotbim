@@ -41,7 +41,7 @@ namespace test.UnitTests
             {
                 0.0,0.0,0.0,
                 10.0,0.0,0.0,
-                10.0,-15.0,0.0,
+                10.0,-15.1,0.0,
             }, mesh.Coordinates);
             
             Assert.Equal(new List<int>
@@ -93,7 +93,7 @@ namespace test.UnitTests
             {
                 0.0,0.0,0.0,
                 10.0,0.0,0.0,
-                10.0,-15.0,0.0,
+                10.0,-15.1,0.0,
             }, mesh.Coordinates);
             
             Assert.Equal(new List<int>
@@ -135,7 +135,7 @@ namespace test.UnitTests
             {
                 0.0,0.0,0.0,
                 10.0,0.0,0.0,
-                10.0,-15.0,0.0,
+                10.0,-15.1,0.0,
             }, mesh.Coordinates);
             
             Assert.Equal(new List<int>
