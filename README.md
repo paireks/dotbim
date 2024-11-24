@@ -70,7 +70,6 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 | DotBimConvert/RevitExporter | [Click](https://github.com/RyugaRyuzaki/DotBimConvert/tree/main/RevitExporter) | Ryuga Ryuzaki |
 | dotbimGH | [Click](https://github.com/paireks/dotbimGH) | Wojciech Radaczyński |
 | dotbimRH | [Click](https://github.com/seghier/DotBimRHImportExport) | Seghier Mohamed Abdelaziz |
-| dotbim.three.js |  | Luiz Henrique Cassettari |
 | import_dotbim | [Click](https://github.com/MattiaBressanelli/import_dotbim) | Mattia Bressanelli |
 
 ### Libraries for developers
