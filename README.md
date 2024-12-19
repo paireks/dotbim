@@ -45,7 +45,6 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 | Name | Purpose | Link | Author |
 | ---- | ------- | ---- | ------ |
 | building3d | A wannabe framework for 3D modeling and simulation of buildings | https://github.com/krzysztofarendt/building3d | Krzysztof Arendt |
-| FacadeOption | Facade modelling | https://app.facadeoption.com | FacadeOption |
 | kolega.space | Fully automated volume studies in a flash | https://www.kolega.space/ | Designbotic |
 | Spacio | Lets you design, analyse, and bring to life properly structured building proposals – all within the same day. | https://spacio.ai/ | Spacio |
 | topologicpy | An Advanced Spatial Modelling and Analysis Software Library for Architecture, Engineering, and Construction | https://topologic.app/ | Wassim Jabi |
