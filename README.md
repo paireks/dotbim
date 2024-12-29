@@ -76,10 +76,10 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 
 | Name | Purpose | Link | Author |
 | ---- | ------- | ---- | ------ |
-| dotbim | C# library | you're looking at it right now ;) | Wojciech Radaczyński |
-| dotbimpy | Python library | https://github.com/paireks/dotbimpy | Wojciech Radaczyński |
-| dotbim_rust | Rust library | https://github.com/paireks/dotbim_rust | Wojciech Radaczyński |
-| dotbim-ts | Typescript library | https://github.com/baid-group/dotbim-ts | Maciej Lutostański |
+| dotbim | Library written in C# language | you're looking at it right now ;) | Wojciech Radaczyński |
+| dotbimpy | Library written in Python language | https://github.com/paireks/dotbimpy | Wojciech Radaczyński |
+| dotbim_rust | Library written in Rust language | https://github.com/paireks/dotbim_rust | Wojciech Radaczyński |
+| dotbim-ts | Library written in Typescript language | https://github.com/baid-group/dotbim-ts | Maciej Lutostański |
 
 ### Converters - programs that allow to convert to/from .bim files
 
