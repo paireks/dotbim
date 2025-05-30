@@ -58,6 +58,7 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 | Online 3d Viewer | 3d viewer in browser | https://3dviewer.net/                                                           | Viktor Kovacs, Agnes Gaschitz |
 | STEP Viewer      | 3d viewer in browser | [Click](https://githubdragonfly.github.io/viewers/templates/STEP%20Viewer.html) | GitHubDragonFly |
 | xeokit           | Web Programming Toolkit for AEC Graphics | https://xeokit.io/                                                              | Lindsay Kay |
+| xeokit-simple-viewer | Simple viewer based on xeokit | https://github.com/xeokit/xeokit-simple-viewer | Creoox |
 | xeo.vision       | Engineering 3D BIM Viewer | https://xeo.vision/                                                           | Creoox |
 
 ### Connectors - plugins that allow to export and/or import of .bim files to other software
