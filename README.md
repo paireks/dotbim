@@ -65,7 +65,7 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 
 | Name | Link | Author |
 | ---- | ---- | ------ |
-| dotbim-archicad | [Click](https://github.com/kovacsv/dotbim-archicad) | Viktor Kovacs |
+| dotbim-archicad | [Click](https://bimdots.com/product/dotbim-in-out/) | Bimdots |
 | dotbim-blender | [Click](https://github.com/paireks/dotbim-blender) | Nathan Hild |
 | DotBimConvert/RevitExporter | [Click](https://github.com/RyugaRyuzaki/DotBimConvert/tree/main/RevitExporter) | Ryuga Ryuzaki |
 | dotbimGH | [Click](https://github.com/paireks/dotbimGH) | Wojciech Radaczyński |
