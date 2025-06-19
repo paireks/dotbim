@@ -46,6 +46,7 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 | ---- | ------- | ---- | ------ |
 | building3d | A wannabe framework for 3D modeling and simulation of buildings | https://github.com/krzysztofarendt/building3d | Krzysztof Arendt |
 | kolega.space | Fully automated volume studies in a flash | https://www.kolega.space/ | Designbotic |
+| meshmeshmesh | Mesh engine | https://github.com/paireks/meshmeshmesh | Wojciech Radaczyński |
 | Spacio | Lets you design, analyse, and bring to life properly structured building proposals – all within the same day. | https://spacio.ai/ | Spacio |
 | topologicpy | An Advanced Spatial Modelling and Analysis Software Library for Architecture, Engineering, and Construction | https://topologic.app/ | Wassim Jabi |
 | T-Rex | Reinforcement modelling | https://www.food4rhino.com/en/app/t-rex | Wojciech Radaczyński |
