@@ -40,17 +40,15 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 
 (alphabetical order)
 
-### Apps and libraries that support .bim files
+### Apps that support .bim files
 
 | Name | Purpose | Link | Author |
 | ---- | ------- | ---- | ------ |
-| building3d | A wannabe framework for 3D modeling and simulation of buildings | https://github.com/krzysztofarendt/building3d | Krzysztof Arendt |
+| CloudCompare | 3D point cloud and mesh processing software | https://cloudcompare.org/ | CloudCompare |
 | infrared.city | AI-powered climate simulation platform | https://infrared.city/ | infrared.city |
 | kolega.space | Fully automated volume studies in a flash | https://www.kolega.space/ | Designbotic |
-| meshmeshmesh | Mesh engine | https://github.com/paireks/meshmeshmesh | Wojciech Radaczyński |
 | Spacio | Lets you design, analyse, and bring to life properly structured building proposals – all within the same day. | https://spacio.ai/ | Spacio |
-| topologicpy | An Advanced Spatial Modelling and Analysis Software Library for Architecture, Engineering, and Construction | https://topologic.app/ | Wassim Jabi |
-| T-Rex | Reinforcement modelling | https://www.food4rhino.com/en/app/t-rex | Wojciech Radaczyński |
+| topologic | An Advanced Spatial Modelling and Analysis Software Library for Architecture, Engineering, and Construction | https://topologic.app/ | Wassim Jabi |
 
 ### Viewers and graphics SDKs that support .bim files
 
@@ -60,7 +58,6 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 | Online 3d Viewer | 3d viewer in browser | https://3dviewer.net/                                                           | Viktor Kovacs, Agnes Gaschitz |
 | STEP Viewer      | 3d viewer in browser | [Click](https://githubdragonfly.github.io/viewers/templates/STEP%20Viewer.html) | GitHubDragonFly |
 | xeokit           | Web Programming Toolkit for AEC Graphics | https://xeokit.io/                                                              | Lindsay Kay |
-| xeokit-simple-viewer | Simple viewer based on xeokit | https://github.com/xeokit/xeokit-simple-viewer | Creoox |
 | xeo.vision       | Engineering 3D BIM Viewer | https://xeo.vision/                                                           | Creoox |
 
 ### Connectors - plugins that allow to export and/or import of .bim files to other software
@@ -84,6 +81,7 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 | dotbimpy | Library written in Python language | https://github.com/paireks/dotbimpy | Wojciech Radaczyński |
 | dotbim_rust | Library written in Rust language | https://github.com/paireks/dotbim_rust | Wojciech Radaczyński |
 | dotbim-ts | Library written in Typescript language | https://github.com/baid-group/dotbim-ts | Maciej Lutostański |
+| meshmeshmesh | Mesh engine | https://github.com/paireks/meshmeshmesh | Wojciech Radaczyński |
 
 ### Converters - programs that allow to convert to/from .bim files
 
@@ -99,10 +97,12 @@ If you're a developer, check out this document: https://github.com/paireks/dotbi
 
 | Name | Purpose | Link | Author |
 | ---- | ------- | ---- | ------ |
+| building3d | A wannabe framework for 3D modeling and simulation of buildings | https://github.com/krzysztofarendt/building3d | Krzysztof Arendt |
 | DotBimConvert/Compress | Compress and decompress .bim files | [Click](https://github.com/RyugaRyuzaki/DotBimConvert/tree/main/Compress) | Ryuga Ryuzaki |
 | ICEBridge | Blender plugin to send BIM data to IDA ICE | [Click](https://github.com/maxtillberg/ICEBridge) | Max Tillberg |
 | os4bim/dotbim | Converts Revit's detailed MEP to schematic 3d model | [Click](https://github.com/os4bim/dotbim) | Yoann Obry |
 | three.model.bim | 3d modelling in browser | https://github.com/RyugaRyuzaki/three.model.bim | Ryuga Ryuzaki |
+| T-Rex | Reinforcement modelling | https://www.food4rhino.com/en/app/t-rex | Wojciech Radaczyński |
 
 If you're building any app that will use .bim - let me know, I'll post it here :)
 
